@@ -32,27 +32,69 @@
             </div>
         </section>
 
-        <div class="digest-card">
-            <div class="card-header">
-                <span class="date-badge" id="current-date">Dec 29, 2025</span>
-                <div class="actions">
-                    <button class="btn-icon" id="regenerate-btn" title="Simulate Refresh">
-                        <i data-lucide="refresh-cw"></i>
-                    </button>
-                    <button class="btn-primary" id="copy-btn">
-                        <i data-lucide="copy"></i>
-                        <span>Copy for Twitter</span>
-                    </button>
+        <!-- Bento Grid Layout -->
+        <div class="bento-grid">
+
+            <!-- GOOGLE CARD -->
+            <div class="news-card card-google" id="card-google">
+                <div class="card-header-mini">
+                    <i data-lucide="bot"></i>
+                    <span>Google & DeepMind</span>
+                </div>
+                <div class="mini-list" id="list-google">
+                    <!-- Content -->
                 </div>
             </div>
 
-            <div class="digest-content" id="digest-content">
-                <!-- Content injected by JS -->
-                <div class="loading-state hidden">
-                    <div class="loader"></div>
-                    <p>Scanning the timeline...</p>
+            <!-- OPENAI CARD -->
+            <div class="news-card card-openai" id="card-openai">
+                <div class="card-header-mini">
+                    <i data-lucide="sparkles"></i>
+                    <span>OpenAI & ChatGPT</span>
+                </div>
+                <div class="mini-list" id="list-openai">
+                    <!-- Content -->
                 </div>
             </div>
+
+            <!-- MICROSOFT CARD -->
+            <div class="news-card card-microsoft" id="card-microsoft">
+                <div class="card-header-mini">
+                    <i data-lucide="monitor"></i>
+                    <span>Microsoft</span>
+                </div>
+                <div class="mini-list" id="list-microsoft">
+                    <!-- Content -->
+                </div>
+            </div>
+
+            <!-- ANTHROPIC CARD -->
+            <div class="news-card card-anthropic" id="card-anthropic">
+                <div class="card-header-mini">
+                    <i data-lucide="brain-circuit"></i>
+                    <span>Anthropic</span>
+                </div>
+                <div class="mini-list" id="list-anthropic">
+                    <!-- Content -->
+                </div>
+            </div>
+
+            <!-- MAIN FEED (Everything Else) -->
+            <div class="news-card card-feed">
+                <div class="card-header">
+                    <span class="date-badge" id="current-date">Today's Feed</span>
+                    <div class="actions">
+                        <button class="btn-primary" id="copy-btn">
+                            <i data-lucide="copy"></i>
+                            <span>Copy All</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="digest-list" id="list-feed">
+                    <!-- Content -->
+                </div>
+            </div>
+
         </div>
 
         <footer class="footer">

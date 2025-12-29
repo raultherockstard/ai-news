@@ -41,7 +41,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 680px;
+    max-width: 900px;
+    /* Wider for Grid */
     padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -126,24 +127,117 @@ h1 {
     }
 }
 
-/* Digest Card */
-.digest-card {
+/* --- BENTO GRID STYLES --- */
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    /* Two discrete rows for top cards, one big for feed */
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* On mobile, stack everything */
+@media (max-width: 768px) {
+    .bento-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.news-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 1.5rem;
-    padding: 2rem;
-    position: relative;
-    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 1.5rem;
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
-.digest-card:hover {
+.news-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.15);
-    border-color: #3f3f46;
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Brand Accents */
+.card-google {
+    border-top: 4px solid #4285F4;
+}
+
+.card-openai {
+    border-top: 4px solid #10a37f;
+}
+
+.card-microsoft {
+    border-top: 4px solid #00a4ef;
+}
+
+.card-anthropic {
+    border-top: 4px solid #d97757;
+}
+
+.card-feed {
+    grid-column: span 2;
+    border-top: 4px solid #fff;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .card-feed {
+        grid-column: span 1;
+    }
+}
+
+.card-header-mini {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-header-mini i {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.mini-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+/* Compact list items for mini cards */
+.mini-list .news-row {
+    padding-bottom: 8px;
+    gap: 10px;
+}
+
+.mini-list .news-title {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--text-secondary);
+}
+
+.mini-list .news-btn {
+    padding: 4px 8px;
+    /* Smaller button */
+    font-size: 0.75rem;
+}
+
+
+/* MAIN FEED STYLES */
 .card-header {
     display: flex;
     justify-content: space-between;
@@ -161,26 +255,6 @@ h1 {
 .actions {
     display: flex;
     gap: 0.75rem;
-}
-
-.btn-icon {
-    background: transparent;
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    border-radius: 0.75rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.btn-icon:hover {
-    background: #27272a;
-    color: #fff;
-    border-color: #52525b;
 }
 
 .btn-primary {
@@ -204,22 +278,16 @@ h1 {
     transform: scale(1.02);
 }
 
-.digest-content {
-    font-size: 1.05rem;
-}
-
-/* NEW LIST STYLES */
+/* List Items */
 .digest-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
     max-height: 60vh;
-    /* Scrollable if too long */
     overflow-y: auto;
     padding-right: 8px;
 }
 
-/* Custom Scrollbar */
 .digest-list::-webkit-scrollbar {
     width: 6px;
 }
@@ -232,10 +300,6 @@ h1 {
 .digest-list::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 4px;
-}
-
-.digest-list::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.4);
 }
 
 .news-row {
@@ -279,9 +343,14 @@ h1 {
     transform: translateY(-1px);
 }
 
-.news-btn svg {
-    width: 14px;
-    height: 14px;
+.empty-msg {
+    color: var(--text-secondary);
+    font-style: italic;
+    font-size: 0.85rem;
+    opacity: 0.5;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Footer */
@@ -291,32 +360,4 @@ h1 {
     font-size: 0.8rem;
     margin-top: auto;
     padding-bottom: 2rem;
-}
-
-.hidden {
-    display: none !important;
-}
-
-@media (max-width: 600px) {
-    .container {
-        padding: 2rem 1rem;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .digest-card {
-        padding: 1.5rem;
-    }
-
-    .news-row {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-    }
-
-    .news-btn {
-        align-self: flex-start;
-    }
 }

@@ -19,23 +19,24 @@ function fetchHTML(url) {
 function parseNews(html) {
     console.log('🧐 Parsing content...');
 
-    // FutureTools structure relies on link-block-8 and text-block-27
     const linkBlocks = html.split('class="link-block-8');
-
     const updates = [];
-    const seen = new Set(); // TRACK SEEN ITEMS
+    const seen = new Set();
 
     for (let i = 1; i < linkBlocks.length; i++) {
         const block = linkBlocks[i];
 
         // Extract HREF
         const hrefMatch = block.match(/href="([^"]+)"/);
-        // Extract TITLE
+        // Extract TITLE (.text-block-27)
         const titleMatch = block.match(/class="[^"]*text-block-27[^"]*">([^<]+)<\/div>/);
+        // Extract SOURCE (.text-block-28) - NEW!
+        const sourceMatch = block.match(/class="[^"]*text-block-28[^"]*">([^<]+)<\/div>/);
 
         if (hrefMatch && titleMatch) {
             let link = hrefMatch[1];
             let title = titleMatch[1].trim();
+            let source = sourceMatch ? sourceMatch[1].trim() : "Unknown";
 
             // Clean up entities
             title = title.replace(/&amp;/g, '&').replace(/&#x27;/g, "'").replace(/&quot;/g, '"');
@@ -43,26 +44,59 @@ function parseNews(html) {
             // Fix relative links
             if (link.startsWith('/')) link = 'https://www.futuretools.io' + link;
 
-            // DEDUPLICATION
+            // Deduplication
             const uniqueKey = title.toLowerCase();
             if (seen.has(link) || seen.has(uniqueKey)) continue;
             seen.add(link);
             seen.add(uniqueKey);
 
-            // Filters
             if (title.length < 10) continue;
 
-            // Add to list
-            updates.push({
-                text: title,
-                link: link
-            });
+            updates.push({ text: title, link: link, source: source });
         }
 
-        if (updates.length >= 30) break; // Limit 30
+        if (updates.length >= 40) break; // Extended limit to fill buckets
     }
 
     return updates;
+}
+
+function categorize(items) {
+    const buckets = {
+        google: [],
+        openai: [],
+        microsoft: [],
+        anthropic: [],
+        meta: [],
+        general: []
+    };
+
+    items.forEach(item => {
+        const t = item.text.toLowerCase();
+        const s = item.source.toLowerCase();
+
+        // Categorization Rules (Priority Order)
+        if (s.includes('google') || s.includes('deepmind') || t.includes('gemini') || t.includes('google')) {
+            buckets.google.push(item);
+        }
+        else if (s.includes('openai') || t.includes('chatgpt') || t.includes('openai') || t.includes('sora') || t.includes('sam altman')) {
+            buckets.openai.push(item);
+        }
+        else if (s.includes('microsoft') || t.includes('microsoft') || t.includes('copilot') || t.includes('nadella')) {
+            buckets.microsoft.push(item);
+        }
+        else if (s.includes('anthropic') || t.includes('claude') || t.includes('anthropic')) {
+            buckets.anthropic.push(item);
+        }
+        else if (s.includes('meta') || s.includes('facebook') || t.includes('llama') || t.includes('zuckerberg')) {
+            buckets.meta.push(item);
+        }
+        else {
+            buckets.general.push(item);
+        }
+    });
+
+    return buckets;
 }
 
 // --- MAIN ---
@@ -74,21 +108,21 @@ async function run() {
         const updates = parseNews(html);
 
         if (updates.length === 0) {
-            console.log('⚠️ No updates found. Layout might have changed.');
+            console.log('⚠️ No updates found.');
             return;
         }
 
-        console.log(`✅ Found ${updates.length} unique items.`);
+        console.log(`✅ Found ${updates.length} raw items. Categorizing...`);
+        const categories = categorize(updates);
 
         const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
-        // OUTPUT as structured JSON object
         const fileContent = `
-// 🧠 AUTOMATICALLY GENERATED ON ${new Date().toISOString()} (Source: FutureTools.io)
+// 🧠 AUTOMATICALLY GENERATED ON ${new Date().toISOString()}
 window.latestDigest = {
     date: "${dateStr}",
     title: "🧠 Today’s AI Stuff",
-    items: ${JSON.stringify(updates, null, 4)}
+    categories: ${JSON.stringify(categories, null, 4)}
 };
 `;
 
