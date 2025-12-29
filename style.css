@@ -238,27 +238,36 @@ h1 {
     background: rgba(255, 255, 255, 0.4);
 }
 
+/* ... previous styles ... */
+
 .news-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    /* Align to top so title can wrap */
     justify-content: space-between;
-    gap: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.news-row:last-child {
-    border-bottom: none;
+    gap: 12px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .news-title {
+    flex: 1;
+    /* Take available width */
     font-size: 0.95rem;
     color: var(--text-secondary);
     line-height: 1.5;
+    min-width: 0;
+    /* Allow text truncate/wrap logic if needed */
 }
+
+/* Actions Wrapper (Badge + Button) */
+/* Note: In script.js we create an actions div. We don't have a class for it yet, 
+   but we can target it or just rely on inline styles from script. 
+   Actually script.js adds inline flex. */
 
 .news-btn {
     flex-shrink: 0;
+    /* Never shrink the button */
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -267,39 +276,18 @@ h1 {
     text-decoration: none;
     padding: 6px 12px;
     border-radius: 20px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 500;
     transition: all 0.2s;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    white-space: nowrap;
 }
 
-.news-btn:hover {
-    background: var(--accent-glow);
-    border-color: var(--accent-primary);
-    transform: translateY(-1px);
-}
-
-.news-btn svg {
-    width: 14px;
-    height: 14px;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    color: #52525b;
-    font-size: 0.8rem;
-    margin-top: auto;
-    padding-bottom: 2rem;
-}
-
-.hidden {
-    display: none !important;
-}
+/* ... existing hover styles ... */
 
 @media (max-width: 600px) {
     .container {
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
     }
 
     h1 {
@@ -307,16 +295,17 @@ h1 {
     }
 
     .digest-card {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
+    /* We KEEP flex-row now to avoid "format hell" */
     .news-row {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+        gap: 10px;
     }
 
+    /* Make button icon only on very small screens? No, user wants text. */
     .news-btn {
-        align-self: flex-start;
+        padding: 4px 10px;
+        font-size: 0.75rem;
     }
 }
