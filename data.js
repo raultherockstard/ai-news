@@ -1,22 +1,22 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T09:39:43.048Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T09:57:38.036Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
     items: [
     {
-        "text": "Introducing Claude Opus 4.5 Announcements Nov 24, 2025 The best model in the world for coding, agent",
-        "link": "https://www.anthropic.com/news/claude-opus-4-5",
+        "text": "Dec 19, 2025 Policy Sharing our compliance framework for California&#x27;s Transparency in Frontier ",
+        "link": "https://www.anthropic.com/news/compliance-framework-SB53",
         "source": "Claude (Anthropic)"
     },
     {
-        "text": "Announcements Sep 29, 2025 Introducing Claude Sonnet 4.5 Claude Sonnet 4.5 sets new benchmark record",
-        "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
+        "text": "Dec 18, 2025 Announcements Working with the US Department of Energy to unlock the next era of scient",
+        "link": "https://www.anthropic.com/news/genesis-mission-partnership",
         "source": "Claude (Anthropic)"
     },
     {
-        "text": "Product Oct 15, 2025 Introducing Claude Haiku 4.5 Claude Haiku 4.5 matches state-of-the-art coding c",
-        "link": "https://www.anthropic.com/news/claude-haiku-4-5",
+        "text": "Dec 18, 2025 Announcements Protecting the well-being of our users <a",
+        "link": "https://www.anthropic.com/news/protecting-well-being-of-users",
         "source": "Claude (Anthropic)"
     },
     {

@@ -59,6 +59,7 @@ function parseFutureTools(html) {
             if (link.startsWith('/')) link = 'https://www.futuretools.io' + link;
             updates.push({ text: titleMatch[1].trim(), link: link, source: 'FutureTools' });
         }
+        if (updates.length >= 15) break;
     }
     return updates;
 }
@@ -92,6 +93,7 @@ function parseOpenAI(html) {
         if (possibleTitle.length > 10 && !possibleTitle.includes('Read more')) {
             updates.push({ text: possibleTitle, link: link, source: 'OpenAI' });
         }
+        if (updates.length >= 5) break;
     }
     return updates;
 }
@@ -120,8 +122,21 @@ function parseAnthropic(html) {
         // Clean up common "read more" artifacts or too long strings
         const title = textOnly.split('  ')[0].substring(0, 100);
 
+        // Date Logic: Only allow recent items (Dec 2025, Jan 2026, etc)
+        // Adjust this regex based on actual date format seen: "Nov 24, 2025"
+        const isFresh = /Dec [0-9]+, 2025|Jan [0-9]+, 2026/i.test(textOnly);
+
         if (title.length > 15 && !title.includes('FeaturedGrid')) {
-            updates.push({ text: title, link: link, source: 'Claude (Anthropic)' });
+            // If we find a date, enforce freshness. If no date found, be lenient (risk of old news, but better than nothing?)
+            // Actually, the user hates old news. Let's be strict if we see a date-like pattern.
+            if (textOnly.match(/[A-Z][a-z]{2} [0-9]+, 20[0-9]{2}/)) {
+                if (isFresh) {
+                    updates.push({ text: title, link: link, source: 'Claude (Anthropic)' });
+                }
+            } else {
+                // No date found, likely a generic link or title-only. Keep it?
+                updates.push({ text: title, link: link, source: 'Claude (Anthropic)' });
+            }
         }
         if (updates.length >= 3) break;
     }
