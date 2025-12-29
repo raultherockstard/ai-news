@@ -43,25 +43,23 @@ function parseNews(html) {
             // Fix relative links
             if (link.startsWith('/')) link = 'https://www.futuretools.io' + link;
 
-            // DEDUPLICATION LOGIC
-            // Normalize for comparison
+            // DEDUPLICATION
             const uniqueKey = title.toLowerCase();
-            if (seen.has(link) || seen.has(uniqueKey)) {
-                // Skip duplicates
-                continue;
-            }
-
-            // Mark as seen
+            if (seen.has(link) || seen.has(uniqueKey)) continue;
             seen.add(link);
             seen.add(uniqueKey);
 
-            // Filters (Short title check)
+            // Filters
             if (title.length < 10) continue;
 
-            updates.push({ title, link });
+            // Add to list
+            updates.push({
+                text: title,
+                link: link
+            });
         }
 
-        if (updates.length >= 10) break;
+        if (updates.length >= 30) break; // Increased LIMIT to 30
     }
 
     return updates;
@@ -82,23 +80,15 @@ async function run() {
 
         console.log(`✅ Found ${updates.length} unique items.`);
 
-        // Format for the Digest
-        // Format: "- **Update:** Title ([Link](...))"
-        const formattedContent = updates.map(item =>
-            `- **Update:** ${item.title} ([Link](${item.link}))`
-        ).join('\n\n');
-
         const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
+        // OUTPUT as structured JSON object
         const fileContent = `
 // 🧠 AUTOMATICALLY GENERATED ON ${new Date().toISOString()} (Source: FutureTools.io)
 window.latestDigest = {
     date: "${dateStr}",
     title: "🧠 Today’s AI Stuff",
-    content: \`Title:
-🧠 Today’s AI Stuff (Non-Boring Edition)
-
-${formattedContent}\`
+    items: ${JSON.stringify(updates, null, 4)}
 };
 `;
 

@@ -1,120 +1,103 @@
-const sources = [
-    "@ylecun", "@seb", "@hardmaru", "@jeremyphoward", "@goodside",
-    "@emollick", "@karpathy", "@omarsar0", "@mreflow", "@heyBarsee", "@_akhaliq"
-];
+console.log("Script loaded.");
 
-const digestData = (window.latestDigest && window.latestDigest.content) ? window.latestDigest.content : `Title:
-🧠 Today’s AI Stuff (Non-Boring Edition)
+document.addEventListener('DOMContentLoaded', () => {
 
-- **Karpathy says “Vibe Coding” is the future.** Basically: stop stressing over syntax. Just tell the AI what you want the app to do/feel like, and let it handle the code. If it works, it works.
+    // --- 1. SETUP UI ---
+    lucide.createIcons();
+    updateDate();
 
-- **OpenAI dropped the Sora mobile app.** You can finally generate video on your phone. The wildest part? They struck a deal with Disney, so yes, you can legally use Mickey in your AI clips now.
-
-- **Google launched “Disco” for Chrome.** It takes your messy open tabs and turns them into clean, interactive mini-apps. Absolute lifesaver for tab hoarders.
-
-- **GPT-5.2 is actually here.** It thinks longer and hallucinates less. The gap between "talking to a bot" and "talking to a smart human" just got uncomfortably small.
-
-- **“Nano Banana” is taking over timelines.** It’s the viral image trend of the week. Weirdly specific, slightly cursed, but undeniably cool aesthetic.`;
-
-function init() {
-    renderMarquee();
-    renderDigest(digestData);
-    setupEventListeners();
-
-    // Update date if available in new data
-    if (window.latestDigest && window.latestDigest.date) {
-        document.getElementById('current-date').innerText = window.latestDigest.date;
+    // Check if we have fresh data
+    if (window.latestDigest) {
+        console.log("Loading Digest form", window.latestDigest.date);
+        renderDigest();
     } else {
-        updateDate();
+        console.warn("No data.js found or loaded.");
     }
-}
 
-function renderMarquee() {
-    const marqueeContent = document.querySelector('.marquee-content');
-    // duplicate sources for smooth scrolling loop
-    const fullList = [...sources, ...sources, ...sources];
-
-    marqueeContent.innerHTML = fullList.map(source =>
-        `<span class="marquee-item">${source}</span>`
-    ).join('');
-}
-
-function renderDigest(text) {
-    const digestOutput = document.getElementById('digest-output');
-
-    // Parse the raw text into styled HTML
-    const lines = text.split('\n').filter(line => line.trim() !== '');
-    const title = lines[0]; // Title line
-    const titleContent = lines[1]; // "🧠 Today..."
-
-    // Extract bullets (lines starting with "-")
-    const bullets = lines.filter(line => line.trim().startsWith('-'));
-
-    let html = `
-        <span class="digest-title">${titleContent}</span>
-        <ul class="bullet-list">
-    `;
-
-    bullets.forEach(bullet => {
-        // Simple markdown parser for bold text (**text**)
-        let formatted = bullet.replace(/^- /, '')
-            .replace(/\*\*(.*?)\*\*/g, '<span class="highlight">$1</span>');
-
-        html += `<li class="bullet-item">${formatted}</li>`;
-    });
-
-    html += `</ul>`;
-
-    digestOutput.innerHTML = html;
-}
-
-function setupEventListeners() {
-    const regenerateBtn = document.getElementById('regenerate-btn');
+    // --- 2. COPY FUNCTION ---
     const copyBtn = document.getElementById('copy-btn');
-    const digestOutput = document.getElementById('digest-output');
+    if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+            let textToCopy = "";
+            if (window.latestDigest && window.latestDigest.items) {
+                textToCopy = `🧠 ${window.latestDigest.title}\n\n` +
+                    window.latestDigest.items.map(i => `${i.text} (${i.link})`).join("\n");
+            } else if (window.latestDigest && window.latestDigest.content) {
+                textToCopy = window.latestDigest.content;
+            }
 
-    regenerateBtn.addEventListener('click', () => {
-        // Simulate loading state
-        const originalContent = digestOutput.innerHTML;
-        digestOutput.innerHTML = `
-            <div class="loading-state">
-                <div class="loader"></div>
-                <p>Scanning the timeline...</p>
-            </div>
-        `;
-
-        // Disable button temporarily
-        regenerateBtn.disabled = true;
-        lucide.createIcons(); // Re-init icons if needed inside loader (though none here)
-
-        setTimeout(() => {
-            digestOutput.innerHTML = originalContent;
-            regenerateBtn.disabled = false;
-        }, 1500);
-    });
-
-    copyBtn.addEventListener('click', () => {
-        navigator.clipboard.writeText(digestData).then(() => {
-            const originalText = copyBtn.querySelector('span').innerText;
-            const originalIcon = copyBtn.querySelector('i').getAttribute('data-lucide');
-
-            copyBtn.innerHTML = `<i data-lucide="check"></i><span>Copied!</span>`;
-            copyBtn.style.background = '#10b981'; // Success green
-            lucide.createIcons();
-
-            setTimeout(() => {
-                copyBtn.innerHTML = `<i data-lucide="${originalIcon}"></i><span>${originalText}</span>`;
-                copyBtn.style.background = '';
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                const originalText = copyBtn.innerHTML;
+                copyBtn.innerHTML = `Copied! <i data-lucide="check"></i>`;
                 lucide.createIcons();
-            }, 2000);
+                setTimeout(() => {
+                    copyBtn.innerHTML = originalText;
+                    lucide.createIcons();
+                }, 2000);
+            });
         });
-    });
-}
+    }
+});
 
 function updateDate() {
     const dateEl = document.getElementById('current-date');
-    const options = { month: 'short', day: 'numeric', year: 'numeric' };
-    dateEl.innerText = new Date().toLocaleDateString('en-US', options);
+    if (dateEl) {
+        const now = new Date();
+        dateEl.textContent = now.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function renderDigest() {
+    if (!window.latestDigest) return;
+
+    // Update Title & Date logic
+    const dateDisplay = document.getElementById('digest-date');
+    if (dateDisplay) dateDisplay.textContent = window.latestDigest.date;
+
+    const container = document.getElementById('digest-content');
+    container.innerHTML = ''; // Clear previous
+
+    // NEW: Structured Items (Buttons)
+    if (window.latestDigest.items && Array.isArray(window.latestDigest.items)) {
+        const list = document.createElement('div');
+        list.className = 'digest-list';
+
+        window.latestDigest.items.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'news-row';
+
+            const titleSpan = document.createElement('span');
+            titleSpan.className = 'news-title';
+            // Clean up the "- **Update:**" prefix if it exists, for cleaner UI
+            let cleanTitle = item.text.replace(/-\s*\*\*Update:\*\*\s*/i, '').trim();
+            titleSpan.textContent = cleanTitle;
+
+            const linkBtn = document.createElement('a');
+            linkBtn.className = 'news-btn';
+            linkBtn.href = item.link;
+            linkBtn.target = '_blank';
+            linkBtn.innerHTML = `Read <i data-lucide="external-link"></i>`;
+
+            row.appendChild(titleSpan);
+            row.appendChild(linkBtn);
+            list.appendChild(row);
+        });
+
+        container.appendChild(list);
+        lucide.createIcons(); // Refresh icons
+
+    } else {
+        // OLD: Fallback text string
+        const rawText = window.latestDigest.content || "No news found.";
+        // Simple text render
+        const p = document.createElement('div');
+        p.style.whiteSpace = 'pre-wrap';
+        p.textContent = rawText;
+        container.appendChild(p);
+    }
+}
