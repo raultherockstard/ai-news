@@ -4,67 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Today’s AI Stuff (Non-Boring Edition)</title>
+    <title>Today's AI Stuff | Non-Boring Edition</title>
+
+    <!-- Fonts: Space Grotesk (Main) + Inter (Body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="glow-bg"></div>
-
-    <main class="container">
-        <header class="header">
-            <div class="logo">
-                <span class="brain-icon">🧠</span>
-                <h1>Today’s AI Stuff</h1>
-                <span class="badge">Non-Boring Edition</span>
+    <div class="glass-container">
+        <!-- Header -->
+        <header>
+            <div class="logo-area">
+                <div class="logo-icon">🧠</div>
+                <h1>AI Stuff</h1>
             </div>
-            <p class="subtitle">Curated daily updates for creators. No math, no papers, just the good stuff.</p>
+            <div class="date-badge" id="current-date">Today</div>
         </header>
 
-        <section class="sources-marquee">
-            <div class="marquee-content">
-                <!-- Sources will be injected by JS -->
-            </div>
-        </section>
-
-        <div class="digest-card">
-            <div class="card-header">
-                <span class="date-badge" id="current-date">Dec 29, 2025</span>
-                <div class="actions">
-                    <button class="btn-icon" id="regenerate-btn" title="Simulate Refresh">
-                        <i data-lucide="refresh-cw"></i>
-                    </button>
-                    <button class="btn-primary" id="copy-btn">
-                        <i data-lucide="copy"></i>
-                        <span>Copy for Twitter</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="digest-content" id="digest-content">
-                <!-- Content injected by JS -->
-                <div class="loading-state hidden">
-                    <div class="loader"></div>
-                    <p>Scanning the timeline...</p>
-                </div>
-            </div>
+        <div class="header-controls">
+            <button id="refresh-btn" class="icon-btn" title="Check for Updates">
+                <i data-lucide="refresh-cw"></i>
+            </button>
+            <button id="theme-toggle" class="icon-btn">
+                <i data-lucide="moon"></i>
+            </button>
         </div>
 
-        <footer class="footer">
-            <p>Strictly sourced from the timeline's finest: @ylecun, @karpathy, @emollick & more.</p>
-        </footer>
-    </main>
+        <main>
+            <!-- Marquee: Sources -->
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <span>Sources: TechCrunch AI • FutureTools • OpenAI • Google Gemini • Claude • Meta AI • Microsoft
+                        AI • AI Weekly • AI News •</span>
+                    <span>Sources: TechCrunch AI • FutureTools • OpenAI • Google Gemini • Claude • Meta AI • Microsoft
+                        AI • AI Weekly • AI News •</span>
+                </div>
+            </div>
 
+            <!-- News Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Latest Digest</h2>
+                    <div class="actions">
+                        <span id="digest-date" class="digest-meta">Checking...</span>
+                        <button id="copy-btn" class="action-btn">
+                            Copy <i data-lucide="copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body" id="digest-content">
+                    <p class="placeholder-text">Loading fresh intelligence...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Curated by Robot • <a href="https://github.com/raultherockstard/ai-news" target="_blank">Build Your
+                    Own</a></p>
+        </footer>
+    </div>
+
+    <!-- Data Source (Dynamic) -->
     <script src="data.js"></script>
+    <!-- Logic -->
     <script src="script.js"></script>
-    <script>
-        lucide.createIcons();
-    </script>
 </body>
 
 </html>

@@ -40,6 +40,32 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // --- 3. REFRESH FUNCTION ---
+    const refreshBtn = document.getElementById('refresh-btn');
+    if (refreshBtn) {
+        refreshBtn.addEventListener('click', () => {
+            refreshBtn.classList.add('spin');
+            const icon = refreshBtn.querySelector('i');
+            icon.style.animation = 'spin 1s linear infinite';
+
+            // Cache bust data.js
+            const oldScript = document.querySelector('script[src*="data.js"]');
+            if (oldScript) oldScript.remove();
+
+            const newScript = document.createElement('script');
+            newScript.src = `data.js?t=${new Date().getTime()}`;
+            newScript.onload = () => {
+                console.log("Data refreshed!");
+                renderDigest();
+                icon.style.animation = 'none';
+
+                const dateEl = document.getElementById('current-date');
+                if (dateEl) dateEl.textContent = "Checked Just Now";
+            };
+            document.body.appendChild(newScript);
+        });
+    }
 });
 
 function updateDate() {
@@ -124,3 +150,10 @@ function renderDigest() {
         container.appendChild(p);
     }
 }
+
+// Add spin style
+const style = document.createElement('style');
+style.innerHTML = `
+@keyframes spin { 100% { transform: rotate(360deg); } }
+`;
+document.head.appendChild(style);
