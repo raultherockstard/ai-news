@@ -103,10 +103,24 @@ function parseAnthropic(html) {
         const chunk = chunks[i];
         const slugMatch = chunk.match(/^([^"]+)"/);
         if (!slugMatch) continue;
+
         const link = `https://www.anthropic.com/news/${slugMatch[1]}`;
-        const textOnly = chunk.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+        // Fix: Find end of the opening tag '>'
+        const tagEndIndex = chunk.indexOf('>');
+        if (tagEndIndex === -1) continue;
+
+        // Content is after the >
+        let rawContent = chunk.substring(tagEndIndex + 1);
+
+        // Extract text until next tag start or end of link
+        // A simple way is to remove all tags from the rest
+        let textOnly = rawContent.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+        // Clean up common "read more" artifacts or too long strings
         const title = textOnly.split('  ')[0].substring(0, 100);
-        if (title.length > 15) {
+
+        if (title.length > 15 && !title.includes('FeaturedGrid')) {
             updates.push({ text: title, link: link, source: 'Claude (Anthropic)' });
         }
         if (updates.length >= 3) break;
@@ -116,11 +130,17 @@ function parseAnthropic(html) {
 
 function parseGoogle(html) {
     const updates = [];
+    // Regex for <a href="...">Title</a>
     const linkRegex = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
     let match;
     while ((match = linkRegex.exec(html)) !== null) {
         let link = match[1];
-        let text = match[2].replace(/<[^>]+>/g, '').trim();
+        let text = match[2]
+            .replace(/<[^>]+>/g, '') // Remove tags
+            .replace(/\n/g, ' ')      // Remove newlines
+            .replace(/\s+/g, ' ')     // Collapse spaces
+            .trim();
+
         if (link.includes('/technology/ai/') || link.includes('/products/gemini')) {
             if (link.startsWith('/')) link = "https://blog.google" + link;
             if (text.length > 15 && !text.includes('Read more')) {

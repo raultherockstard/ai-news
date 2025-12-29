@@ -1,26 +1,26 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T09:34:25.077Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T09:38:32.092Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
     items: [
     {
-        "text": "claude-opus-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__content\"> Introducing Claude Opus 4",
+        "text": "Introducing Claude Opus 4.5 Announcements Nov 24, 2025 The best model in the world for coding, agent",
         "link": "https://www.anthropic.com/news/claude-opus-4-5",
         "source": "Claude (Anthropic)"
     },
     {
-        "text": "claude-sonnet-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__sideLink FeaturedGrid-module-scss",
+        "text": "Announcements Sep 29, 2025 Introducing Claude Sonnet 4.5 Claude Sonnet 4.5 sets new benchmark record",
         "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
         "source": "Claude (Anthropic)"
     },
     {
-        "text": "claude-haiku-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__sideLink FeaturedGrid-module-scss-",
+        "text": "Product Oct 15, 2025 Introducing Claude Haiku 4.5 Claude Haiku 4.5 matches state-of-the-art coding c",
         "link": "https://www.anthropic.com/news/claude-haiku-4-5",
         "source": "Claude (Anthropic)"
     },
     {
-        "text": "A new era of intelligence with Gemini 3\n      \n    \n    \n    \n      Today we’re releasing Gemini 3 – our most intelligent model that helps you bring any idea to life.",
+        "text": "A new era of intelligence with Gemini 3 Today we’re releasing Gemini 3 – our most intelligent model that helps you bring any idea to life.",
         "link": "https://blog.google/products/gemini/gemini-3/",
         "source": "Google Gemini"
     },
