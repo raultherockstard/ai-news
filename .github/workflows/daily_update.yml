@@ -3,10 +3,12 @@ name: Daily AI News Update
 on:
   schedule:
     # Runs at 17:00 UTC every day.
-    # Note: GitHub Actions uses UTC time. Adjust if you need a specific timezone.
     - cron: '0 17 * * *'
+  # Run on every push so the user sees changes immediately
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
-    # Allows you to click a button to run it manually on GitHub
+
 
 jobs:
   update-news:
