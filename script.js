@@ -21,7 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
             let textToCopy = "";
             if (window.latestDigest && window.latestDigest.items) {
                 textToCopy = `🧠 ${window.latestDigest.title}\n\n` +
-                    window.latestDigest.items.map(i => `${i.text} (${i.link})`).join("\n");
+                    window.latestDigest.items.map(i => {
+                        const source = i.source ? `[${i.source}] ` : "";
+                        return `- ${source}${i.text} (${i.link})`;
+                    }).join("\n");
             } else if (window.latestDigest && window.latestDigest.content) {
                 textToCopy = window.latestDigest.content;
             }
@@ -71,20 +74,41 @@ function renderDigest() {
             const row = document.createElement('div');
             row.className = 'news-row';
 
+            // Left Side: Title
             const titleSpan = document.createElement('span');
             titleSpan.className = 'news-title';
-            // Clean up the "- **Update:**" prefix if it exists, for cleaner UI
             let cleanTitle = item.text.replace(/-\s*\*\*Update:\*\*\s*/i, '').trim();
             titleSpan.textContent = cleanTitle;
+
+            // Right Side: Source Badge + Button
+            const actions = document.createElement('div');
+            actions.style.display = 'flex';
+            actions.style.alignItems = 'center';
+            actions.style.gap = '12px';
+
+            // Source Badge e.g. "TechCrunch"
+            if (item.source) {
+                const badge = document.createElement('span');
+                badge.textContent = item.source;
+                badge.style.fontSize = '0.7rem';
+                badge.style.letterSpacing = '0.05em';
+                badge.style.color = '#818cf8'; // Indigo-400
+                badge.style.border = '1px solid rgba(129, 140, 248, 0.2)';
+                badge.style.padding = '2px 8px';
+                badge.style.borderRadius = '12px';
+                badge.style.whiteSpace = 'nowrap';
+                actions.appendChild(badge);
+            }
 
             const linkBtn = document.createElement('a');
             linkBtn.className = 'news-btn';
             linkBtn.href = item.link;
             linkBtn.target = '_blank';
             linkBtn.innerHTML = `Read <i data-lucide="external-link"></i>`;
+            actions.appendChild(linkBtn);
 
             row.appendChild(titleSpan);
-            row.appendChild(linkBtn);
+            row.appendChild(actions);
             list.appendChild(row);
         });
 
@@ -92,9 +116,8 @@ function renderDigest() {
         lucide.createIcons(); // Refresh icons
 
     } else {
-        // OLD: Fallback text string
+        // Fallback text string
         const rawText = window.latestDigest.content || "No news found.";
-        // Simple text render
         const p = document.createElement('div');
         p.style.whiteSpace = 'pre-wrap';
         p.textContent = rawText;
