@@ -1,5 +1,5 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T08:44:56.328Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T09:16:39.452Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
@@ -38,6 +38,26 @@ window.latestDigest = {
         "text": "Bring your research to life with integrated visual reports from Gemini Deep Research.",
         "link": "https://blog.google/products/gemini/visual-reports/",
         "source": "Google Gemini"
+    },
+    {
+        "text": "Can AI learn the language of biology to reimagine medicine?",
+        "link": "https://news.microsoft.com/signal/articles/can-ai-learn-the-language-of-biology-to-reimagine-medicine/",
+        "source": "Microsoft AI"
+    },
+    {
+        "text": "Startups can do more right now with AI: 5 insights from Microsoft CTO Kevin Scott",
+        "link": "https://news.microsoft.com/signal/?p=724",
+        "source": "Microsoft AI"
+    },
+    {
+        "text": "After crippling ransomware attack, Osaka hospital embraces cyber safety, smoother workflows",
+        "link": "https://news.microsoft.com/source/asia/features/after-crippling-ransomware-attack-osaka-hospital-embraces-cyber-safety-smoother-workflows/",
+        "source": "Microsoft AI"
+    },
+    {
+        "text": "From Signal magazine: How AI is reshaping the game on and off the court",
+        "link": "https://news.microsoft.com/signalmagazine/issue/issue-02/#slam-dunk",
+        "source": "Microsoft AI"
     },
     {
         "text": "Andrej Karpathy Reflects on AI&#x27;s Impact on Programming Profession",

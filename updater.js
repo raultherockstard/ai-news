@@ -4,11 +4,15 @@ const https = require('https');
 // --- CONFIGURATION ---
 const SOURCES = [
     { name: "FutureTools", url: "https://www.futuretools.io/news", parser: parseFutureTools },
-    // Official Blogs (High Priority)
+
+    // Official Blogs (Priority)
     { name: "OpenAI", url: "https://openai.com/news/", parser: parseOpenAI },
     { name: "Claude (Anthropic)", url: "https://www.anthropic.com/news", parser: parseAnthropic },
     { name: "Google Gemini", url: "https://blog.google/technology/ai/", parser: parseGoogle },
-    // Major News
+    { name: "Meta AI", url: "https://ai.meta.com/blog/", parser: parseMeta },
+    { name: "Microsoft AI", url: "https://blogs.microsoft.com/ai/", parser: parseMicrosoft },
+
+    // News & Aggregators
     { name: "TechCrunch AI", url: "https://techcrunch.com/category/artificial-intelligence/", parser: parseTechCrunch },
     { name: "AI Weekly", url: "https://aiweekly.co/", parser: parseAIWeekly },
     { name: "AI News", url: "https://www.artificialintelligence-news.com/", parser: parseAINews }
@@ -112,13 +116,11 @@ function parseAnthropic(html) {
 
 function parseGoogle(html) {
     const updates = [];
-    // Regex for <a href="...">Title</a>
     const linkRegex = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
     let match;
     while ((match = linkRegex.exec(html)) !== null) {
         let link = match[1];
         let text = match[2].replace(/<[^>]+>/g, '').trim();
-
         if (link.includes('/technology/ai/') || link.includes('/products/gemini')) {
             if (link.startsWith('/')) link = "https://blog.google" + link;
             if (text.length > 15 && !text.includes('Read more')) {
@@ -131,10 +133,42 @@ function parseGoogle(html) {
     return updates;
 }
 
+function parseMeta(html) {
+    const updates = [];
+    const regex = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
+    let match;
+    while ((match = regex.exec(html)) !== null) {
+        let link = match[1];
+        let content = match[2];
+        if (link.includes('/blog/') && !link.endsWith('/blog/') && !link.includes('page')) {
+            if (link.startsWith('/')) link = "https://ai.meta.com" + link;
+            let text = content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            if (text.length > 20 && !text.includes('Read more')) {
+                updates.push({ text: text, link: link, source: 'Meta AI' });
+            }
+        }
+        if (updates.length >= 4) break;
+    }
+    return updates;
+}
+
+function parseMicrosoft(html) {
+    const updates = [];
+    const regex = /<h[23][^>]*>[\s\S]*?<a[^>]+href="([^"]+)"[^>]*>([^<]+)<\/a>/g;
+    let match;
+    while ((match = regex.exec(html)) !== null) {
+        const link = match[1];
+        const title = match[2].trim();
+        if (title.length > 15) {
+            updates.push({ text: title, link: link, source: 'Microsoft AI' });
+        }
+        if (updates.length >= 4) break;
+    }
+    return updates;
+}
+
 function parseAIWeekly(html) {
     const updates = [];
-    // Regex: <strong>Title</strong> (likely followed by link)
-    // Or scan for links that are not internal
     const regex = /<strong>([^<]+)<\/strong>[\s\S]*?<a[^>]+href="([^"]+)"/g;
     let match;
     while ((match = regex.exec(html)) !== null) {
@@ -150,7 +184,6 @@ function parseAIWeekly(html) {
 
 function parseAINews(html) {
     const updates = [];
-    // Generic robust scan for article links
     const regex = /<a[^>]+href="([^"]+)"[^>]*>([^<]+)<\/a>/g;
     let match;
     while ((match = regex.exec(html)) !== null) {
@@ -167,12 +200,12 @@ function parseAINews(html) {
 
 // --- ENGINE ---
 async function run() {
-    console.log('🚀 AI News Engine Starting (7 Sources)...');
+    console.log('🚀 AI News Engine Starting (9 Sources)...');
     let allUpdates = [];
     const seen = new Set();
 
     // PRIORITY LIST
-    const PRIORITY = ['OpenAI', 'Google Gemini', 'Claude (Anthropic)'];
+    const PRIORITY = ['OpenAI', 'Google Gemini', 'Claude (Anthropic)', 'Meta AI', 'Microsoft AI'];
 
     for (const source of SOURCES) {
         console.log(`📡 Fetching ${source.name}...`);
@@ -183,7 +216,6 @@ async function run() {
         console.log(`   - Found ${items.length} items.`);
 
         for (const item of items) {
-            // Dedupe key
             const key = item.text.toLowerCase().replace(/[^a-z0-9]/g, '');
             if (!seen.has(key) && !seen.has(item.link)) {
                 seen.add(key);
@@ -193,15 +225,13 @@ async function run() {
         }
     }
 
-    // SORTING: Priority first, then random/others
     allUpdates.sort((a, b) => {
         const aP = PRIORITY.includes(a.source) ? 1 : 0;
         const bP = PRIORITY.includes(b.source) ? 1 : 0;
         if (aP !== bP) return bP - aP;
-        return 0; // Keep order otherwise
+        return 0;
     });
 
-    // Output
     const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     const fileContent = `
 // 🧠 AUTOMATICALLY GENERATED ON ${new Date().toISOString()}
