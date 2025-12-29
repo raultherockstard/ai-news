@@ -1,19 +1,17 @@
-/* MODERN CLEAN LIGHT THEME */
+/* NOTION DARK THEME */
 
 :root {
-    --bg-color: #f5f5f7;
-    /* Apple/Notion Soft Gray */
-    --card-bg: #ffffff;
-    --text-primary: #1d1d1f;
-    /* Near Black */
-    --text-secondary: #86868b;
-    --accent-color: #0071e3;
-    /* Apple Blue */
-    --accent-glow: rgba(0, 113, 227, 0.2);
-    --border-color: #e5e5ea;
-    --font-main: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-heading: 'Inter', sans-serif;
-    /* Clean Sans for headers too */
+    --bg-color: #191919;
+    /* Notion Dark BG */
+    --card-bg: #202020;
+    /* Notion Dark Card */
+    --hover-bg: #2c2c2c;
+    --text-primary: #e3e3e3;
+    --text-secondary: #9b9b9b;
+    --accent-color: #ffffff;
+    /* Stark White Accents */
+    --border-color: #2f2f2f;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 * {
@@ -30,96 +28,83 @@ body {
     justify-content: center;
     min-height: 100vh;
     overflow-x: hidden;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .glow-bg {
     display: none;
-    /* No glow in light mode */
 }
 
 .container {
     width: 100%;
-    max-width: 900px;
-    padding: 3rem 1.5rem;
+    max-width: 1000px;
+    /* Wider for 3-col */
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 2rem;
+    text-align: left;
+    /* Notion style: Left Aligned */
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
 }
 
 .header .logo {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .brain-icon {
-    font-size: 2.2rem;
-    /* No filter/shadow */
+    font-size: 1.5rem;
 }
 
 h1 {
-    font-family: var(--font-heading);
     font-size: 2rem;
-    color: #111;
     font-weight: 700;
-    letter-spacing: -0.02em;
-    /* Tight minimal tracking */
-    background: none;
-    -webkit-text-fill-color: initial;
+    color: var(--text-primary);
 }
 
 .badge {
-    background: #eef2ff;
-    color: var(--accent-color);
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    background: #37352f;
+    color: #a4a29e;
+    padding: 2px 6px;
+    border-radius: 4px;
+    /* Notion Tag style */
+    font-size: 0.8rem;
+    font-weight: 500;
     border: none;
 }
 
 .subtitle {
     color: var(--text-secondary);
-    font-size: 1.05rem;
-    font-weight: 400;
-    max-width: 600px;
-    margin: 0 auto;
+    font-size: 1rem;
 }
 
-/* Sources Marquee */
+/* Sources Marquee - Minimal */
 .sources-marquee {
     width: 100%;
     overflow: hidden;
-    position: relative;
-    padding: 0.75rem 0;
-    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-    background: transparent;
-    border: none;
+    padding: 0.5rem 0;
+    margin-top: -1.5rem;
+    opacity: 0.5;
 }
 
 .marquee-content {
     display: flex;
-    gap: 2.5rem;
-    white-space: nowrap;
-    animation: scroll 25s linear infinite;
+    gap: 2rem;
+    animation: scroll 30s linear infinite;
     width: max-content;
 }
 
 .marquee-item {
+    font-size: 0.85rem;
     color: var(--text-secondary);
-    font-size: 0.9rem;
-    font-weight: 500;
-    opacity: 0.8;
 }
 
 @keyframes scroll {
@@ -132,109 +117,93 @@ h1 {
     }
 }
 
-/* --- BENTO GRID STYLES --- */
-
+/* --- BENTO GRID (3 COLUMNS) --- */
 .bento-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 Cols: Google, OpenAI, Anthropic */
     grid-template-rows: auto auto;
     gap: 1.5rem;
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .bento-grid {
         grid-template-columns: 1fr;
     }
 }
 
 .news-card {
+    background: transparent;
+    /* Minimalist - no box, just content? Or subtle box */
+    /* Notion Board Style: Subtle bg */
     background: var(--card-bg);
-    border: 1px solid rgba(0, 0, 0, 0.04);
-    /* Very subtle border */
-    border-radius: 24px;
-    /* Soft roundness */
-    padding: 1.75rem;
+    border-radius: 8px;
+    /* Slight round */
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    height: 360px;
-    max-height: 360px;
-    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
-    /* Soft shadow */
-    transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden;
+    height: 380px;
+    transition: background 0.2s;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+    /* Very subtle inset top highlight */
 }
 
 .news-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.12);
+    background: var(--hover-bg);
 }
 
-/* Clean Category Colors (Subtle Headers) */
+/* Headers */
 .card-header-mini {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    margin-bottom: 1.25rem;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: var(--text-primary);
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
 }
 
-.card-header-mini i {
-    width: 20px;
-    height: 20px;
-    color: var(--accent-color);
-    background: rgba(0, 113, 227, 0.1);
-    padding: 4px;
-    border-radius: 6px;
-    box-sizing: content-box;
+/* Colored Underlines for Categories */
+.card-google .card-header-mini {
+    border-color: #4285F4;
 }
 
-/* Specific Brand Colors for Icons */
-.card-google .card-header-mini i {
-    color: #4285F4;
-    background: rgba(66, 133, 244, 0.1);
+.card-openai .card-header-mini {
+    border-color: #10a37f;
 }
 
-.card-openai .card-header-mini i {
-    color: #10a37f;
-    background: rgba(16, 163, 127, 0.1);
+.card-anthropic .card-header-mini {
+    border-color: #d97757;
 }
 
-.card-microsoft .card-header-mini i {
-    color: #00a4ef;
-    background: rgba(0, 164, 239, 0.1);
-}
-
-.card-anthropic .card-header-mini i {
-    color: #d97757;
-    background: rgba(217, 119, 87, 0.1);
-}
-
+/* Main Feed Spans Full Width */
 .card-feed {
-    grid-column: span 2;
-    border-top: none;
+    grid-column: span 3;
     min-height: auto;
     height: auto;
-    max-height: 600px;
+    background: transparent;
+    /* Feed is cleaner without card bg? Let's keep card for consistency */
+    background: var(--card-bg);
+    padding: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .card-feed {
         grid-column: span 1;
     }
 }
 
 
+/* Mini Lists */
 .mini-list {
     display: flex;
     flex-direction: column;
     gap: 0;
-    flex-grow: 1;
     overflow-y: auto;
+    padding-right: 4px;
 }
 
 .mini-list::-webkit-scrollbar {
@@ -242,65 +211,56 @@ h1 {
 }
 
 .mini-list::-webkit-scrollbar-thumb {
-    background: #d1d1d6;
-    border-radius: 10px;
+    background: #3f3f3f;
+    border-radius: 4px;
 }
 
 .mini-list .news-row {
-    padding: 12px 0;
-    border-bottom: 1px solid #f2f2f5;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 12px;
+    gap: 10px;
 }
 
-.mini-list .news-row:hover {
-    background: transparent;
-    /* No hover bg on items in light mode, clean */
+.mini-list .news-row:last-child {
+    border-bottom: none;
 }
 
 .mini-list .news-title {
     font-size: 0.9rem;
-    font-weight: 500;
-    color: #333;
-    line-height: 1.5;
-    /* CLAMPING */
+    color: var(--text-primary);
+    line-height: 1.4;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .mini-list .news-btn {
     font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--accent-color);
+    color: var(--text-secondary);
     text-decoration: none;
-    background: #f5f5f7;
-    padding: 6px 12px;
-    border-radius: 12px;
+    padding: 2px 0;
+    border-bottom: 1px solid transparent;
     transition: all 0.2s;
     white-space: nowrap;
-    margin-top: 2px;
-    border: none;
 }
 
 .mini-list .news-btn:hover {
-    background: #e8e8ed;
-    color: #004499;
+    color: #fff;
+    border-color: #fff;
 }
 
-
-/* MAIN FEED */
+/* Main Feed specific */
 .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
     border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
 }
 
 .date-badge {
@@ -308,85 +268,46 @@ h1 {
     font-size: 1.1rem;
 }
 
-.actions .btn-primary {
-    background: #111;
-    color: #fff;
-    border: none;
-    border-radius: 100px;
-    /* Pill */
-    padding: 0.6rem 1.25rem;
-    font-weight: 600;
+.btn-primary {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 6px 12px;
+    border-radius: 4px;
     font-size: 0.85rem;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
+    gap: 6px;
     align-items: center;
-    gap: 8px;
-    transition: transform 0.2s;
 }
 
-.actions .btn-primary:hover {
-    transform: scale(1.03);
-    background: #000;
+.btn-primary:hover {
+    background: #2f2f2f;
 }
 
 .digest-list {
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
-    padding-right: 8px;
-    max-height: 60vh;
-}
-
-.digest-list::-webkit-scrollbar {
-    width: 6px;
-}
-
-.digest-list::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.digest-list::-webkit-scrollbar-thumb {
-    background: #d1d1d6;
-    border-radius: 10px;
+    gap: 0.5rem;
 }
 
 .digest-list .news-row {
-    padding: 16px 0;
+    padding: 12px 0;
     border-bottom: 1px solid var(--border-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    /* Align top for readability */
-}
-
-.news-btn {
-    /* For main list buttons */
-    font-weight: 600;
-    color: var(--accent-color);
-    background: rgba(0, 113, 227, 0.05);
-    padding: 8px 16px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 0.85rem;
-    border: none;
-}
-
-.news-btn:hover {
-    background: rgba(0, 113, 227, 0.15);
+    align-items: center;
 }
 
 .empty-msg {
     color: var(--text-secondary);
     font-size: 0.9rem;
+    padding: 20px;
     text-align: center;
-    padding: 2rem;
+    font-style: italic;
 }
 
 .footer {
     text-align: center;
     color: var(--text-secondary);
     font-size: 0.8rem;
-    margin-top: 3rem;
-    padding-bottom: 2rem;
+    margin-top: 4rem;
 }
