@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const addCat = (name, items) => {
                 if (items && items.length > 0) {
                     textToCopy += `--- ${name} ---\n`;
-                    items.forEach(i => textToCopy += `• ${i.text} (${i.link})\n`);
+                    items.forEach(i => textToCopy += `• ${cleanTitleText(i.text)} (${i.link})\n`);
                     textToCopy += `\n`;
                 }
             };
@@ -52,6 +52,16 @@ function updateDate() {
     }
 }
 
+// Helper to strip fluff words
+function cleanTitleText(text) {
+    if (!text) return "";
+    let clean = text;
+    // Remove "Update:", "Announcing", etc.
+    clean = clean.replace(/^(Update:|Announcing|Introducing|Unveiling|Launching|Google adds|Google launches|Microsoft announces|OpenAI releases)\s*/i, "");
+    clean = clean.replace(/^\s*-\s*/, ""); // remove leading dash
+    return clean;
+}
+
 function renderDigest() {
     if (!window.latestDigest || !window.latestDigest.categories) return;
 
@@ -65,7 +75,7 @@ function renderDigest() {
         container.innerHTML = '';
 
         if (!items || items.length === 0) {
-            container.innerHTML = '<div class="empty-msg">No updates today</div>';
+            container.innerHTML = '<div class="empty-msg">No updates</div>';
             return;
         }
 
@@ -75,13 +85,13 @@ function renderDigest() {
 
             const titleSpan = document.createElement('span');
             titleSpan.className = 'news-title';
-            titleSpan.textContent = item.text;
+            titleSpan.textContent = cleanTitleText(item.text); // Apply cleaner
 
             const linkBtn = document.createElement('a');
             linkBtn.className = 'news-btn';
             linkBtn.href = item.link;
             linkBtn.target = '_blank';
-            linkBtn.innerHTML = `Read <i data-lucide="external-link"></i>`;
+            linkBtn.innerHTML = `Read`; // Removing icon for space in mini-cards? No, keep text simple
 
             row.appendChild(titleSpan);
             row.appendChild(linkBtn);

@@ -153,9 +153,13 @@ h1 {
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
-    min-height: 200px;
+    height: 340px;
+    /* Fixed height for uniformity */
+    max-height: 340px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    overflow: hidden;
+    /* Contain content */
 }
 
 .news-card:hover {
@@ -183,7 +187,10 @@ h1 {
 .card-feed {
     grid-column: span 2;
     border-top: 4px solid #fff;
-    min-height: 400px;
+    min-height: auto;
+    height: auto;
+    /* Feed can grow */
+    max-height: 600px;
 }
 
 @media (max-width: 768px) {
@@ -203,6 +210,7 @@ h1 {
     color: #fff;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    flex-shrink: 0;
 }
 
 .card-header-mini i {
@@ -214,26 +222,68 @@ h1 {
 .mini-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     flex-grow: 1;
+    overflow-y: auto;
+    /* Scroll internally */
+    padding-right: 4px;
+    /* Space for scrollbar */
+}
+
+/* Hide scrollbar for cleaner UI but allow scroll */
+.mini-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.mini-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 
 /* Compact list items for mini cards */
 .mini-list .news-row {
-    padding-bottom: 8px;
-    gap: 10px;
+    padding-bottom: 12px;
+    /* Breathing room */
+    gap: 12px;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Top align text */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.mini-list .news-row:last-child {
+    border-bottom: none;
 }
 
 .mini-list .news-title {
     font-size: 0.85rem;
-    line-height: 1.4;
+    line-height: 1.5;
     color: var(--text-secondary);
+    /* CLAMPING: Max 3 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Limit text to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .mini-list .news-btn {
     padding: 4px 8px;
-    /* Smaller button */
     font-size: 0.75rem;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    align-self: flex-start;
+    /* Align with top of text */
+    margin-top: 2px;
+    white-space: nowrap;
+}
+
+.mini-list .news-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -302,7 +352,8 @@ h1 {
     border-radius: 4px;
 }
 
-.news-row {
+.digest-list .news-row {
+    /* Specific to main feed */
     display: flex;
     align-items: center;
     justify-content: space-between;
