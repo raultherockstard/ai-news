@@ -1,14 +1,16 @@
+/* NEO-CYBER THEME */
+
 :root {
-    --bg-color: #0d0d12;
-    --card-bg: #1a1a23;
-    --text-primary: #ffffff;
-    --text-secondary: #a1a1aa;
-    --accent-color: #6366f1;
-    /* Indigo */
-    --accent-glow: rgba(99, 102, 241, 0.5);
-    --border-color: #27272a;
+    --bg-color: #050505;
+    --card-bg: #0a0a0a;
+    --text-primary: #e0e0e0;
+    --text-secondary: #888;
+    --accent-color: #00f0ff;
+    /* Cyber Cyan */
+    --accent-dim: rgba(0, 240, 255, 0.1);
+    --border-color: #333;
     --font-main: 'Inter', sans-serif;
-    --font-heading: 'Space Grotesk', sans-serif;
+    --font-mono: 'Courier New', Courier, monospace;
 }
 
 * {
@@ -26,71 +28,71 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.6;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+    /* Tech Grid */
 }
 
 .glow-bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle at center, rgba(99, 102, 241, 0.08) 0%, transparent 50%);
-    z-index: -1;
-    pointer-events: none;
+    display: none;
+    /* Disable old soft glow */
 }
 
 .container {
     width: 100%;
     max-width: 900px;
-    /* Wider for Grid */
     padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    position: relative;
 }
 
 .header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 2rem;
 }
 
 .header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.75rem;
+    gap: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .brain-icon {
     font-size: 2rem;
+    filter: drop-shadow(0 0 5px var(--accent-color));
 }
 
 h1 {
-    font-family: var(--font-heading);
-    font-size: 1.75rem;
-    background: linear-gradient(to right, #fff, #a5b4fc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
+    font-family: var(--font-mono);
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .badge {
-    background: rgba(99, 102, 241, 0.2);
-    color: #818cf8;
-    padding: 0.25rem 0.6rem;
-    border-radius: 999px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    font-family: var(--font-heading);
-    border: 1px solid rgba(99, 102, 241, 0.3);
+    background: var(--accent-color);
+    color: #000;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    font-family: var(--font-mono);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .subtitle {
     color: var(--text-secondary);
-    font-size: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
 }
 
 /* Sources Marquee */
@@ -98,8 +100,10 @@ h1 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    padding: 1rem 0;
-    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    padding: 0.5rem 0;
+    border-top: 1px dashed var(--border-color);
+    border-bottom: 1px dashed var(--border-color);
+    background: #000;
 }
 
 .marquee-content {
@@ -111,10 +115,9 @@ h1 {
 }
 
 .marquee-item {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    font-family: monospace;
-    opacity: 0.7;
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
 }
 
 @keyframes scroll {
@@ -133,12 +136,10 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
-    /* Two discrete rows for top cards, one big for feed */
-    gap: 1.5rem;
+    gap: 1rem;
     width: 100%;
 }
 
-/* On mobile, stack everything */
 @media (max-width: 768px) {
     .bento-grid {
         grid-template-columns: 1fr;
@@ -148,48 +149,57 @@ h1 {
 .news-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    border-radius: 1.5rem;
+    border-radius: 0;
+    /* SHARP CORNERS */
     padding: 1.5rem;
-    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
-    height: 340px;
-    /* Fixed height for uniformity */
-    max-height: 340px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    height: 350px;
+    max-height: 350px;
+    box-shadow: none;
+    position: relative;
     overflow: hidden;
-    /* Contain content */
+}
+
+/* Corner Accents */
+.news-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--accent-color);
+    border-right: 2px solid var(--accent-color);
 }
 
 .news-card:hover {
-    transform: translateY(-2px);
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 15px var(--accent-dim);
 }
 
-/* Brand Accents */
+/* Category Borders */
 .card-google {
-    border-top: 4px solid #4285F4;
+    border-left: 2px solid #4285F4;
 }
 
 .card-openai {
-    border-top: 4px solid #10a37f;
+    border-left: 2px solid #10a37f;
 }
 
 .card-microsoft {
-    border-top: 4px solid #00a4ef;
+    border-left: 2px solid #00a4ef;
 }
 
 .card-anthropic {
-    border-top: 4px solid #d97757;
+    border-left: 2px solid #d97757;
 }
 
 .card-feed {
     grid-column: span 2;
-    border-top: 4px solid #fff;
+    border-left: 2px solid #fff;
     min-height: auto;
     height: auto;
-    /* Feed can grow */
     max-height: 600px;
 }
 
@@ -204,211 +214,168 @@ h1 {
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 1rem;
-    font-family: var(--font-heading);
+    font-family: var(--font-mono);
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     color: #fff;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    flex-shrink: 0;
+    border-bottom: 2px solid #222;
 }
 
 .card-header-mini i {
-    width: 20px;
-    height: 20px;
-    opacity: 0.8;
+    width: 18px;
+    height: 18px;
+    color: var(--accent-color);
 }
 
 .mini-list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0;
+    /* Tight packing */
     flex-grow: 1;
     overflow-y: auto;
-    /* Scroll internally */
-    padding-right: 4px;
-    /* Space for scrollbar */
 }
 
-/* Hide scrollbar for cleaner UI but allow scroll */
 .mini-list::-webkit-scrollbar {
-    width: 4px;
+    width: 2px;
 }
 
 .mini-list::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
+    background: var(--accent-color);
 }
 
-/* Compact list items for mini cards */
 .mini-list .news-row {
-    padding-bottom: 12px;
-    /* Breathing room */
-    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #1a1a1a;
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* Top align text */
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    gap: 10px;
 }
 
-.mini-list .news-row:last-child {
-    border-bottom: none;
+.mini-list .news-row:hover {
+    background: rgba(255, 255, 255, 0.02);
 }
 
 .mini-list .news-title {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    color: var(--text-secondary);
-    /* CLAMPING: Max 3 lines */
+    font-size: 0.8rem;
+    font-family: var(--font-main);
+    color: #ccc;
+    /* Clean Look */
     display: -webkit-box;
-    -webkit-line-clamp: 3;
-    /* Limit text to 3 lines */
+    -webkit-line-clamp: 2;
+    /* Strict layout */
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .mini-list .news-btn {
-    padding: 4px 8px;
-    font-size: 0.75rem;
-    background: transparent;
-    border-color: rgba(255, 255, 255, 0.1);
-    color: var(--text-secondary);
-    align-self: flex-start;
-    /* Align with top of text */
-    margin-top: 2px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid var(--border-color);
+    padding: 2px 6px;
+    transition: all 0.2s;
     white-space: nowrap;
 }
 
 .mini-list .news-btn:hover {
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-    border-color: rgba(255, 255, 255, 0.3);
+    background: var(--accent-color);
+    color: #000;
 }
 
-
-/* MAIN FEED STYLES */
+/* MAIN FEED */
 .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
+    font-family: var(--font-mono);
+    border-bottom: 2px solid #222;
+    padding-bottom: 1rem;
 }
 
-.date-badge {
-    font-family: var(--font-heading);
-    color: var(--text-secondary);
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
-.actions {
-    display: flex;
-    gap: 0.75rem;
-}
-
-.btn-primary {
-    background: var(--accent-color);
-    color: #fff;
-    border: none;
+.actions .btn-primary {
+    background: #000;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 0;
     padding: 0.5rem 1rem;
-    border-radius: 0.75rem;
-    font-family: var(--font-heading);
-    font-weight: 600;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0 rgba(0, 240, 255, 0.2);
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    box-shadow: 0 0 15px var(--accent-glow);
 }
 
-.btn-primary:hover {
-    filter: brightness(1.1);
-    transform: scale(1.02);
+.actions .btn-primary:hover {
+    box-shadow: 2px 2px 0 var(--accent-color);
+    transform: translate(2px, 2px);
 }
 
-/* List Items */
 .digest-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    max-height: 60vh;
     overflow-y: auto;
     padding-right: 8px;
+    max-height: 60vh;
 }
 
 .digest-list::-webkit-scrollbar {
-    width: 6px;
-}
-
-.digest-list::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 4px;
+    width: 4px;
 }
 
 .digest-list::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
+    background: #333;
 }
 
 .digest-list .news-row {
-    /* Specific to main feed */
+    padding: 12px 0;
+    border-bottom: 1px solid #1a1a1a;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.news-row:last-child {
-    border-bottom: none;
-}
-
-.news-title {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    line-height: 1.5;
+    align-items: center;
 }
 
 .news-btn {
-    flex-shrink: 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: #fff;
     text-decoration: none;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: #222;
+    padding: 4px 10px;
+    border: 1px solid #444;
 }
 
 .news-btn:hover {
-    background: var(--accent-glow);
-    border-color: var(--accent-primary);
-    transform: translateY(-1px);
+    background: var(--accent-color);
+    color: #000;
+    border-color: var(--accent-color);
 }
 
 .empty-msg {
-    color: var(--text-secondary);
-    font-style: italic;
-    font-size: 0.85rem;
-    opacity: 0.5;
-    margin-top: 1rem;
+    color: #444;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-/* Footer */
 .footer {
     text-align: center;
-    color: #52525b;
-    font-size: 0.8rem;
-    margin-top: auto;
-    padding-bottom: 2rem;
+    color: #444;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
 }
