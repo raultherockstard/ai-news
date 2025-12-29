@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 // 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T10:37:52.638Z
+=======
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T12:38:12.320Z
+>>>>>>> e75f955dcfef3f98ab8718b3558d7ccf759009fe
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
