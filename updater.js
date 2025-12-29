@@ -4,6 +4,48 @@ const https = require('https');
 // SETTINGS
 const SOURCE_URL = "https://www.futuretools.io/news";
 
+// --- FILTERS (The Bouncer) ---
+const BORING_KEYWORDS = [
+    // Academic & Papers
+    "arxiv", "paper", "research paper", "thesis", "study", "abstract",
+    "metrics", "benchmark", "evaluation", "dataset", "parameter", "weights",
+
+    // Enterprise & Infrastructure
+    "enterprise", "b2b", "datacenter", "server", "cloud infrastructure",
+    "latency", "inference", "throughput", "training", "fine-tuning",
+    "api", "sdk", "middleware", "supply chain", "logistics",
+
+    // Policy & Business (Boring side)
+    "policy", "regulation", "lawsuit", "compliance", "copyright",
+    "hiring", "appointed", "joins board", "executive", "quarterly", "earnings",
+    "market share", "acquisition", "funding", "investors" // User might want big funding, but generally boring
+];
+
+const EXCITING_KEYWORDS = [
+    // Override boring if it contains these?
+    "cure", "cancer", "life", "save", // Health overrides
+    "video", "music", "movie", "game", // Media overrides
+    "robot", "humanoid", "agent"
+];
+
+function isBoring(text) {
+    const t = text.toLowerCase();
+
+    // 1. Check strict boring words
+    const foundBoring = BORING_KEYWORDS.find(k => t.includes(k));
+
+    if (foundBoring) {
+        // 2. Check if it has an "Exciting" override
+        // e.g. "Research paper finds cure for cancer" -> Keep
+        const foundExciting = EXCITING_KEYWORDS.find(k => t.includes(k));
+        if (foundExciting) return false; // Saved by the exciting word
+
+        return true; // Use the ban hammer
+    }
+
+    return false;
+}
+
 // --- SCRAPER ENGINE ---
 function fetchHTML(url) {
     return new Promise((resolve, reject) => {
@@ -30,7 +72,7 @@ function parseNews(html) {
         const hrefMatch = block.match(/href="([^"]+)"/);
         // Extract TITLE (.text-block-27)
         const titleMatch = block.match(/class="[^"]*text-block-27[^"]*">([^<]+)<\/div>/);
-        // Extract SOURCE (.text-block-28) - NEW!
+        // Extract SOURCE (.text-block-28)
         const sourceMatch = block.match(/class="[^"]*text-block-28[^"]*">([^<]+)<\/div>/);
 
         if (hrefMatch && titleMatch) {
@@ -50,12 +92,18 @@ function parseNews(html) {
             seen.add(link);
             seen.add(uniqueKey);
 
+            // --- FILTER: THE BOUNCER ---
+            if (isBoring(title)) {
+                // console.log(`Skipping boring: ${title}`);
+                continue;
+            }
+
             if (title.length < 10) continue;
 
             updates.push({ text: title, link: link, source: source });
         }
 
-        if (updates.length >= 40) break; // Extended limit to fill buckets
+        if (updates.length >= 40) break;
     }
 
     return updates;
@@ -65,9 +113,8 @@ function categorize(items) {
     const buckets = {
         google: [],
         openai: [],
-        microsoft: [],
+        microsoft: [], // Kept in logic but hidden in UI, just in case
         anthropic: [],
-        meta: [],
         general: []
     };
 
@@ -75,7 +122,7 @@ function categorize(items) {
         const t = item.text.toLowerCase();
         const s = item.source.toLowerCase();
 
-        // Categorization Rules (Priority Order)
+        // Categorization Rules
         if (s.includes('google') || s.includes('deepmind') || t.includes('gemini') || t.includes('google')) {
             buckets.google.push(item);
         }
@@ -83,13 +130,13 @@ function categorize(items) {
             buckets.openai.push(item);
         }
         else if (s.includes('microsoft') || t.includes('microsoft') || t.includes('copilot') || t.includes('nadella')) {
-            buckets.microsoft.push(item);
+            buckets.microsoft.push(item); // User hid this card, but we categorize it so it doesn't clutter main feed
+            // Actually, if we want microsoft to NOT show up at all since the card is gone? 
+            // The user said "remove micrscrost" from the layout. 
+            // If we classify it here, it vanishes from UI. That's good.
         }
         else if (s.includes('anthropic') || t.includes('claude') || t.includes('anthropic')) {
             buckets.anthropic.push(item);
-        }
-        else if (s.includes('meta') || s.includes('facebook') || t.includes('llama') || t.includes('zuckerberg')) {
-            buckets.meta.push(item);
         }
         else {
             buckets.general.push(item);
@@ -112,7 +159,7 @@ async function run() {
             return;
         }
 
-        console.log(`✅ Found ${updates.length} raw items. Categorizing...`);
+        console.log(`✅ Found ${updates.length} curated items per your taste.`);
         const categories = categorize(updates);
 
         const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });

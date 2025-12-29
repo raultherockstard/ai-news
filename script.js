@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             addCat("Google", cats.google);
             addCat("OpenAI", cats.openai);
-            addCat("Microsoft", cats.microsoft);
+            // Microsoft removed per user request
             addCat("Anthropic", cats.anthropic);
             addCat("General", cats.general);
 

@@ -1,5 +1,5 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T16:36:19.332Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T17:00:09.779Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
@@ -28,6 +28,21 @@ window.latestDigest = {
         {
             "text": "Google adds AI-generated video verification to Gemini app with SynthID watermark detection",
             "link": "https://blog.google/technology/ai/verify-google-ai-videos-gemini-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google is rolling out Gemini 3 Flash globally in search",
+            "link": "https://blog.google/products/search/google-ai-mode-update-gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google adds Gemini 3 Flash to the Gemini app",
+            "link": "https://blog.google/products/gemini/gemini-3-flash-gemini-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google launches Gemini 3 Flash, delivering fast frontier AI intelligence at a lower cost",
+            "link": "https://blog.google/products/gemini/gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
         }
     ],
@@ -66,37 +81,16 @@ window.latestDigest = {
     "microsoft": [],
     "anthropic": [
         {
-            "text": "Anthropic launches Bloom, an open source tool for automated behavioral evaluations in AI systems",
-            "link": "https://www.anthropic.com/research/bloom?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
             "text": "Anthropic launches phase two of AI vending machine project with Project Vend update",
             "link": "https://www.anthropic.com/research/project-vend-2?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
         }
     ],
-    "meta": [],
     "general": [
         {
             "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
             "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Andrej Karpathy on X"
-        },
-        {
-            "text": "Liquid AI's LFM2-2.6B-Exp Outperforms in Instruction, Knowledge, and Math Metrics",
-            "link": "https://x.com/liquidai/status/2004190178068296181?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Liquid AI on X"
-        },
-        {
-            "text": "Groq and Nvidia Sign Non-Exclusive Deal to Advance Global AI Inference Technology",
-            "link": "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "groq.com"
-        },
-        {
-            "text": "Character.ai Shares Insights on Making Large-Scale Transformer Training Faster and More Efficient",
-            "link": "https://blog.character.ai/squinch/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.character.ai"
         },
         {
             "text": "CES 2026: ZDNet Highlights Key Trends in Foldables, AI, and TVs at Upcoming Tech Show",
@@ -212,6 +206,11 @@ window.latestDigest = {
             "text": "Patronus AI launches Generative Simulators to enhance continuous improvement of AI agents",
             "link": "https://siliconangle.com/2025/12/17/patronus-ais-debuts-generative-simulators-support-continuous-evolution-improvement-ai-agents/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "siliconangle.com"
+        },
+        {
+            "text": "ExaAILabs Launches Advanced Semantic People Search for Over 1 Billion Profiles",
+            "link": "https://x.com/exaailabs/status/2001373897154007390?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Exa on X"
         }
     ]
 }
