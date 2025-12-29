@@ -1,0 +1,36 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    # Runs at 17:00 UTC every day.
+    # Note: GitHub Actions uses UTC time. Adjust if you need a specific timezone.
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+    # Allows you to click a button to run it manually on GitHub
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important: allows the bot to commit changes
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Run Curator Robot
+        run: node updater.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "AI News Bot"
+          git config --global user.email "bot@example.com"
+          git add data.js
+          # Only commit if data.js actually changed
+          git commit -m "🧠 Daily AI Update [skip ci]" || echo "No changes to commit"
+          git push

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today’s AI Stuff (Non-Boring Edition)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="glow-bg"></div>
+
+    <main class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="brain-icon">🧠</span>
+                <h1>Today’s AI Stuff</h1>
+                <span class="badge">Non-Boring Edition</span>
+            </div>
+            <p class="subtitle">Curated daily updates for creators. No math, no papers, just the good stuff.</p>
+        </header>
+
+        <section class="sources-marquee">
+            <div class="marquee-content">
+                <!-- Sources will be injected by JS -->
+            </div>
+        </section>
+
+        <div class="digest-card">
+            <div class="card-header">
+                <span class="date-badge" id="current-date">Dec 29, 2025</span>
+                <div class="actions">
+                    <button class="btn-icon" id="regenerate-btn" title="Simulate Refresh">
+                        <i data-lucide="refresh-cw"></i>
+                    </button>
+                    <button class="btn-primary" id="copy-btn">
+                        <i data-lucide="copy"></i>
+                        <span>Copy for Twitter</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="digest-content" id="digest-output">
+                <!-- Content injected by JS -->
+                <div class="loading-state hidden">
+                    <div class="loader"></div>
+                    <p>Scanning the timeline...</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Strictly sourced from the timeline's finest: @ylecun, @karpathy, @emollick & more.</p>
+        </footer>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

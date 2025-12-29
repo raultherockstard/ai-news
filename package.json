@@ -1,0 +1,12 @@
+{
+  "name": "ai-news-curator",
+  "version": "1.0.0",
+  "description": "Non-Boring AI News Curator with Auto-Updater",
+  "main": "updater.js",
+  "scripts": {
+    "update": "node updater.js"
+  },
+  "keywords": ["ai", "news", "curator"],
+  "author": "",
+  "license": "ISC"
+}
