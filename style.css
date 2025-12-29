@@ -1,17 +1,16 @@
-/* NOTION DARK THEME */
+/* MODERN GLASSMORPHISM THEME */
 
 :root {
-    --bg-color: #191919;
-    /* Notion Dark BG */
-    --card-bg: #202020;
-    /* Notion Dark Card */
-    --hover-bg: #2c2c2c;
-    --text-primary: #e3e3e3;
-    --text-secondary: #9b9b9b;
-    --accent-color: #ffffff;
-    /* Stark White Accents */
-    --border-color: #2f2f2f;
-    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --bg-color: #000000;
+    --card-glass: rgba(255, 255, 255, 0.03);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-hover: rgba(255, 255, 255, 0.06);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.6);
+    --accent-glow: rgba(255, 255, 255, 0.1);
+
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
 }
 
 * {
@@ -23,88 +22,146 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
-    font-family: var(--font-main);
+    font-family: var(--font-body);
     display: flex;
     justify-content: center;
     min-height: 100vh;
     overflow-x: hidden;
-    line-height: 1.5;
+    line-height: 1.6;
+    position: relative;
 }
 
+/* --- ANIMATED BACKGROUND --- */
 .glow-bg {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    background: #050505;
 }
 
+.glow-bg::before,
+.glow-bg::after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.4;
+    animation: floating 10s infinite alternate ease-in-out;
+}
+
+.glow-bg::before {
+    background: radial-gradient(circle, #4f46e5 0%, transparent 70%);
+    top: -10%;
+    left: -10%;
+}
+
+.glow-bg::after {
+    background: radial-gradient(circle, #06b6d4 0%, transparent 70%);
+    bottom: -10%;
+    right: -10%;
+    animation-delay: -5s;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(50px, 50px);
+    }
+}
+
+/* --- LAYOUT --- */
 .container {
     width: 100%;
-    max-width: 1000px;
-    /* Wider for 3-col */
+    max-width: 1100px;
     padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    z-index: 1;
 }
 
 .header {
-    text-align: left;
-    /* Notion style: Left Aligned */
+    text-align: center;
     margin-bottom: 1rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--card-border);
     padding-bottom: 2rem;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
 }
 
 .header .logo {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    justify-content: center;
+    gap: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .brain-icon {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
 }
 
 h1 {
-    font-size: 2rem;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
     font-weight: 700;
-    color: var(--text-primary);
+    letter-spacing: -1px;
+    background: linear-gradient(to right, #fff, #9CA3AF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .badge {
-    background: #37352f;
-    color: #a4a29e;
-    padding: 2px 6px;
-    border-radius: 4px;
-    /* Notion Tag style */
-    font-size: 0.8rem;
-    font-weight: 500;
-    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 4px 12px;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .subtitle {
     color: var(--text-secondary);
-    font-size: 1rem;
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-top: 1rem;
 }
 
-/* Sources Marquee - Minimal */
+/* Sources Marquee */
 .sources-marquee {
     width: 100%;
     overflow: hidden;
-    padding: 0.5rem 0;
-    margin-top: -1.5rem;
-    opacity: 0.5;
+    position: relative;
+    padding: 1rem 0;
+    mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
 }
 
 .marquee-content {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     animation: scroll 30s linear infinite;
     width: max-content;
 }
 
 .marquee-item {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 @keyframes scroll {
@@ -117,12 +174,10 @@ h1 {
     }
 }
 
-/* --- BENTO GRID (3 COLUMNS) --- */
+/* --- GLASS BENTO GRID --- */
 .bento-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 Cols: Google, OpenAI, Anthropic */
-    grid-template-rows: auto auto;
     gap: 1.5rem;
     width: 100%;
 }
@@ -134,60 +189,64 @@ h1 {
 }
 
 .news-card {
-    background: transparent;
-    /* Minimalist - no box, just content? Or subtle box */
-    /* Notion Board Style: Subtle bg */
-    background: var(--card-bg);
-    border-radius: 8px;
-    /* Slight round */
-    padding: 1rem;
+    background: var(--card-glass);
+    backdrop-filter: blur(24px);
+    /* HEAVY BLUR */
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid var(--card-border);
+    border-radius: 24px;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: 380px;
-    transition: background 0.2s;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
-    /* Very subtle inset top highlight */
+    height: 400px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .news-card:hover {
-    background: var(--hover-bg);
+    background: var(--card-hover);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Minimal Gradient Borders for Categories */
+.card-google {
+    border-top: 2px solid rgba(66, 133, 244, 0.5);
+}
+
+.card-openai {
+    border-top: 2px solid rgba(16, 163, 127, 0.5);
+}
+
+.card-anthropic {
+    border-top: 2px solid rgba(217, 119, 87, 0.5);
 }
 
 /* Headers */
 .card-header-mini {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-heading);
     font-weight: 600;
-    font-size: 0.95rem;
-    color: var(--text-primary);
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid transparent;
+    font-size: 1.1rem;
+    color: #fff;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Colored Underlines for Categories */
-.card-google .card-header-mini {
-    border-color: #4285F4;
+.card-header-mini i {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.card-openai .card-header-mini {
-    border-color: #10a37f;
-}
-
-.card-anthropic .card-header-mini {
-    border-color: #d97757;
-}
-
-/* Main Feed Spans Full Width */
+/* Full Width Feed */
 .card-feed {
     grid-column: span 3;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
     min-height: auto;
     height: auto;
-    background: transparent;
-    /* Feed is cleaner without card bg? Let's keep card for consistency */
-    background: var(--card-bg);
-    padding: 2rem;
 }
 
 @media (max-width: 900px) {
@@ -196,14 +255,13 @@ h1 {
     }
 }
 
-
 /* Mini Lists */
 .mini-list {
     display: flex;
     flex-direction: column;
     gap: 0;
     overflow-y: auto;
-    padding-right: 4px;
+    padding-right: 6px;
 }
 
 .mini-list::-webkit-scrollbar {
@@ -211,17 +269,17 @@ h1 {
 }
 
 .mini-list::-webkit-scrollbar-thumb {
-    background: #3f3f3f;
-    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
 }
 
 .mini-list .news-row {
-    padding: 10px 0;
-    border-bottom: 1px solid var(--border-color);
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 10px;
+    gap: 12px;
 }
 
 .mini-list .news-row:last-child {
@@ -229,9 +287,10 @@ h1 {
 }
 
 .mini-list .news-title {
-    font-size: 0.9rem;
-    color: var(--text-primary);
-    line-height: 1.4;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    font-weight: 300;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -239,11 +298,16 @@ h1 {
 }
 
 .mini-list .news-btn {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
+    font-family: var(--font-heading);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
-    padding: 2px 0;
-    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
     transition: all 0.2s;
     white-space: nowrap;
 }
@@ -251,63 +315,85 @@ h1 {
 .mini-list .news-btn:hover {
     color: #fff;
     border-color: #fff;
+    background: rgba(255, 255, 255, 0.05);
 }
 
-/* Main Feed specific */
+/* Main Feed Header */
 .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
     padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .date-badge {
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 .btn-primary {
-    background: transparent;
-    color: var(--text-primary);
-    border: 1px solid var(--border-color);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 0.85rem;
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
     cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     display: flex;
-    gap: 6px;
     align-items: center;
+    gap: 8px;
+    transition: transform 0.2s;
 }
 
 .btn-primary:hover {
-    background: #2f2f2f;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
 }
 
 .digest-list {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
 }
 
 .digest-list .news-row {
-    padding: 12px 0;
-    border-bottom: 1px solid var(--border-color);
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     align-items: center;
 }
 
+.news-btn {
+    /* For main list */
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.news-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
 .empty-msg {
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.3);
     font-size: 0.9rem;
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     font-style: italic;
 }
 
 .footer {
     text-align: center;
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.4);
     font-size: 0.8rem;
     margin-top: 4rem;
 }
