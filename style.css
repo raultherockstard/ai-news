@@ -188,6 +188,56 @@ h1 {
     }
 }
 
+/* SUMMARY CARD (Special) */
+.card-summary {
+    grid-column: span 3;
+    min-height: auto;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 30px rgba(100, 100, 255, 0.1);
+}
+
+@media (max-width: 900px) {
+    .card-summary {
+        grid-column: span 1;
+    }
+}
+
+.summary-header {
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ai-icon {
+    color: #facc15;
+    filter: drop-shadow(0 0 8px rgba(250, 204, 21, 0.5));
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(180deg);
+}
+
 .news-card {
     background: var(--card-glass);
     backdrop-filter: blur(24px);

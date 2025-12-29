@@ -162,6 +162,9 @@ async function run() {
         console.log(`✅ Found ${updates.length} curated items per your taste.`);
         const categories = categorize(updates);
 
+        // Auto-Generate Summary (First 5 items)
+        const summary = updates.slice(0, 5);
+
         const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
         const fileContent = `
@@ -169,6 +172,7 @@ async function run() {
 window.latestDigest = {
     date: "${dateStr}",
     title: "🧠 Today’s AI Stuff",
+    summary: ${JSON.stringify(summary, null, 4)},
     categories: ${JSON.stringify(categories, null, 4)}
 };
 `;

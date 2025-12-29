@@ -1,8 +1,35 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T17:00:09.779Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T17:11:40.297Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
+    summary: [
+    {
+        "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
+        "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Andrej Karpathy on X"
+    },
+    {
+        "text": "CES 2026: ZDNet Highlights Key Trends in Foldables, AI, and TVs at Upcoming Tech Show",
+        "link": "https://www.zdnet.com/article/ces-2026-biggest-trends/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "zdnet.com"
+    },
+    {
+        "text": "Alibaba Unveils Qwen-Image-Edit-2511 with Enhanced Multi-Person Consistency and New Community Tools",
+        "link": "https://x.com/alibaba_qwen/status/2003496348461728213?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
+    },
+    {
+        "text": "Alibaba Unveils Qwen3-TTS Lineup for Advanced Voice Design and Cloning",
+        "link": "https://x.com/alibaba_qwen/status/2003445076257656880?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
+    },
+    {
+        "text": "LightGen unveils AI chip 100x faster and more efficient than Nvidia GPUs, still in lab phase",
+        "link": "https://singularityhub.com/2025/12/22/this-light-powered-ai-chip-is-100x-faster-than-a-top-nvidia-gpu/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "singularityhub.com"
+    }
+],
     categories: {
     "google": [
         {
