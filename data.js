@@ -1,9 +1,44 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T08:21:22.192Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T08:44:56.328Z
 window.latestDigest = {
     date: "Dec 29, 2025",
     title: "🧠 Today’s AI Stuff",
     items: [
+    {
+        "text": "claude-opus-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__content\"> Introducing Claude Opus 4",
+        "link": "https://www.anthropic.com/news/claude-opus-4-5",
+        "source": "Claude (Anthropic)"
+    },
+    {
+        "text": "claude-sonnet-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__sideLink FeaturedGrid-module-scss",
+        "link": "https://www.anthropic.com/news/claude-sonnet-4-5",
+        "source": "Claude (Anthropic)"
+    },
+    {
+        "text": "claude-haiku-4-5\" class=\"FeaturedGrid-module-scss-module__W1FydW__sideLink FeaturedGrid-module-scss-",
+        "link": "https://www.anthropic.com/news/claude-haiku-4-5",
+        "source": "Claude (Anthropic)"
+    },
+    {
+        "text": "A new era of intelligence with Gemini 3\n      \n    \n    \n    \n      Today we’re releasing Gemini 3 – our most intelligent model that helps you bring any idea to life.",
+        "link": "https://blog.google/products/gemini/gemini-3/",
+        "source": "Google Gemini"
+    },
+    {
+        "text": "Find out what’s new in the Gemini app in December&#x27;s Gemini Drop.",
+        "link": "https://blog.google/products/gemini/gemini-drop-december-2025/",
+        "source": "Google Gemini"
+    },
+    {
+        "text": "Gemini 3 Flash comes to the Gemini app",
+        "link": "https://blog.google/products/gemini/gemini-3-flash-gemini-app/",
+        "source": "Google Gemini"
+    },
+    {
+        "text": "Bring your research to life with integrated visual reports from Gemini Deep Research.",
+        "link": "https://blog.google/products/gemini/visual-reports/",
+        "source": "Google Gemini"
+    },
     {
         "text": "Andrej Karpathy Reflects on AI&#x27;s Impact on Programming Profession",
         "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -545,14 +580,29 @@ window.latestDigest = {
         "source": "TechCrunch"
     },
     {
-        "text": "Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner's Kirsten Green",
-        "link": "https://techcrunch.com/2025/12/23/marissa-mayers-new-startup-dazzle-raises-8m-led-by-forerunners-kirsten-green/",
-        "source": "TechCrunch"
+        "text": "No spam, ever.",
+        "link": "/issues/458#start",
+        "source": "AI Weekly"
     },
     {
-        "text": "Amazon's AI assistant Alexa+ now works with Angi, Expedia, Square, and Yelp",
-        "link": "https://techcrunch.com/2025/12/23/amazons-ai-assistant-alexa-now-works-with-angi-expedia-square-and-yelp/",
-        "source": "TechCrunch"
+        "text": "1. Disney Licenses Characters to OpenAI Sora",
+        "link": "https://cur.at/RSggsUt?m=web",
+        "source": "AI Weekly"
+    },
+    {
+        "text": "2. Google DeepMind Unveils GenCast (Applied Science)",
+        "link": "https://cur.at/la2w8gR?m=web",
+        "source": "AI Weekly"
+    },
+    {
+        "text": "4. Apple \"M5 Ultra\" AI Chip Confirmed",
+        "link": "https://cur.at/9xKp8RM?m=web",
+        "source": "AI Weekly"
+    },
+    {
+        "text": "5. Tesla Optimus Demonstrates Outdoor Autonomy",
+        "link": "https://cur.at/hH94a0f?m=web",
+        "source": "AI Weekly"
     }
 ]
 };
