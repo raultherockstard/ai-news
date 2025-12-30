@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-29T17:19:35.206Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-30T17:18:02.854Z
 window.latestDigest = {
-    date: "Dec 29, 2025",
+    date: "Dec 30, 2025",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
+        "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "indianexpress.com"
+    },
+    {
+        "text": "Fal launches faster, cheaper version of Flux 2 AI image generator for New Year",
+        "link": "https://venturebeat.com/technology/new-years-ai-surprise-fal-releases-its-own-version-of-flux-2-image-generator?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "venturebeat.com"
+    },
+    {
+        "text": "Meta acquires AI startup Manus to strengthen artificial intelligence platform and expand AI business",
+        "link": "https://www.bloomberg.com/news/articles/2025-12-29/meta-acquires-startup-manus-to-bolster-ai-business?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bloomberg.com"
+    },
+    {
+        "text": "OpenAI Seeks Head of Preparedness to Tackle AI's Growing Challenges and Security Concerns",
+        "link": "https://x.com/sama/status/2004939524216910323?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Sam Altman on X"
+    },
     {
         "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
         "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "Andrej Karpathy on X"
-    },
-    {
-        "text": "CES 2026: ZDNet Highlights Key Trends in Foldables, AI, and TVs at Upcoming Tech Show",
-        "link": "https://www.zdnet.com/article/ces-2026-biggest-trends/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "zdnet.com"
-    },
-    {
-        "text": "Alibaba Unveils Qwen-Image-Edit-2511 with Enhanced Multi-Person Consistency and New Community Tools",
-        "link": "https://x.com/alibaba_qwen/status/2003496348461728213?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
-    },
-    {
-        "text": "Alibaba Unveils Qwen3-TTS Lineup for Advanced Voice Design and Cloning",
-        "link": "https://x.com/alibaba_qwen/status/2003445076257656880?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
-    },
-    {
-        "text": "LightGen unveils AI chip 100x faster and more efficient than Nvidia GPUs, still in lab phase",
-        "link": "https://singularityhub.com/2025/12/22/this-light-powered-ai-chip-is-100x-faster-than-a-top-nvidia-gpu/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "singularityhub.com"
     }
 ],
     categories: {
@@ -56,24 +56,14 @@ window.latestDigest = {
             "text": "Google adds AI-generated video verification to Gemini app with SynthID watermark detection",
             "link": "https://blog.google/technology/ai/verify-google-ai-videos-gemini-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google is rolling out Gemini 3 Flash globally in search",
-            "link": "https://blog.google/products/search/google-ai-mode-update-gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google adds Gemini 3 Flash to the Gemini app",
-            "link": "https://blog.google/products/gemini/gemini-3-flash-gemini-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google launches Gemini 3 Flash, delivering fast frontier AI intelligence at a lower cost",
-            "link": "https://blog.google/products/gemini/gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI Seeks Head of Preparedness to Tackle AI's Growing Challenges and Security Concerns",
+            "link": "https://x.com/sama/status/2004939524216910323?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Sam Altman on X"
+        },
         {
             "text": "OpenAI introduces year-end ChatGPT recap, offering users a Spotify Wrapped-style usage summary",
             "link": "https://www.cnet.com/tech/services-and-software/openai-your-year-with-chatgpt-year-end-recap/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -114,6 +104,21 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
+            "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "indianexpress.com"
+        },
+        {
+            "text": "Fal launches faster, cheaper version of Flux 2 AI image generator for New Year",
+            "link": "https://venturebeat.com/technology/new-years-ai-surprise-fal-releases-its-own-version-of-flux-2-image-generator?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "Meta acquires AI startup Manus to strengthen artificial intelligence platform and expand AI business",
+            "link": "https://www.bloomberg.com/news/articles/2025-12-29/meta-acquires-startup-manus-to-bolster-ai-business?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bloomberg.com"
+        },
         {
             "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
             "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -233,11 +238,6 @@ window.latestDigest = {
             "text": "Patronus AI launches Generative Simulators to enhance continuous improvement of AI agents",
             "link": "https://siliconangle.com/2025/12/17/patronus-ais-debuts-generative-simulators-support-continuous-evolution-improvement-ai-agents/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "siliconangle.com"
-        },
-        {
-            "text": "ExaAILabs Launches Advanced Semantic People Search for Over 1 Billion Profiles",
-            "link": "https://x.com/exaailabs/status/2001373897154007390?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Exa on X"
         }
     ]
 }
