@@ -1,9 +1,24 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-30T17:18:02.854Z
+// 🧠 AUTOMATICALLY GENERATED ON 2025-12-31T17:15:32.388Z
 window.latestDigest = {
-    date: "Dec 30, 2025",
+    date: "Dec 31, 2025",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
+        "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Cristóbal Valenzuela on X"
+    },
+    {
+        "text": "Alibaba Qwen Launches Qwen Code v0.6.0 with New Skills and VS Code Enhancements",
+        "link": "https://x.com/alibaba_qwen/status/2006025958055346222?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
+    },
+    {
+        "text": "Tencent Open-Sources HY-Motion 1.0: A Text-to-Motion Model Using Diffusion Transformer",
+        "link": "https://x.com/tencenthunyuan/status/2005916817987100708?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Tencent HY on X"
+    },
     {
         "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
         "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -13,21 +28,6 @@ window.latestDigest = {
         "text": "Fal launches faster, cheaper version of Flux 2 AI image generator for New Year",
         "link": "https://venturebeat.com/technology/new-years-ai-surprise-fal-releases-its-own-version-of-flux-2-image-generator?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "venturebeat.com"
-    },
-    {
-        "text": "Meta acquires AI startup Manus to strengthen artificial intelligence platform and expand AI business",
-        "link": "https://www.bloomberg.com/news/articles/2025-12-29/meta-acquires-startup-manus-to-bolster-ai-business?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bloomberg.com"
-    },
-    {
-        "text": "OpenAI Seeks Head of Preparedness to Tackle AI's Growing Challenges and Security Concerns",
-        "link": "https://x.com/sama/status/2004939524216910323?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Sam Altman on X"
-    },
-    {
-        "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
-        "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Andrej Karpathy on X"
     }
 ],
     categories: {
@@ -88,11 +88,6 @@ window.latestDigest = {
             "text": "OpenAI launches GPT-5.2-Codex, its most advanced coding model for software engineering and cybersecurity",
             "link": "https://openai.com/index/introducing-gpt-5-2-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI now lets developers submit apps for ChatGPT, launching app submissions and directory access",
-            "link": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [],
@@ -104,6 +99,21 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
+            "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Cristóbal Valenzuela on X"
+        },
+        {
+            "text": "Alibaba Qwen Launches Qwen Code v0.6.0 with New Skills and VS Code Enhancements",
+            "link": "https://x.com/alibaba_qwen/status/2006025958055346222?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
+        {
+            "text": "Tencent Open-Sources HY-Motion 1.0: A Text-to-Motion Model Using Diffusion Transformer",
+            "link": "https://x.com/tencenthunyuan/status/2005916817987100708?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Tencent HY on X"
+        },
         {
             "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
             "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -228,16 +238,6 @@ window.latestDigest = {
             "text": "Mistral AI launches Mistral OCR 3, boosting accuracy and efficiency in document processing",
             "link": "https://mistral.ai/news/mistral-ocr-3?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "mistral.ai"
-        },
-        {
-            "text": "Bernie Sanders urges US pause on new AI data centers over concerns about power and wealth concentration",
-            "link": "https://www.techspot.com/news/110634-bernie-sanders-calls-pause-new-ai-data-centers.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techspot.com"
-        },
-        {
-            "text": "Patronus AI launches Generative Simulators to enhance continuous improvement of AI agents",
-            "link": "https://siliconangle.com/2025/12/17/patronus-ais-debuts-generative-simulators-support-continuous-evolution-improvement-ai-agents/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "siliconangle.com"
         }
     ]
 }
