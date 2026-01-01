@@ -1,9 +1,19 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2025-12-31T17:15:32.388Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-01T17:16:18.427Z
 window.latestDigest = {
-    date: "Dec 31, 2025",
+    date: "Jan 1, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Tongyi Lab Releases Qwen-Image-2512, Enhancing Text-to-Image Realism This December",
+        "link": "https://x.com/ali_tongyilab/status/2006294966520442979?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Tongyi Lab on X"
+    },
+    {
+        "text": "SoftBank fully funds $40 billion investment in OpenAI to boost AI infrastructure expansion",
+        "link": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "cnbc.com"
+    },
     {
         "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
         "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -18,16 +28,6 @@ window.latestDigest = {
         "text": "Tencent Open-Sources HY-Motion 1.0: A Text-to-Motion Model Using Diffusion Transformer",
         "link": "https://x.com/tencenthunyuan/status/2005916817987100708?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "Tencent HY on X"
-    },
-    {
-        "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
-        "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "indianexpress.com"
-    },
-    {
-        "text": "Fal launches faster, cheaper version of Flux 2 AI image generator for New Year",
-        "link": "https://venturebeat.com/technology/new-years-ai-surprise-fal-releases-its-own-version-of-flux-2-image-generator?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "venturebeat.com"
     }
 ],
     categories: {
@@ -51,14 +51,19 @@ window.latestDigest = {
             "text": "Google unveils T5Gemma 2, the next generation of encoder-decoder models based on Gemma 3",
             "link": "https://blog.google/technology/developers/t5gemma-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google adds AI-generated video verification to Gemini app with SynthID watermark detection",
-            "link": "https://blog.google/technology/ai/verify-google-ai-videos-gemini-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "SoftBank fully funds $40 billion investment in OpenAI to boost AI infrastructure expansion",
+            "link": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "cnbc.com"
+        },
+        {
+            "text": "OpenAI and Anthropic Fuel AI Boom as Tech Giants Build Massive Data Centers for 2025",
+            "link": "https://www.theinformation.com/articles/10-charts-explain-2025?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
         {
             "text": "OpenAI Seeks Head of Preparedness to Tackle AI's Growing Challenges and Security Concerns",
             "link": "https://x.com/sama/status/2004939524216910323?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -99,6 +104,11 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "Tongyi Lab Releases Qwen-Image-2512, Enhancing Text-to-Image Realism This December",
+            "link": "https://x.com/ali_tongyilab/status/2006294966520442979?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Tongyi Lab on X"
+        },
         {
             "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
             "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -228,16 +238,6 @@ window.latestDigest = {
             "text": "Rivian Rolls Out Software Update With Improved Assisted Driving and Top Customer-Requested Features",
             "link": "https://stories.rivian.com/software-update-2025-46?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "stories.rivian.com"
-        },
-        {
-            "text": "YouTube shuts down Screen Culture and KH Studio for using AI to make fake movie trailers",
-            "link": "https://deadline.com/2025/12/youtube-terminates-screen-culture-kh-studio-fake-ai-trailer-1236652506/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "deadline.com"
-        },
-        {
-            "text": "Mistral AI launches Mistral OCR 3, boosting accuracy and efficiency in document processing",
-            "link": "https://mistral.ai/news/mistral-ocr-3?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "mistral.ai"
         }
     ]
 }
