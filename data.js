@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-02T17:15:42.799Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-03T17:14:15.214Z
 window.latestDigest = {
-    date: "Jan 2, 2026",
+    date: "Jan 3, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Tongyi Lab Releases Qwen-Image-2512, Enhancing Text-to-Image Realism This December",
-        "link": "https://x.com/ali_tongyilab/status/2006294966520442979?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Tongyi Lab on X"
+        "text": "Meta's Yann LeCun criticizes Alexandr Wang, predicts further AI staff departures from the company",
+        "link": "https://www.businessinsider.com/yann-lecun-alexandr-wang-criticism-inexperienced-meta-ai-future-2026-1?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "businessinsider.com"
     },
     {
-        "text": "SoftBank fully funds $40 billion investment in OpenAI to boost AI infrastructure expansion",
-        "link": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "cnbc.com"
+        "text": "Grok AI accused of generating explicit images of minors, urges users to report incidents to FBI",
+        "link": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
-        "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Cristóbal Valenzuela on X"
+        "text": "OpenAI boosts audio AI development as it prepares to launch an audio-based personal device",
+        "link": "https://www.theinformation.com/articles/openai-ramps-audio-ai-efforts-ahead-device?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theinformation.com"
     },
     {
-        "text": "Alibaba Qwen Launches Qwen Code v0.6.0 with New Skills and VS Code Enhancements",
-        "link": "https://x.com/alibaba_qwen/status/2006025958055346222?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
+        "text": "Arena AI Reveals Top Frontier Models of 2025 Based on Real-World Performance and Community Votes",
+        "link": "https://x.com/arena/status/2006502790395473990?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "lmarena.ai on X"
     },
     {
-        "text": "Tencent Open-Sources HY-Motion 1.0: A Text-to-Motion Model Using Diffusion Transformer",
-        "link": "https://x.com/tencenthunyuan/status/2005916817987100708?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Tencent HY on X"
+        "text": "Instagram chief says AI so widespread that fingerprinting real media is now more practical than fake",
+        "link": "https://www.engadget.com/social-media/instagram-chief-ai-is-so-ubiquitous-it-will-be-more-practical-to-fingerprint-real-media-than-fake-media-202620080.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "engadget.com"
     }
 ],
     categories: {
@@ -46,14 +46,14 @@ window.latestDigest = {
             "text": "Google introduces FunctionGemma, a specialized Gemma 3 model fine-tuned for bespoke function calling",
             "link": "https://blog.google/technology/developers/functiongemma/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google unveils T5Gemma 2, the next generation of encoder-decoder models based on Gemma 3",
-            "link": "https://blog.google/technology/developers/t5gemma-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI boosts audio AI development as it prepares to launch an audio-based personal device",
+            "link": "https://www.theinformation.com/articles/openai-ramps-audio-ai-efforts-ahead-device?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
         {
             "text": "SoftBank fully funds $40 billion investment in OpenAI to boost AI infrastructure expansion",
             "link": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -83,27 +83,31 @@ window.latestDigest = {
             "text": "OpenAI Introduces Personalization Features in ChatGPT for Enhanced Customization",
             "link": "https://x.com/OpenAI/status/2002099459883479311?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "OpenAI on X"
-        },
-        {
-            "text": "OpenAI updates ChatGPT model guidelines with new teen safety protections through U18 Principles",
-            "link": "https://openai.com/index/updating-model-spec-with-teen-protections/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches GPT-5.2-Codex, its most advanced coding model for software engineering and cybersecurity",
-            "link": "https://openai.com/index/introducing-gpt-5-2-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [],
-    "anthropic": [
-        {
-            "text": "Anthropic launches phase two of AI vending machine project with Project Vend update",
-            "link": "https://www.anthropic.com/research/project-vend-2?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        }
-    ],
+    "anthropic": [],
     "general": [
+        {
+            "text": "Meta's Yann LeCun criticizes Alexandr Wang, predicts further AI staff departures from the company",
+            "link": "https://www.businessinsider.com/yann-lecun-alexandr-wang-criticism-inexperienced-meta-ai-future-2026-1?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "businessinsider.com"
+        },
+        {
+            "text": "Grok AI accused of generating explicit images of minors, urges users to report incidents to FBI",
+            "link": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Arena AI Reveals Top Frontier Models of 2025 Based on Real-World Performance and Community Votes",
+            "link": "https://x.com/arena/status/2006502790395473990?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "lmarena.ai on X"
+        },
+        {
+            "text": "Instagram chief says AI so widespread that fingerprinting real media is now more practical than fake",
+            "link": "https://www.engadget.com/social-media/instagram-chief-ai-is-so-ubiquitous-it-will-be-more-practical-to-fingerprint-real-media-than-fake-media-202620080.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
         {
             "text": "Tongyi Lab Releases Qwen-Image-2512, Enhancing Text-to-Image Realism This December",
             "link": "https://x.com/ali_tongyilab/status/2006294966520442979?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -233,11 +237,6 @@ window.latestDigest = {
             "text": "NVIDIA launches RTX PRO 5000 72GB Blackwell GPU for enhanced desktop agentic and generative AI",
             "link": "https://blogs.nvidia.com/blog/rtx-pro-5000-72gb-blackwell-gpu/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "Rivian Rolls Out Software Update With Improved Assisted Driving and Top Customer-Requested Features",
-            "link": "https://stories.rivian.com/software-update-2025-46?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "stories.rivian.com"
         }
     ]
 }
