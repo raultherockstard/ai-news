@@ -1,51 +1,51 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-05T17:19:26.270Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-06T17:20:33.223Z
 window.latestDigest = {
-    date: "Jan 5, 2026",
+    date: "Jan 6, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Meta's Yann LeCun criticizes Alexandr Wang, predicts further AI staff departures from the company",
-        "link": "https://www.businessinsider.com/yann-lecun-alexandr-wang-criticism-inexperienced-meta-ai-future-2026-1?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "businessinsider.com"
+        "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
+        "link": "https://blogs.nvidia.com/blog/dlss-path-tracing-g-sync-pulsar-ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blogs.nvidia.com"
     },
     {
-        "text": "Grok AI accused of generating explicit images of minors, urges users to report incidents to FBI",
-        "link": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "NVIDIA RTX Speeds Up 4K AI Video Generation on PC With New ComfyUI and LTX-2 Enhancements",
+        "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blogs.nvidia.com"
     },
     {
-        "text": "OpenAI boosts audio AI development as it prepares to launch an audio-based personal device",
-        "link": "https://www.theinformation.com/articles/openai-ramps-audio-ai-efforts-ahead-device?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theinformation.com"
+        "text": "Boston Dynamics unveils next-gen Atlas humanoid robot powered by Google DeepMind AI technology",
+        "link": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     },
     {
-        "text": "Arena AI Reveals Top Frontier Models of 2025 Based on Real-World Performance and Community Votes",
-        "link": "https://x.com/arena/status/2006502790395473990?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "lmarena.ai on X"
-    },
-    {
-        "text": "Instagram chief says AI so widespread that fingerprinting real media is now more practical than fake",
-        "link": "https://www.engadget.com/social-media/instagram-chief-ai-is-so-ubiquitous-it-will-be-more-practical-to-fingerprint-real-media-than-fake-media-202620080.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Rokid unveils display-free AI smartglasses at CES 2026",
+        "link": "https://www.engadget.com/wearables/rokid-introduces-display-free-ai-smartglasses-at-ces-2026-010017906.html?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "engadget.com"
+    },
+    {
+        "text": "Google unveils new Gemini features for Google TV to enhance user engagement and helpfulness",
+        "link": "https://blog.google/products/google-tv/ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     }
 ],
     categories: {
     "google": [
         {
+            "text": "Boston Dynamics unveils next-gen Atlas humanoid robot powered by Google DeepMind AI technology",
+            "link": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "Google unveils new Gemini features for Google TV to enhance user engagement and helpfulness",
+            "link": "https://blog.google/products/google-tv/ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
             "text": "Google DeepMind launches Gemma Scope 2 interpretability suite to boost AI safety research",
             "link": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "deepmind.google"
-        },
-        {
-            "text": "Google adds Data Tables to NotebookLM for easier compilation and organization of scattered insights",
-            "link": "https://blog.google/technology/google-labs/notebooklm-data-tables/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google introduces FunctionGemma, a specialized Gemma 3 model fine-tuned for bespoke function calling",
-            "link": "https://blog.google/technology/developers/functiongemma/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
@@ -88,6 +88,36 @@ window.latestDigest = {
     "microsoft": [],
     "anthropic": [],
     "general": [
+        {
+            "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
+            "link": "https://blogs.nvidia.com/blog/dlss-path-tracing-g-sync-pulsar-ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "NVIDIA RTX Speeds Up 4K AI Video Generation on PC With New ComfyUI and LTX-2 Enhancements",
+            "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "Rokid unveils display-free AI smartglasses at CES 2026",
+            "link": "https://www.engadget.com/wearables/rokid-introduces-display-free-ai-smartglasses-at-ces-2026-010017906.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
+            "text": "NVIDIA Expands DRIVE Hyperion Ecosystem to Boost Global Adoption of Autonomous Transportation",
+            "link": "https://blogs.nvidia.com/blog/global-drive-hyperion-ecosystem-full-autonomy/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "NVIDIA Unveils Rubin AI Platform, Open Models, and AI-Powered Mercedes at CES 2026",
+            "link": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "DHH Encourages Optimism for AI Innovation in 2026",
+            "link": "https://x.com/dhh/status/2007503687745490976?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "DHH on X"
+        },
         {
             "text": "Meta's Yann LeCun criticizes Alexandr Wang, predicts further AI staff departures from the company",
             "link": "https://www.businessinsider.com/yann-lecun-alexandr-wang-criticism-inexperienced-meta-ai-future-2026-1?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -207,36 +237,6 @@ window.latestDigest = {
             "text": "Cursor acquires Graphite in definitive agreement to expand product offerings",
             "link": "https://cursor.com/blog/graphite?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "cursor.com"
-        },
-        {
-            "text": "Alibaba Qwen Launches Open-Sourced Qwen-Image-Layered with Photoshop-Grade Layering",
-            "link": "https://x.com/alibaba_qwen/status/2002034611229229388?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "LMArena open sources Arena-Rank, the Python package powering its AI leaderboard ranking system",
-            "link": "https://news.lmarena.ai/arena-rank/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "news.lmarena.ai"
-        },
-        {
-            "text": "Amazon adds Alexa+ AI Greetings to Ring doorbells for smarter visitor interactions and video descriptions",
-            "link": "https://www.aboutamazon.com/news/devices/alexa-ring-doorbell-ai-greetings?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "aboutamazon.com"
-        },
-        {
-            "text": "Amazon launches AI-powered Alexa+ chat feature on the web for users at alexa.amazon.com",
-            "link": "https://alexa.amazon.com/about?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "alexa.amazon.com"
-        },
-        {
-            "text": "Luma AI launches new model to generate videos from start and end frames on Dream Machine platform",
-            "link": "https://techcrunch.com/2025/12/18/luma-releases-a-new-ai-model-that-lets-users-generate-a-video-from-a-start-and-end-frame/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "NVIDIA launches RTX PRO 5000 72GB Blackwell GPU for enhanced desktop agentic and generative AI",
-            "link": "https://blogs.nvidia.com/blog/rtx-pro-5000-72gb-blackwell-gpu/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
         }
     ]
 }
