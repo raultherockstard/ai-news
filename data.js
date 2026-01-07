@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-06T17:20:33.223Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-07T17:23:17.506Z
 window.latestDigest = {
-    date: "Jan 6, 2026",
+    date: "Jan 7, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
-        "link": "https://blogs.nvidia.com/blog/dlss-path-tracing-g-sync-pulsar-ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blogs.nvidia.com"
+        "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
+        "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "NVIDIA RTX Speeds Up 4K AI Video Generation on PC With New ComfyUI and LTX-2 Enhancements",
-        "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blogs.nvidia.com"
+        "text": "Universal Music partners with Nvidia on new AI deal to advance music technology and innovation",
+        "link": "https://www.theverge.com/news/856849/universal-music-nvidia-ai-deal?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Boston Dynamics unveils next-gen Atlas humanoid robot powered by Google DeepMind AI technology",
-        "link": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Lenovo unveils Qira AI assistant for laptops and Motorola phones in major AI expansion",
+        "link": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Rokid unveils display-free AI smartglasses at CES 2026",
-        "link": "https://www.engadget.com/wearables/rokid-introduces-display-free-ai-smartglasses-at-ces-2026-010017906.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "engadget.com"
+        "text": "Meta unveils Ray-Ban Display Teleprompter and EMG Handwriting features at CES 2026",
+        "link": "https://www.meta.com/blog/ces-2026-meta-ray-ban-display-teleprompter-emg-handwriting-garmin-unified-cabin-university-of-utah-tetraski/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "meta.com"
     },
     {
-        "text": "Google unveils new Gemini features for Google TV to enhance user engagement and helpfulness",
-        "link": "https://blog.google/products/google-tv/ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
+        "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bostondynamics.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
+            "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bostondynamics.com"
+        },
         {
             "text": "Boston Dynamics unveils next-gen Atlas humanoid robot powered by Google DeepMind AI technology",
             "link": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -41,11 +46,6 @@ window.latestDigest = {
             "text": "Google unveils new Gemini features for Google TV to enhance user engagement and helpfulness",
             "link": "https://blog.google/products/google-tv/ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google DeepMind launches Gemma Scope 2 interpretability suite to boost AI safety research",
-            "link": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "deepmind.google"
         }
     ],
     "openai": [
@@ -78,16 +78,31 @@ window.latestDigest = {
             "text": "OpenAI boosts ChatGPT Atlas security with automated red teaming to combat prompt injection attacks",
             "link": "https://openai.com/index/hardening-atlas-against-prompt-injection/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI Introduces Personalization Features in ChatGPT for Enhanced Customization",
-            "link": "https://x.com/OpenAI/status/2002099459883479311?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "OpenAI on X"
         }
     ],
     "microsoft": [],
     "anthropic": [],
     "general": [
+        {
+            "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
+            "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Universal Music partners with Nvidia on new AI deal to advance music technology and innovation",
+            "link": "https://www.theverge.com/news/856849/universal-music-nvidia-ai-deal?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Lenovo unveils Qira AI assistant for laptops and Motorola phones in major AI expansion",
+            "link": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Meta unveils Ray-Ban Display Teleprompter and EMG Handwriting features at CES 2026",
+            "link": "https://www.meta.com/blog/ces-2026-meta-ray-ban-display-teleprompter-emg-handwriting-garmin-unified-cabin-university-of-utah-tetraski/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "meta.com"
+        },
         {
             "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
             "link": "https://blogs.nvidia.com/blog/dlss-path-tracing-g-sync-pulsar-ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -222,21 +237,6 @@ window.latestDigest = {
             "text": "New York Passes RAISE Act Requiring AI Companies to Disclose Safety Protocols and Incident Reports",
             "link": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "Nano Banana Pro Slides Now Editable on Manus, Marking a First for AI Presentation Tools",
-            "link": "https://manus.im/blog/edit-slides-created-on-manus-with-nano-banana-pro?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "manus.im"
-        },
-        {
-            "text": "LeCun launches new AI 'world model' startup, reportedly seeking $5B+ valuation for the company",
-            "link": "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Cursor acquires Graphite in definitive agreement to expand product offerings",
-            "link": "https://cursor.com/blog/graphite?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "cursor.com"
         }
     ]
 }
