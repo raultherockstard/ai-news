@@ -1,9 +1,24 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-07T17:23:17.506Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-08T17:24:14.841Z
 window.latestDigest = {
-    date: "Jan 7, 2026",
+    date: "Jan 8, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
+        "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
+    },
+    {
+        "text": "Ford to Launch AI Voice Assistant in 2024, Plans Level 3 Automated Driving by 2028",
+        "link": "https://www.theverge.com/transportation/857400/ford-ai-assistant-level-3-automation-ces-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
+    },
+    {
+        "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
+        "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
+    },
     {
         "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
         "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -13,21 +28,6 @@ window.latestDigest = {
         "text": "Universal Music partners with Nvidia on new AI deal to advance music technology and innovation",
         "link": "https://www.theverge.com/news/856849/universal-music-nvidia-ai-deal?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
-    },
-    {
-        "text": "Lenovo unveils Qira AI assistant for laptops and Motorola phones in major AI expansion",
-        "link": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
-    },
-    {
-        "text": "Meta unveils Ray-Ban Display Teleprompter and EMG Handwriting features at CES 2026",
-        "link": "https://www.meta.com/blog/ces-2026-meta-ray-ban-display-teleprompter-emg-handwriting-garmin-unified-cabin-university-of-utah-tetraski/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "meta.com"
-    },
-    {
-        "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
-        "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bostondynamics.com"
     }
 ],
     categories: {
@@ -49,6 +49,11 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
+            "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI boosts audio AI development as it prepares to launch an audio-based personal device",
             "link": "https://www.theinformation.com/articles/openai-ramps-audio-ai-efforts-ahead-device?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -84,6 +89,16 @@ window.latestDigest = {
     "anthropic": [],
     "general": [
         {
+            "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
+            "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
+        {
+            "text": "Ford to Launch AI Voice Assistant in 2024, Plans Level 3 Automated Driving by 2028",
+            "link": "https://www.theverge.com/transportation/857400/ford-ai-assistant-level-3-automation-ces-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
             "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
             "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
@@ -102,6 +117,11 @@ window.latestDigest = {
             "text": "Meta unveils Ray-Ban Display Teleprompter and EMG Handwriting features at CES 2026",
             "link": "https://www.meta.com/blog/ces-2026-meta-ray-ban-display-teleprompter-emg-handwriting-garmin-unified-cabin-university-of-utah-tetraski/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "meta.com"
+        },
+        {
+            "text": "Sony patents AI tech to auto-play PlayStation games when players get stuck",
+            "link": "https://www.videogameschronicle.com/news/sony-ai-patent-will-see-playstation-games-play-themselves-when-players-are-stuck/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "videogameschronicle.com"
         },
         {
             "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
@@ -217,26 +237,6 @@ window.latestDigest = {
             "text": "Clair Obscur: Expedition 33 loses Indie Game Awards after generative AI use is revealed",
             "link": "https://www.avclub.com/clair-obscur-genai-iga-awards-rescinded?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "avclub.com"
-        },
-        {
-            "text": "YouTube launches AI-powered Playables Builder beta to let creators design and share their own games",
-            "link": "https://www.pocketgamer.biz/youtube-launches-ai-powered-playables-builder-to-let-creators-make-games/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "pocketgamer.biz"
-        },
-        {
-            "text": "SkyWater Technology Unveils US-Made 3D Chip Surpassing Memory Wall for AI Speed and Density",
-            "link": "https://scitechdaily.com/this-new-3d-chip-could-shatter-the-memory-wall-holding-back-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "scitechdaily.com"
-        },
-        {
-            "text": "Waymo Robotaxis Caused Traffic Backup in San Francisco Amid Widespread Power Outage",
-            "link": "https://www.theverge.com/news/848843/waymo-san-francisco-power-outage?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "New York Passes RAISE Act Requiring AI Companies to Disclose Safety Protocols and Incident Reports",
-            "link": "https://techcrunch.com/2025/12/20/new-york-governor-kathy-hochul-signs-raise-act-to-regulate-ai-safety/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ]
 }
