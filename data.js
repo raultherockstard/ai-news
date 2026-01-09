@@ -1,9 +1,14 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-08T17:24:14.841Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-09T17:20:22.059Z
 window.latestDigest = {
-    date: "Jan 8, 2026",
+    date: "Jan 9, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
+        "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
+    },
     {
         "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
         "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -23,15 +28,15 @@ window.latestDigest = {
         "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
         "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
-    },
-    {
-        "text": "Universal Music partners with Nvidia on new AI deal to advance music technology and innovation",
-        "link": "https://www.theverge.com/news/856849/universal-music-nvidia-ai-deal?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
+            "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
             "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -78,11 +83,6 @@ window.latestDigest = {
             "text": "OpenAI introduces year-end ChatGPT recap, offering users a Spotify Wrapped-style usage summary",
             "link": "https://www.cnet.com/tech/services-and-software/openai-your-year-with-chatgpt-year-end-recap/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "cnet.com"
-        },
-        {
-            "text": "OpenAI boosts ChatGPT Atlas security with automated red teaming to combat prompt injection attacks",
-            "link": "https://openai.com/index/hardening-atlas-against-prompt-injection/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [],
