@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-09T17:20:22.059Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-10T17:14:28.847Z
 window.latestDigest = {
-    date: "Jan 9, 2026",
+    date: "Jan 10, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
-        "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
+        "link": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     },
     {
-        "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
-        "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
+        "text": "DeepSeek to Launch V4 AI Model With Advanced Coding Capabilities in Coming Weeks",
+        "link": "https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theinformation.com"
     },
     {
-        "text": "Ford to Launch AI Voice Assistant in 2024, Plans Level 3 Automated Driving by 2028",
-        "link": "https://www.theverge.com/transportation/857400/ford-ai-assistant-level-3-automation-ces-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Meta unveils nuclear energy partnerships to provide 6.6 GW power for AI growth in the US",
+        "link": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "about.fb.com"
     },
     {
-        "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
-        "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "NVIDIA launches AI blueprints for intelligent warehouses and retail catalog enrichment solutions",
+        "link": "https://blogs.nvidia.com/blog/multi-agent-intelligent-warehouse-and-catalog-enrichment-blueprints/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blogs.nvidia.com"
     },
     {
-        "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
-        "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "ElevenLabs Launches Scribe v2: Advanced Transcription and Captioning Model",
+        "link": "https://x.com/elevenlabsio/status/2009626517521797288?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "ElevenLabs on X"
     }
 ],
     categories: {
@@ -36,6 +36,11 @@ window.latestDigest = {
             "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
             "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
+        },
+        {
+            "text": "Google AI Studio Sponsors Tailwind CSS to Support Developer Ecosystem",
+            "link": "https://x.com/OfficialLoganK/status/2009339263251566902?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Logan Kilpatrick on X"
         },
         {
             "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
@@ -73,21 +78,47 @@ window.latestDigest = {
             "text": "OpenAI and Anthropic Fuel AI Boom as Tech Giants Build Massive Data Centers for 2025",
             "link": "https://www.theinformation.com/articles/10-charts-explain-2025?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "OpenAI Seeks Head of Preparedness to Tackle AI's Growing Challenges and Security Concerns",
-            "link": "https://x.com/sama/status/2004939524216910323?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Sam Altman on X"
-        },
-        {
-            "text": "OpenAI introduces year-end ChatGPT recap, offering users a Spotify Wrapped-style usage summary",
-            "link": "https://www.cnet.com/tech/services-and-software/openai-your-year-with-chatgpt-year-end-recap/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "cnet.com"
         }
     ],
-    "microsoft": [],
+    "microsoft": [
+        {
+            "text": "Microsoft Ads Launches Copilot Checkout and Brand Agents for Streamlined E-Commerce and Instant Sign-Up",
+            "link": "https://about.ads.microsoft.com/en/blog/post/january-2026/conversations-that-convert-copilot-checkout-and-brand-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.ads.microsoft.com"
+        }
+    ],
     "anthropic": [],
     "general": [
+        {
+            "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
+            "link": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "DeepSeek to Launch V4 AI Model With Advanced Coding Capabilities in Coming Weeks",
+            "link": "https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
+        {
+            "text": "Meta unveils nuclear energy partnerships to provide 6.6 GW power for AI growth in the US",
+            "link": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.fb.com"
+        },
+        {
+            "text": "NVIDIA launches AI blueprints for intelligent warehouses and retail catalog enrichment solutions",
+            "link": "https://blogs.nvidia.com/blog/multi-agent-intelligent-warehouse-and-catalog-enrichment-blueprints/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "ElevenLabs Launches Scribe v2: Advanced Transcription and Captioning Model",
+            "link": "https://x.com/elevenlabsio/status/2009626517521797288?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "ElevenLabs on X"
+        },
+        {
+            "text": "UGREEN unveils NASync iDX 6011 with AI-powered file search at CES 2026",
+            "link": "https://www.techtimes.com/articles/313889/20260108/ces-2026-ugreen-nasync-idx-6011-will-let-you-dig-files-easier.htm?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techtimes.com"
+        },
         {
             "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
             "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -207,36 +238,6 @@ window.latestDigest = {
             "text": "Meta acquires AI startup Manus to strengthen artificial intelligence platform and expand AI business",
             "link": "https://www.bloomberg.com/news/articles/2025-12-29/meta-acquires-startup-manus-to-bolster-ai-business?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bloomberg.com"
-        },
-        {
-            "text": "Andrej Karpathy Reflects on AI's Impact on Programming Profession",
-            "link": "https://x.com/karpathy/status/2004607146781278521?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Andrej Karpathy on X"
-        },
-        {
-            "text": "CES 2026: ZDNet Highlights Key Trends in Foldables, AI, and TVs at Upcoming Tech Show",
-            "link": "https://www.zdnet.com/article/ces-2026-biggest-trends/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "zdnet.com"
-        },
-        {
-            "text": "Alibaba Unveils Qwen-Image-Edit-2511 with Enhanced Multi-Person Consistency and New Community Tools",
-            "link": "https://x.com/alibaba_qwen/status/2003496348461728213?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Alibaba Unveils Qwen3-TTS Lineup for Advanced Voice Design and Cloning",
-            "link": "https://x.com/alibaba_qwen/status/2003445076257656880?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "LightGen unveils AI chip 100x faster and more efficient than Nvidia GPUs, still in lab phase",
-            "link": "https://singularityhub.com/2025/12/22/this-light-powered-ai-chip-is-100x-faster-than-a-top-nvidia-gpu/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "singularityhub.com"
-        },
-        {
-            "text": "Clair Obscur: Expedition 33 loses Indie Game Awards after generative AI use is revealed",
-            "link": "https://www.avclub.com/clair-obscur-genai-iga-awards-rescinded?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "avclub.com"
         }
     ]
 }
