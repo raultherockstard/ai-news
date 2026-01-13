@@ -1,37 +1,47 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-12T17:20:42.594Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-13T17:23:47.359Z
 window.latestDigest = {
-    date: "Jan 12, 2026",
+    date: "Jan 13, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
-        "link": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
+        "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "archaeologist.dev"
     },
     {
-        "text": "DeepSeek to Launch V4 AI Model With Advanced Coding Capabilities in Coming Weeks",
-        "link": "https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "NVIDIA and Lilly Launch AI Lab to Advance Drug Discovery and Tackle Pharmaceutical Challenges",
+        "link": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "nvidianews.nvidia.com"
+    },
+    {
+        "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
+        "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bbc.com"
+    },
+    {
+        "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
+        "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
+    },
+    {
+        "text": "OpenAI to acquire AI healthcare app Torch for about $100 million in equity",
+        "link": "https://www.theinformation.com/articles/openai-agrees-buy-ai-healthcare-app-100-million?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theinformation.com"
-    },
-    {
-        "text": "Meta unveils nuclear energy partnerships to provide 6.6 GW power for AI growth in the US",
-        "link": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "about.fb.com"
-    },
-    {
-        "text": "NVIDIA launches AI blueprints for intelligent warehouses and retail catalog enrichment solutions",
-        "link": "https://blogs.nvidia.com/blog/multi-agent-intelligent-warehouse-and-catalog-enrichment-blueprints/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blogs.nvidia.com"
-    },
-    {
-        "text": "ElevenLabs Launches Scribe v2: Advanced Transcription and Captioning Model",
-        "link": "https://x.com/elevenlabsio/status/2009626517521797288?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "ElevenLabs on X"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Apple partners with Google to use Gemini AI models for next-gen Apple Intelligence and Siri features",
+            "link": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google adds buy buttons and new AI commerce tools for retailers to boost shopping on Gemini and Search",
+            "link": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
             "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -60,24 +70,29 @@ window.latestDigest = {
     ],
     "openai": [
         {
-            "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
-            "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
+            "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "archaeologist.dev"
+        },
+        {
+            "text": "OpenAI to acquire AI healthcare app Torch for about $100 million in equity",
+            "link": "https://www.theinformation.com/articles/openai-agrees-buy-ai-healthcare-app-100-million?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
+        {
+            "text": "OpenAI and SoftBank partner with SB Energy to build multi-gigawatt AI data centers, including Texas site",
+            "link": "https://openai.com/index/stargate-sb-energy-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
         },
         {
-            "text": "OpenAI boosts audio AI development as it prepares to launch an audio-based personal device",
-            "link": "https://www.theinformation.com/articles/openai-ramps-audio-ai-efforts-ahead-device?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
+            "text": "OpenAI launches healthcare AI tools to boost care quality and streamline admin while protecting data",
+            "link": "https://openai.com/index/openai-for-healthcare/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
         },
         {
-            "text": "SoftBank fully funds $40 billion investment in OpenAI to boost AI infrastructure expansion",
-            "link": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "cnbc.com"
-        },
-        {
-            "text": "OpenAI and Anthropic Fuel AI Boom as Tech Giants Build Massive Data Centers for 2025",
-            "link": "https://www.theinformation.com/articles/10-charts-explain-2025?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
+            "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
+            "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
         }
     ],
     "microsoft": [
@@ -87,8 +102,39 @@ window.latestDigest = {
             "source": "about.ads.microsoft.com"
         }
     ],
-    "anthropic": [],
+    "anthropic": [
+        {
+            "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
+            "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
+        {
+            "text": "Anthropic launches HIPAA-ready Claude for Healthcare, adds Life Sciences tools and new data connectors",
+            "link": "https://www.anthropic.com/news/healthcare-life-sciences?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Anthropic restricts unauthorized third-party use of Claude via automation software wrappers",
+            "link": "https://venturebeat.com/technology/anthropic-cracks-down-on-unauthorized-claude-usage-by-third-party-harnesses?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "Anthropic unveils advanced Constitutional Classifiers to better defend AI against universal jailbreaks",
+            "link": "https://www.anthropic.com/research/next-generation-constitutional-classifiers?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        }
+    ],
     "general": [
+        {
+            "text": "NVIDIA and Lilly Launch AI Lab to Advance Drug Discovery and Tackle Pharmaceutical Challenges",
+            "link": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "nvidianews.nvidia.com"
+        },
+        {
+            "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
+            "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bbc.com"
+        },
         {
             "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
             "link": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -193,51 +239,6 @@ window.latestDigest = {
             "text": "Grok AI accused of generating explicit images of minors, urges users to report incidents to FBI",
             "link": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
-        },
-        {
-            "text": "Arena AI Reveals Top Frontier Models of 2025 Based on Real-World Performance and Community Votes",
-            "link": "https://x.com/arena/status/2006502790395473990?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "lmarena.ai on X"
-        },
-        {
-            "text": "Instagram chief says AI so widespread that fingerprinting real media is now more practical than fake",
-            "link": "https://www.engadget.com/social-media/instagram-chief-ai-is-so-ubiquitous-it-will-be-more-practical-to-fingerprint-real-media-than-fake-media-202620080.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "Tongyi Lab Releases Qwen-Image-2512, Enhancing Text-to-Image Realism This December",
-            "link": "https://x.com/ali_tongyilab/status/2006294966520442979?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Tongyi Lab on X"
-        },
-        {
-            "text": "RunwayML Partners with Adobe to Integrate AI Models into Creative Tools",
-            "link": "https://x.com/c_valenzuelab/status/2006059919611441394?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Cristóbal Valenzuela on X"
-        },
-        {
-            "text": "Alibaba Qwen Launches Qwen Code v0.6.0 with New Skills and VS Code Enhancements",
-            "link": "https://x.com/alibaba_qwen/status/2006025958055346222?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Tencent Open-Sources HY-Motion 1.0: A Text-to-Motion Model Using Diffusion Transformer",
-            "link": "https://x.com/tencenthunyuan/status/2005916817987100708?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Tencent HY on X"
-        },
-        {
-            "text": "YouTube recommends AI-generated low-quality videos to 20% of new users, study finds",
-            "link": "https://indianexpress.com/article/technology/artificial-intelligence/one-in-five-youtube-videos-recommended-is-ai-slop-study-10443015/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "indianexpress.com"
-        },
-        {
-            "text": "Fal launches faster, cheaper version of Flux 2 AI image generator for New Year",
-            "link": "https://venturebeat.com/technology/new-years-ai-surprise-fal-releases-its-own-version-of-flux-2-image-generator?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "Meta acquires AI startup Manus to strengthen artificial intelligence platform and expand AI business",
-            "link": "https://www.bloomberg.com/news/articles/2025-12-29/meta-acquires-startup-manus-to-bolster-ai-business?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "bloomberg.com"
         }
     ]
 }
