@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-13T17:23:47.359Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-14T17:24:32.610Z
 window.latestDigest = {
-    date: "Jan 13, 2026",
+    date: "Jan 14, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
-        "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "archaeologist.dev"
+        "text": "Z.AI unveils GLM-Image, an open-source hybrid model for high-fidelity, knowledge-rich image generation",
+        "link": "https://z.ai/blog/glm-image?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "z.ai"
     },
     {
-        "text": "NVIDIA and Lilly Launch AI Lab to Advance Drug Discovery and Tackle Pharmaceutical Challenges",
-        "link": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "nvidianews.nvidia.com"
+        "text": "Insta360 launches next-gen AI-powered Link webcam for improved video and tracking features",
+        "link": "https://www.engadget.com/cameras/insta360-releases-ai-powered-follow-up-to-its-link-webcams-130003572.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "engadget.com"
     },
     {
-        "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
-        "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bbc.com"
+        "text": "Senate passes Defiance Act allowing X deepfake victims to sue for nonconsensual content",
+        "link": "https://www.theverge.com/news/861531/defiance-act-senate-passage-deepfakes-grok?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
-        "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
+        "text": "Google Unveils Veo 3.1 Update With Improved Consistency, Creativity, and Control for Video Creation",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     },
     {
-        "text": "OpenAI to acquire AI healthcare app Torch for about $100 million in equity",
-        "link": "https://www.theinformation.com/articles/openai-agrees-buy-ai-healthcare-app-100-million?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theinformation.com"
+        "text": "Manus launches Meeting Minutes tool with AI summaries, speaker recognition, and workflow integration",
+        "link": "https://manus.im/blog/manus-meeting-minutes?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "manus.im"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google Unveils Veo 3.1 Update With Improved Consistency, Creativity, and Control for Video Creation",
+            "link": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Apple partners with Google to use Gemini AI models for next-gen Apple Intelligence and Siri features",
             "link": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -56,16 +61,6 @@ window.latestDigest = {
             "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
             "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bostondynamics.com"
-        },
-        {
-            "text": "Boston Dynamics unveils next-gen Atlas humanoid robot powered by Google DeepMind AI technology",
-            "link": "https://techcrunch.com/2026/01/05/boston-dynamicss-next-gen-humanoid-robot-will-have-google-deepmind-dna/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Google unveils new Gemini features for Google TV to enhance user engagement and helpfulness",
-            "link": "https://blog.google/products/google-tv/ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
@@ -126,6 +121,36 @@ window.latestDigest = {
     ],
     "general": [
         {
+            "text": "Z.AI unveils GLM-Image, an open-source hybrid model for high-fidelity, knowledge-rich image generation",
+            "link": "https://z.ai/blog/glm-image?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "z.ai"
+        },
+        {
+            "text": "Insta360 launches next-gen AI-powered Link webcam for improved video and tracking features",
+            "link": "https://www.engadget.com/cameras/insta360-releases-ai-powered-follow-up-to-its-link-webcams-130003572.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
+            "text": "Senate passes Defiance Act allowing X deepfake victims to sue for nonconsensual content",
+            "link": "https://www.theverge.com/news/861531/defiance-act-senate-passage-deepfakes-grok?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Manus launches Meeting Minutes tool with AI summaries, speaker recognition, and workflow integration",
+            "link": "https://manus.im/blog/manus-meeting-minutes?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "manus.im"
+        },
+        {
+            "text": "TechXplore unveils AI-powered technique to enhance 3D X-ray tomography for advanced material analysis",
+            "link": "https://techxplore.com/news/2026-01-ai-method-sharpens-3d-ray.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techxplore.com"
+        },
+        {
+            "text": "1X upgrades NEO robot with AI that learns new real-world skills from video-based world models",
+            "link": "https://interestingengineering.com/ai-robotics/1x-neo-world-model-humanoid-robots?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "interestingengineering.com"
+        },
+        {
             "text": "NVIDIA and Lilly Launch AI Lab to Advance Drug Discovery and Tackle Pharmaceutical Challenges",
             "link": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "nvidianews.nvidia.com"
@@ -134,6 +159,11 @@ window.latestDigest = {
             "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
             "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bbc.com"
+        },
+        {
+            "text": "Nvidia CEO Jensen Huang says AI negativity is harming society and fueling widespread misconceptions",
+            "link": "https://www.techspot.com/news/110879-jensen-huang-relentless-ai-negativity-hurting-society-has.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techspot.com"
         },
         {
             "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
@@ -209,36 +239,6 @@ window.latestDigest = {
             "text": "NVIDIA RTX Speeds Up 4K AI Video Generation on PC With New ComfyUI and LTX-2 Enhancements",
             "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "Rokid unveils display-free AI smartglasses at CES 2026",
-            "link": "https://www.engadget.com/wearables/rokid-introduces-display-free-ai-smartglasses-at-ces-2026-010017906.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "NVIDIA Expands DRIVE Hyperion Ecosystem to Boost Global Adoption of Autonomous Transportation",
-            "link": "https://blogs.nvidia.com/blog/global-drive-hyperion-ecosystem-full-autonomy/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "NVIDIA Unveils Rubin AI Platform, Open Models, and AI-Powered Mercedes at CES 2026",
-            "link": "https://blogs.nvidia.com/blog/2026-ces-special-presentation/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "DHH Encourages Optimism for AI Innovation in 2026",
-            "link": "https://x.com/dhh/status/2007503687745490976?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "DHH on X"
-        },
-        {
-            "text": "Meta's Yann LeCun criticizes Alexandr Wang, predicts further AI staff departures from the company",
-            "link": "https://www.businessinsider.com/yann-lecun-alexandr-wang-criticism-inexperienced-meta-ai-future-2026-1?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "businessinsider.com"
-        },
-        {
-            "text": "Grok AI accused of generating explicit images of minors, urges users to report incidents to FBI",
-            "link": "https://www.theverge.com/news/853191/grok-explicit-bikini-pictures-minors?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
         }
     ]
 }
