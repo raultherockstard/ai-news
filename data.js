@@ -1,41 +1,61 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-14T17:24:32.610Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-15T17:28:39.917Z
 window.latestDigest = {
-    date: "Jan 14, 2026",
+    date: "Jan 15, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Z.AI unveils GLM-Image, an open-source hybrid model for high-fidelity, knowledge-rich image generation",
-        "link": "https://z.ai/blog/glm-image?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "z.ai"
+        "text": "NotebookLM Launches Data Tables Feature for Enhanced User Customization",
+        "link": "https://x.com/NotebookLM/status/2011526709984837856?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "NotebookLM on X"
     },
     {
-        "text": "Insta360 launches next-gen AI-powered Link webcam for improved video and tracking features",
-        "link": "https://www.engadget.com/cameras/insta360-releases-ai-powered-follow-up-to-its-link-webcams-130003572.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "engadget.com"
-    },
-    {
-        "text": "Senate passes Defiance Act allowing X deepfake victims to sue for nonconsensual content",
-        "link": "https://www.theverge.com/news/861531/defiance-act-senate-passage-deepfakes-grok?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "NBC Sports debuts real-time player tracking for viewers to follow favorite athletes during live events",
+        "link": "https://www.theverge.com/tech/861715/nbc-sports-nippon-television-ai-viztrick-aidi-player-tracking-mobile-viewing?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
     },
     {
-        "text": "Google Unveils Veo 3.1 Update With Improved Consistency, Creativity, and Control for Video Creation",
-        "link": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Microsoft on Track to Spend $500 Million With Anthropic as AI Rivalry With OpenAI Intensifies",
+        "link": "https://www.theinformation.com/articles/microsofts-spending-anthropic-ai-pace-hit-500-million?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theinformation.com"
     },
     {
-        "text": "Manus launches Meeting Minutes tool with AI summaries, speaker recognition, and workflow integration",
-        "link": "https://manus.im/blog/manus-meeting-minutes?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "manus.im"
+        "text": "Bandcamp bans AI-generated music, becoming first major platform to prohibit AI content",
+        "link": "https://www.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "reddit.com"
+    },
+    {
+        "text": "Nvidia releases app update with DLSS 4.5 and expanded Control Panel features for RTX owners",
+        "link": "https://www.theverge.com/news/861640/nvidia-dlss-4-5-app-update-available-download?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     }
 ],
     categories: {
     "google": [
         {
+            "text": "Google Gemini launches Personal Intelligence to deliver personalized suggestions using Google apps",
+            "link": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google revamps Trends Explore page with Gemini AI to enhance search insights and trending topics",
+            "link": "https://blog.google/products-and-platforms/products/search/google-trends-explore-with-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
             "text": "Google Unveils Veo 3.1 Update With Improved Consistency, Creativity, and Control for Video Creation",
             "link": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
+        },
+        {
+            "text": "Google unveils MedGemma 1.5 for medical imaging and MedASR for medical speech-to-text transcription",
+            "link": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "research.google"
+        },
+        {
+            "text": "Salesforce launches new Slackbot AI agent to compete with Microsoft Copilot and Google Gemini in workplace AI",
+            "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
         },
         {
             "text": "Apple partners with Google to use Gemini AI models for next-gen Apple Intelligence and Siri features",
@@ -46,24 +66,14 @@ window.latestDigest = {
             "text": "Google adds buy buttons and new AI commerce tools for retailers to boost shopping on Gemini and Search",
             "link": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google integrates Gemini 3 and Personal Intelligence into Gmail, ushering in a new AI-powered era",
-            "link": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google AI Studio Sponsors Tailwind CSS to Support Developer Ecosystem",
-            "link": "https://x.com/OfficialLoganK/status/2009339263251566902?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Logan Kilpatrick on X"
-        },
-        {
-            "text": "Boston Dynamics partners with Google DeepMind to advance AI intelligence in humanoid robots",
-            "link": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "bostondynamics.com"
         }
     ],
     "openai": [
+        {
+            "text": "Microsoft on Track to Spend $500 Million With Anthropic as AI Rivalry With OpenAI Intensifies",
+            "link": "https://www.theinformation.com/articles/microsofts-spending-anthropic-ai-pace-hit-500-million?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
         {
             "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
             "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -78,26 +88,21 @@ window.latestDigest = {
             "text": "OpenAI and SoftBank partner with SB Energy to build multi-gigawatt AI data centers, including Texas site",
             "link": "https://openai.com/index/stargate-sb-energy-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches healthcare AI tools to boost care quality and streamline admin while protecting data",
-            "link": "https://openai.com/index/openai-for-healthcare/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches ChatGPT Health, a new health and wellness experience within ChatGPT platform",
-            "link": "https://openai.com/index/introducing-chatgpt-health/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
         {
-            "text": "Microsoft Ads Launches Copilot Checkout and Brand Agents for Streamlined E-Commerce and Instant Sign-Up",
-            "link": "https://about.ads.microsoft.com/en/blog/post/january-2026/conversations-that-convert-copilot-checkout-and-brand-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.ads.microsoft.com"
+            "text": "UK police say Microsoft Copilot fabricated football match in intelligence report error",
+            "link": "https://www.theverge.com/news/861668/uk-police-microsoft-copilot-error-mistake?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
         }
     ],
     "anthropic": [
+        {
+            "text": "Anthropic launches Labs to advance research on safe and reliable AI systems",
+            "link": "https://www.anthropic.com/news/introducing-anthropic-labs?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
             "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -121,6 +126,26 @@ window.latestDigest = {
     ],
     "general": [
         {
+            "text": "NotebookLM Launches Data Tables Feature for Enhanced User Customization",
+            "link": "https://x.com/NotebookLM/status/2011526709984837856?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "NotebookLM on X"
+        },
+        {
+            "text": "NBC Sports debuts real-time player tracking for viewers to follow favorite athletes during live events",
+            "link": "https://www.theverge.com/tech/861715/nbc-sports-nippon-television-ai-viztrick-aidi-player-tracking-mobile-viewing?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Bandcamp bans AI-generated music, becoming first major platform to prohibit AI content",
+            "link": "https://www.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "reddit.com"
+        },
+        {
+            "text": "Nvidia releases app update with DLSS 4.5 and expanded Control Panel features for RTX owners",
+            "link": "https://www.theverge.com/news/861640/nvidia-dlss-4-5-app-update-available-download?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
             "text": "Z.AI unveils GLM-Image, an open-source hybrid model for high-fidelity, knowledge-rich image generation",
             "link": "https://z.ai/blog/glm-image?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "z.ai"
@@ -134,6 +159,31 @@ window.latestDigest = {
             "text": "Senate passes Defiance Act allowing X deepfake victims to sue for nonconsensual content",
             "link": "https://www.theverge.com/news/861531/defiance-act-senate-passage-deepfakes-grok?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
+        },
+        {
+            "text": "US approves sale of Nvidia's advanced H200 AI chips to China amid ongoing tech rivalry",
+            "link": "https://www.bbc.com/news/articles/cg4erx1n04lo?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bbc.com"
+        },
+        {
+            "text": "DeepSeek boosts LLM efficiency with conditional memory, cutting GPU waste from static lookups",
+            "link": "https://venturebeat.com/data/deepseeks-conditional-memory-fixes-silent-llm-waste-gpu-cycles-lost-to?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "AI-Designed Antibodies Developed by SingularityHub Move Closer to Clinical Trials",
+            "link": "https://singularityhub.com/2026/01/13/ai-designed-antibodies-race-toward-clinical-trials/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "singularityhub.com"
+        },
+        {
+            "text": "Docusign unveils AI features to simplify legal jargon and automate contract tasks for eSignatures",
+            "link": "https://www.prnewswire.com/news-releases/docusigns-new-ai-translates-legalese-and-does-your-contract-busywork-302659313.html#link={%22role%22:%22standard%22,%22href%22:%22https://www.prnewswire.com/news-releases/docusigns-new-ai-translates-legalese-and-does-your-contract-busywork-302659313.html%22,%22target%22:%22%22,%22absolute%22:%22%22,%22linkText%22:%22contract-specific%20AI%22}?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "prnewswire.com"
+        },
+        {
+            "text": "Matthew McConaughey trademarks catchphrases to combat AI deepfakes and protect his likeness",
+            "link": "https://www.msn.com/en-in/entertainment/celebrities/matthew-mcconaughey-trademarks-himself-to-fight-ai-misuse/ar-AA1UaVvt?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "msn.com"
         },
         {
             "text": "Manus launches Meeting Minutes tool with AI summaries, speaker recognition, and workflow integration",
@@ -189,56 +239,6 @@ window.latestDigest = {
             "text": "ElevenLabs Launches Scribe v2: Advanced Transcription and Captioning Model",
             "link": "https://x.com/elevenlabsio/status/2009626517521797288?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "ElevenLabs on X"
-        },
-        {
-            "text": "UGREEN unveils NASync iDX 6011 with AI-powered file search at CES 2026",
-            "link": "https://www.techtimes.com/articles/313889/20260108/ces-2026-ugreen-nasync-idx-6011-will-let-you-dig-files-easier.htm?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techtimes.com"
-        },
-        {
-            "text": "Alibaba's Qwen3-VL Models Push Boundaries in Multimodal Retrieval and Cross-Modal Understanding",
-            "link": "https://x.com/alibaba_qwen/status/2009264754917863924?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Ford to Launch AI Voice Assistant in 2024, Plans Level 3 Automated Driving by 2028",
-            "link": "https://www.theverge.com/transportation/857400/ford-ai-assistant-level-3-automation-ces-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Meta delays Ray-Ban Display smart glasses international launch beyond early 2026",
-            "link": "https://www.theverge.com/news/856216/meta-ray-ban-display-smart-glasses-international-expansion-paused?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Universal Music partners with Nvidia on new AI deal to advance music technology and innovation",
-            "link": "https://www.theverge.com/news/856849/universal-music-nvidia-ai-deal?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Lenovo unveils Qira AI assistant for laptops and Motorola phones in major AI expansion",
-            "link": "https://www.theverge.com/column/857053/lenovo-ai-assistant-qira?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Meta unveils Ray-Ban Display Teleprompter and EMG Handwriting features at CES 2026",
-            "link": "https://www.meta.com/blog/ces-2026-meta-ray-ban-display-teleprompter-emg-handwriting-garmin-unified-cabin-university-of-utah-tetraski/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "meta.com"
-        },
-        {
-            "text": "Sony patents AI tech to auto-play PlayStation games when players get stuck",
-            "link": "https://www.videogameschronicle.com/news/sony-ai-patent-will-see-playstation-games-play-themselves-when-players-are-stuck/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "videogameschronicle.com"
-        },
-        {
-            "text": "NVIDIA Unveils DLSS 4.5, G-SYNC Pulsar, and RTX Upgrades for Gaming and AI Tools at CES 2026",
-            "link": "https://blogs.nvidia.com/blog/dlss-path-tracing-g-sync-pulsar-ces-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "NVIDIA RTX Speeds Up 4K AI Video Generation on PC With New ComfyUI and LTX-2 Enhancements",
-            "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-ces-2026-open-models-video-generation/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
         }
     ]
 }
