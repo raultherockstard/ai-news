@@ -1,37 +1,47 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-15T17:28:39.917Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-16T17:21:14.405Z
 window.latestDigest = {
-    date: "Jan 15, 2026",
+    date: "Jan 16, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "NotebookLM Launches Data Tables Feature for Enhanced User Customization",
-        "link": "https://x.com/NotebookLM/status/2011526709984837856?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "NotebookLM on X"
-    },
-    {
-        "text": "NBC Sports debuts real-time player tracking for viewers to follow favorite athletes during live events",
-        "link": "https://www.theverge.com/tech/861715/nbc-sports-nippon-television-ai-viztrick-aidi-player-tracking-mobile-viewing?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Microsoft pays for enterprise Wikipedia access as Wikimedia Foundation secures new revenue sources",
+        "link": "https://www.theverge.com/news/862109/wikipedia-microsoft-meta-perplexity-ai-training-wikimedia-foundation?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
     },
     {
-        "text": "Microsoft on Track to Spend $500 Million With Anthropic as AI Rivalry With OpenAI Intensifies",
-        "link": "https://www.theinformation.com/articles/microsofts-spending-anthropic-ai-pace-hit-500-million?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theinformation.com"
+        "text": "Microsoft unveils OptiMind, a new AI research model for optimization on Hugging Face",
+        "link": "https://huggingface.co/blog/microsoft/optimind?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "huggingface.co"
     },
     {
-        "text": "Bandcamp bans AI-generated music, becoming first major platform to prohibit AI content",
-        "link": "https://www.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "reddit.com"
-    },
-    {
-        "text": "Nvidia releases app update with DLSS 4.5 and expanded Control Panel features for RTX owners",
-        "link": "https://www.theverge.com/news/861640/nvidia-dlss-4-5-app-update-available-download?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Raspberry Pi unveils new add-on board with 8GB RAM to boost generative AI model performance",
+        "link": "https://www.theverge.com/news/862748/raspberry-pi-ai-hat-2-gen-ai-ram?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
+    },
+    {
+        "text": "Anthropic launches Economic Index to enhance understanding of AI use and system reliability",
+        "link": "https://www.anthropic.com/research/economic-index-primitives?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
+    },
+    {
+        "text": "Anthropic Releases Economic Index Report Detailing Claude AI Usage Ahead of Opus 4.5 Launch",
+        "link": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google launches TranslateGemma, a new open-source suite of translation models based on Gemma 3",
+            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "OpenAI launches ChatGPT Translate to rival Google Translate with AI-powered personalized translations",
+            "link": "https://www.androidauthority.com/chatgpt-translate-3632584/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "androidauthority.com"
+        },
         {
             "text": "Google Gemini launches Personal Intelligence to deliver personalized suggestions using Google apps",
             "link": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -70,6 +80,11 @@ window.latestDigest = {
     ],
     "openai": [
         {
+            "text": "OpenAI invests in Merge Labs to advance brain-computer interfaces enhancing human-AI collaboration",
+            "link": "https://openai.com/index/investing-in-merge-labs/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
             "text": "Microsoft on Track to Spend $500 Million With Anthropic as AI Rivalry With OpenAI Intensifies",
             "link": "https://www.theinformation.com/articles/microsofts-spending-anthropic-ai-pace-hit-500-million?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
@@ -83,14 +98,24 @@ window.latestDigest = {
             "text": "OpenAI to acquire AI healthcare app Torch for about $100 million in equity",
             "link": "https://www.theinformation.com/articles/openai-agrees-buy-ai-healthcare-app-100-million?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "OpenAI and SoftBank partner with SB Energy to build multi-gigawatt AI data centers, including Texas site",
-            "link": "https://openai.com/index/stargate-sb-energy-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
+        {
+            "text": "Microsoft pays for enterprise Wikipedia access as Wikimedia Foundation secures new revenue sources",
+            "link": "https://www.theverge.com/news/862109/wikipedia-microsoft-meta-perplexity-ai-training-wikimedia-foundation?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Microsoft unveils OptiMind, a new AI research model for optimization on Hugging Face",
+            "link": "https://huggingface.co/blog/microsoft/optimind?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "huggingface.co"
+        },
+        {
+            "text": "Microsoft launches Elevate for Educators to boost AI-powered teaching and professional development",
+            "link": "https://www.microsoft.com/en-us/education/blog/2026/01/introducing-microsoft-innovations-and-programs-to-support-ai-powered-teaching-and-learning/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "microsoft.com"
+        },
         {
             "text": "UK police say Microsoft Copilot fabricated football match in intelligence report error",
             "link": "https://www.theverge.com/news/861668/uk-police-microsoft-copilot-error-mistake?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -98,6 +123,16 @@ window.latestDigest = {
         }
     ],
     "anthropic": [
+        {
+            "text": "Anthropic launches Economic Index to enhance understanding of AI use and system reliability",
+            "link": "https://www.anthropic.com/research/economic-index-primitives?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Anthropic Releases Economic Index Report Detailing Claude AI Usage Ahead of Opus 4.5 Launch",
+            "link": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Anthropic launches Labs to advance research on safe and reliable AI systems",
             "link": "https://www.anthropic.com/news/introducing-anthropic-labs?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -107,24 +142,14 @@ window.latestDigest = {
             "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
             "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Anthropic launches HIPAA-ready Claude for Healthcare, adds Life Sciences tools and new data connectors",
-            "link": "https://www.anthropic.com/news/healthcare-life-sciences?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic restricts unauthorized third-party use of Claude via automation software wrappers",
-            "link": "https://venturebeat.com/technology/anthropic-cracks-down-on-unauthorized-claude-usage-by-third-party-harnesses?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "Anthropic unveils advanced Constitutional Classifiers to better defend AI against universal jailbreaks",
-            "link": "https://www.anthropic.com/research/next-generation-constitutional-classifiers?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Raspberry Pi unveils new add-on board with 8GB RAM to boost generative AI model performance",
+            "link": "https://www.theverge.com/news/862748/raspberry-pi-ai-hat-2-gen-ai-ram?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
         {
             "text": "NotebookLM Launches Data Tables Feature for Enhanced User Customization",
             "link": "https://x.com/NotebookLM/status/2011526709984837856?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -214,31 +239,6 @@ window.latestDigest = {
             "text": "Nvidia CEO Jensen Huang says AI negativity is harming society and fueling widespread misconceptions",
             "link": "https://www.techspot.com/news/110879-jensen-huang-relentless-ai-negativity-hurting-society-has.html?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techspot.com"
-        },
-        {
-            "text": "X limits Grok AI image generation to paid subscribers after global criticism over offensive content",
-            "link": "https://techcrunch.com/2026/01/09/x-restricts-groks-image-generation-to-paying-subscribers-only-after-drawing-the-worlds-ire/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "DeepSeek to Launch V4 AI Model With Advanced Coding Capabilities in Coming Weeks",
-            "link": "https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
-        },
-        {
-            "text": "Meta unveils nuclear energy partnerships to provide 6.6 GW power for AI growth in the US",
-            "link": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.fb.com"
-        },
-        {
-            "text": "NVIDIA launches AI blueprints for intelligent warehouses and retail catalog enrichment solutions",
-            "link": "https://blogs.nvidia.com/blog/multi-agent-intelligent-warehouse-and-catalog-enrichment-blueprints/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "ElevenLabs Launches Scribe v2: Advanced Transcription and Captioning Model",
-            "link": "https://x.com/elevenlabsio/status/2009626517521797288?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "ElevenLabs on X"
         }
     ]
 }
