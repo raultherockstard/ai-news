@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-16T17:21:14.405Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-17T17:14:21.250Z
 window.latestDigest = {
-    date: "Jan 16, 2026",
+    date: "Jan 17, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Microsoft pays for enterprise Wikipedia access as Wikimedia Foundation secures new revenue sources",
-        "link": "https://www.theverge.com/news/862109/wikipedia-microsoft-meta-perplexity-ai-training-wikimedia-foundation?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Anthropic launches Claude Cowork feature for all users with $20 Pro subscription",
+        "link": "https://www.engadget.com/ai/anthropic-opens-up-its-claude-cowork-feature-to-anyone-with-a-20-subscription-194000021.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "engadget.com"
     },
     {
-        "text": "Microsoft unveils OptiMind, a new AI research model for optimization on Hugging Face",
-        "link": "https://huggingface.co/blog/microsoft/optimind?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "huggingface.co"
+        "text": "OpenAI launches ChatGPT Go globally with GPT-5.2 Instant, higher limits, and expanded memory",
+        "link": "https://openai.com/index/introducing-chatgpt-go/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Raspberry Pi unveils new add-on board with 8GB RAM to boost generative AI model performance",
-        "link": "https://www.theverge.com/news/862748/raspberry-pi-ai-hat-2-gen-ai-ram?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "OpenAI to Test Ads in ChatGPT Free and Go Tiers to Expand Affordable AI Access in US",
+        "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Anthropic launches Economic Index to enhance understanding of AI use and system reliability",
-        "link": "https://www.anthropic.com/research/economic-index-primitives?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
+        "text": "Google DeepMind Reveals the Origin Story Behind Its Popular Nano Banana AI Model",
+        "link": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     },
     {
-        "text": "Anthropic Releases Economic Index Report Detailing Claude AI Usage Ahead of Opus 4.5 Launch",
-        "link": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
+        "text": "Replit launches AI tool to generate iOS apps from text and publish directly to App Store",
+        "link": "https://www.digitaltrends.com/computing/replits-ai-can-build-your-mobile-apps-and-push-them-straight-to-app-store/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "digitaltrends.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google DeepMind Reveals the Origin Story Behind Its Popular Nano Banana AI Model",
+            "link": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google launches TranslateGemma, a new open-source suite of translation models based on Gemma 3",
             "link": "https://blog.google/innovation-and-ai/technology/developers-tools/translategemma/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -66,19 +71,19 @@ window.latestDigest = {
             "text": "Salesforce launches new Slackbot AI agent to compete with Microsoft Copilot and Google Gemini in workplace AI",
             "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "venturebeat.com"
-        },
-        {
-            "text": "Apple partners with Google to use Gemini AI models for next-gen Apple Intelligence and Siri features",
-            "link": "https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google adds buy buttons and new AI commerce tools for retailers to boost shopping on Gemini and Search",
-            "link": "https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI launches ChatGPT Go globally with GPT-5.2 Instant, higher limits, and expanded memory",
+            "link": "https://openai.com/index/introducing-chatgpt-go/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI to Test Ads in ChatGPT Free and Go Tiers to Expand Affordable AI Access in US",
+            "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI invests in Merge Labs to advance brain-computer interfaces enhancing human-AI collaboration",
             "link": "https://openai.com/index/investing-in-merge-labs/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -93,11 +98,6 @@ window.latestDigest = {
             "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
             "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "archaeologist.dev"
-        },
-        {
-            "text": "OpenAI to acquire AI healthcare app Torch for about $100 million in equity",
-            "link": "https://www.theinformation.com/articles/openai-agrees-buy-ai-healthcare-app-100-million?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
         }
     ],
     "microsoft": [
@@ -124,6 +124,11 @@ window.latestDigest = {
     ],
     "anthropic": [
         {
+            "text": "Anthropic launches Claude Cowork feature for all users with $20 Pro subscription",
+            "link": "https://www.engadget.com/ai/anthropic-opens-up-its-claude-cowork-feature-to-anyone-with-a-20-subscription-194000021.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
             "text": "Anthropic launches Economic Index to enhance understanding of AI use and system reliability",
             "link": "https://www.anthropic.com/research/economic-index-primitives?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
@@ -137,14 +142,14 @@ window.latestDigest = {
             "text": "Anthropic launches Labs to advance research on safe and reliable AI systems",
             "link": "https://www.anthropic.com/news/introducing-anthropic-labs?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Claude launches Cowork, enabling AI to organize, create, and edit documents using your files",
-            "link": "https://claude.com/blog/cowork-research-preview?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
+        {
+            "text": "Replit launches AI tool to generate iOS apps from text and publish directly to App Store",
+            "link": "https://www.digitaltrends.com/computing/replits-ai-can-build-your-mobile-apps-and-push-them-straight-to-app-store/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "digitaltrends.com"
+        },
         {
             "text": "Raspberry Pi unveils new add-on board with 8GB RAM to boost generative AI model performance",
             "link": "https://www.theverge.com/news/862748/raspberry-pi-ai-hat-2-gen-ai-ram?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -234,11 +239,6 @@ window.latestDigest = {
             "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
             "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bbc.com"
-        },
-        {
-            "text": "Nvidia CEO Jensen Huang says AI negativity is harming society and fueling widespread misconceptions",
-            "link": "https://www.techspot.com/news/110879-jensen-huang-relentless-ai-negativity-hurting-society-has.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techspot.com"
         }
     ]
 }
