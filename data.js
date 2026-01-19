@@ -1,7 +1,7 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-18T17:14:43.608Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-19T17:20:58.295Z
 window.latestDigest = {
-    date: "Jan 18, 2026",
+    date: "Jan 19, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
