@@ -1,9 +1,19 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-19T17:20:58.295Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-20T17:26:10.633Z
 window.latestDigest = {
-    date: "Jan 19, 2026",
+    date: "Jan 20, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "China blocks Nvidia H200 AI chips despite US export clearance, suppliers halt production",
+        "link": "https://www.theguardian.com/technology/2026/jan/17/china-blocks-nvidia-h200-ai-chips-that-us-government-cleared-for-export-report?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theguardian.com"
+    },
+    {
+        "text": "Google adds Flow AI video tool as optional service for Workspace users with enhanced admin controls",
+        "link": "https://workspaceupdates.googleblog.com/2026/01/flow-available-additional-google-service-workspace.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "workspaceupdates.googleblog.com"
+    },
     {
         "text": "Anthropic launches Claude Cowork feature for all users with $20 Pro subscription",
         "link": "https://www.engadget.com/ai/anthropic-opens-up-its-claude-cowork-feature-to-anyone-with-a-20-subscription-194000021.html?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -18,20 +28,15 @@ window.latestDigest = {
         "text": "OpenAI to Test Ads in ChatGPT Free and Go Tiers to Expand Affordable AI Access in US",
         "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "openai.com"
-    },
-    {
-        "text": "Google DeepMind Reveals the Origin Story Behind Its Popular Nano Banana AI Model",
-        "link": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
-    },
-    {
-        "text": "Replit launches AI tool to generate iOS apps from text and publish directly to App Store",
-        "link": "https://www.digitaltrends.com/computing/replits-ai-can-build-your-mobile-apps-and-push-them-straight-to-app-store/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "digitaltrends.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google adds Flow AI video tool as optional service for Workspace users with enhanced admin controls",
+            "link": "https://workspaceupdates.googleblog.com/2026/01/flow-available-additional-google-service-workspace.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "workspaceupdates.googleblog.com"
+        },
         {
             "text": "Google DeepMind Reveals the Origin Story Behind Its Popular Nano Banana AI Model",
             "link": "https://blog.google/products-and-platforms/products/gemini/how-nano-banana-got-its-name/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -93,11 +98,6 @@ window.latestDigest = {
             "text": "Microsoft on Track to Spend $500 Million With Anthropic as AI Rivalry With OpenAI Intensifies",
             "link": "https://www.theinformation.com/articles/microsofts-spending-anthropic-ai-pace-hit-500-million?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "Anthropic's Business Blunder with OpenCode Ends Up Strengthening Rival OpenAI",
-            "link": "https://archaeologist.dev/artifacts/anthropic?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "archaeologist.dev"
         }
     ],
     "microsoft": [
@@ -145,6 +145,16 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "China blocks Nvidia H200 AI chips despite US export clearance, suppliers halt production",
+            "link": "https://www.theguardian.com/technology/2026/jan/17/china-blocks-nvidia-h200-ai-chips-that-us-government-cleared-for-export-report?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theguardian.com"
+        },
+        {
+            "text": "Black Forest Labs unveils open source Flux.2 klein for ultra-fast AI image generation",
+            "link": "https://venturebeat.com/technology/black-forest-labs-launches-open-source-flux-2-klein-to-generate-ai-images-in?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
         {
             "text": "Replit launches AI tool to generate iOS apps from text and publish directly to App Store",
             "link": "https://www.digitaltrends.com/computing/replits-ai-can-build-your-mobile-apps-and-push-them-straight-to-app-store/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "1X upgrades NEO robot with AI that learns new real-world skills from video-based world models",
             "link": "https://interestingengineering.com/ai-robotics/1x-neo-world-model-humanoid-robots?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "interestingengineering.com"
-        },
-        {
-            "text": "NVIDIA and Lilly Launch AI Lab to Advance Drug Discovery and Tackle Pharmaceutical Challenges",
-            "link": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "nvidianews.nvidia.com"
-        },
-        {
-            "text": "UK to enforce new law targeting Grok AI deepfake creation and distribution this week",
-            "link": "https://www.bbc.com/news/articles/cq845glnvl1o?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "bbc.com"
         }
     ]
 }
