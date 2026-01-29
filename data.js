@@ -1,37 +1,47 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-28T17:29:16.164Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-29T17:34:26.864Z
 window.latestDigest = {
-    date: "Jan 28, 2026",
+    date: "Jan 29, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Figure AI unveils Helix 02 robot with advanced full-body autonomy features",
-        "link": "https://www.figure.ai/news/helix-02?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "figure.ai"
+        "text": "KREA AI Unveils Realtime Edit for Instant Image Editing with Complex Instructions",
+        "link": "https://x.com/krea_ai/status/2016900392513347726?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "KREA AI on X"
     },
     {
-        "text": "Google enables direct transition from AI Overviews to AI Mode chats, sets Gemini 3 as default model",
-        "link": "https://techcrunch.com/2026/01/27/google-now-lets-users-jump-from-ai-overviews-into-ai-mode-conversations/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "xAI's Grok Imagine Leads Text to Video and Image to Video in Artificial Analysis Arena",
+        "link": "https://x.com/artificialanlys/status/2016749756081721561?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Artificial Analysis on X"
+    },
+    {
+        "text": "Meta plans major AI rollout and agentic commerce tools launch in 2026, says Zuckerberg",
+        "link": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "techcrunch.com"
     },
     {
-        "text": "Airtable launches SuperAgent, its first stand-alone product, entering the AI agent market",
-        "link": "https://techcrunch.com/2026/01/27/airtables-valuation-fell-by-7-million-its-founder-thinks-that-was-just-the-warm-up/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "YouTube removes top AI-generated slop channels, including one with over 5.9 million subscribers",
+        "link": "https://www.theverge.com/news/869684/youtube-top-ai-channels-removed-kapwing?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Decart launches Lucy 2, a real-time generative AI video model delivering live 1080p with no buffering",
-        "link": "https://www.forbes.com/sites/charliefink/2026/01/27/decarts-new-lucy-2-generative-ai-video-model-pushes-generative-video-into-real-time/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "forbes.com"
-    },
-    {
-        "text": "Yahoo Launches Scout, a New AI Answer Engine to Enhance Search and User Experience",
-        "link": "https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "yahooinc.com"
+        "text": "Tesla to Launch Production-Ready Optimus Robot Soon, Signals Advancements in Robotics",
+        "link": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google brings Gemini 3 agentic capabilities to Chrome for enhanced browsing and productivity",
+            "link": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google adds GDP premium developer tools to AI Pro and Ultra subscriptions",
+            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google enables direct transition from AI Overviews to AI Mode chats, sets Gemini 3 as default model",
             "link": "https://techcrunch.com/2026/01/27/google-now-lets-users-jump-from-ai-overviews-into-ai-mode-conversations/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -66,29 +76,19 @@ window.latestDigest = {
             "text": "Sakana AI announces strategic partnership with Google to advance AI technology collaboration",
             "link": "https://sakana.ai/google/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "sakana.ai"
-        },
-        {
-            "text": "Google Photos adds new feature allowing users to insert themselves into memes",
-            "link": "https://x.com/sama/status/2014733975755817267?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Google Hires Hume AI CEO Alan Cowen and Team in Major Licensing Deal for DeepMind and Gemini Projects",
-            "link": "https://techcrunch.com/2026/01/22/google-deepmind-ceo-is-surprised-openai-is-rushing-forward-with-ads-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wired.com"
-        },
-        {
-            "text": "Google DeepMind CEO surprised OpenAI is adding ads to ChatGPT, says Google isn't pushing for ads",
-            "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-ai-mode-search/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Google launches Personal Intelligence in Search for tailored results using Gmail and Photos context",
-            "link": "https://www.theinformation.com/newsletters/applied-ai/openai-plans-take-cut-customers-ai-aided-discoveries?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI launches EMEA Youth & Wellbeing Grant to support youth safety initiatives in AI era",
+            "link": "https://openai.com/index/emea-youth-and-wellbeing-grant/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI launches EU Economic Blueprint 2.0 to boost AI adoption, skills, and growth across Europe",
+            "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches Prism to accelerate science writing and collaboration with AI",
             "link": "https://openai.com/index/introducing-prism/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -98,30 +98,9 @@ window.latestDigest = {
             "text": "OpenAI's GPT-5.2 Cites Grokipedia as Source on Specific and Controversial Topics, Report Finds",
             "link": "https://www.engadget.com/ai/report-reveals-that-openais-gpt-52-model-cites-grokipedia-192532977.html?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "engadget.com"
-        },
-        {
-            "text": "OpenAI Prepares for Major Codex Launches, Nears Cybersecurity High Level",
-            "link": "https://techxplore.com/news/2026-01-city-traffic-approach-ai-slash.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Sam Altman on X"
-        },
-        {
-            "text": "Sen. Markey questions OpenAI on potential deceptive advertising in ChatGPT and other AI chatbots",
-            "link": "https://www.theverge.com/transportation/865145/waymo-miami-public-riders-waitlist?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "OpenAI to Take Share of Revenue from Customers' AI-Driven Discoveries and Innovations",
-            "link": "https://x.com/cursor_ai/status/2014433672401977382?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
         }
     ],
-    "microsoft": [
-        {
-            "text": "Microsoft Paint adds AI-powered coloring book feature to boost Copilot Plus PC appeal",
-            "link": "https://techcrunch.com/2026/01/23/google-photos-latest-feature-lets-you-meme-yourself/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        }
-    ],
+    "microsoft": [],
     "anthropic": [
         {
             "text": "Anthropic partners with UK Government to integrate AI assistance into GOV.UK digital services",
@@ -151,9 +130,54 @@ window.latestDigest = {
     ],
     "general": [
         {
+            "text": "KREA AI Unveils Realtime Edit for Instant Image Editing with Complex Instructions",
+            "link": "https://x.com/krea_ai/status/2016900392513347726?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "KREA AI on X"
+        },
+        {
+            "text": "xAI's Grok Imagine Leads Text to Video and Image to Video in Artificial Analysis Arena",
+            "link": "https://x.com/artificialanlys/status/2016749756081721561?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Artificial Analysis on X"
+        },
+        {
+            "text": "Meta plans major AI rollout and agentic commerce tools launch in 2026, says Zuckerberg",
+            "link": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "YouTube removes top AI-generated slop channels, including one with over 5.9 million subscribers",
+            "link": "https://www.theverge.com/news/869684/youtube-top-ai-channels-removed-kapwing?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Tesla to Launch Production-Ready Optimus Robot Soon, Signals Advancements in Robotics",
+            "link": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Tesla Ends Model S and Model X Production to Focus on Optimus Robot Manufacturing",
+            "link": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Apple Updates Final Cut Pro and Logic Pro With New Features Across All Versions",
+            "link": "https://www.macrumors.com/2026/01/28/final-cut-pro-and-logic-pro-updated/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "macrumors.com"
+        },
+        {
+            "text": "xAI launches Grok Imagine API for advanced, efficient, and fast video generation",
+            "link": "https://x.ai/news/grok-imagine-api?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "x.ai"
+        },
+        {
             "text": "Figure AI unveils Helix 02 robot with advanced full-body autonomy features",
             "link": "https://www.figure.ai/news/helix-02?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "figure.ai"
+        },
+        {
+            "text": "Engine AI partners with Chinese space firm to launch world’s first humanoid robot astronaut PM01",
+            "link": "https://interestingengineering.com/ai-robotics/worlds-first-humanoid-robot-astronaut-china?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "interestingengineering.com"
         },
         {
             "text": "Airtable launches SuperAgent, its first stand-alone product, entering the AI agent market",
@@ -214,31 +238,6 @@ window.latestDigest = {
             "text": "Factory.ai unveils self-improving AI agent with automatic failure detection and correction system",
             "link": "https://x.com/EpochAIResearch/status/2014769359747744200?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "factory.ai"
-        },
-        {
-            "text": "Epoch AI's GPT-5.2 Pro Sets New FrontierMath Tier 4 Record with 31% Score",
-            "link": "https://www.theverge.com/news/866524/microsoft-paint-notepad-ai-coloring-book?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Epoch AI on X"
-        },
-        {
-            "text": "Tohoku University researchers use city traffic as a computer to cut AI energy demands",
-            "link": "https://www.theverge.com/news/865854/senator-ed-markey-ai-companies-chatbots-advertising?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techxplore.com"
-        },
-        {
-            "text": "Waymo launches public robotaxi rides in Miami, starting with city streets and no highways",
-            "link": "https://www.wired.com/story/google-hires-hume-ai-ceo-licensing-deal-gemini/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Cursor AI Enhances Capabilities with Subagents, Image Generation, and Clarifying Questions",
-            "link": "https://newsroom.spotify.com/2026-01-22/prompted-playlists-expansion/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Cursor on X"
-        },
-        {
-            "text": "Spotify Expands Beta of Prompted Playlists Feature to More Premium Users in Additional Markets",
-            "link": "https://x.com/skalskip92/status/2014424779478986798?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "newsroom.spotify.com"
         }
     ]
 }
