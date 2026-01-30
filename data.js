@@ -1,37 +1,52 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-29T17:34:26.864Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-30T17:30:37.735Z
 window.latestDigest = {
-    date: "Jan 29, 2026",
+    date: "Jan 30, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "KREA AI Unveils Realtime Edit for Instant Image Editing with Complex Instructions",
-        "link": "https://x.com/krea_ai/status/2016900392513347726?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "KREA AI on X"
+        "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
+        "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
     },
     {
-        "text": "xAI's Grok Imagine Leads Text to Video and Image to Video in Artificial Analysis Arena",
-        "link": "https://x.com/artificialanlys/status/2016749756081721561?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Artificial Analysis on X"
+        "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
+        "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "nature.com"
     },
     {
-        "text": "Meta plans major AI rollout and agentic commerce tools launch in 2026, says Zuckerberg",
-        "link": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Invideo Unveils AI Motion Graphics Tool with Anthropic, Revolutionizing Motion Design",
+        "link": "https://x.com/invideoOfficial/status/2016994995488878681?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Invideo on X"
     },
     {
-        "text": "YouTube removes top AI-generated slop channels, including one with over 5.9 million subscribers",
-        "link": "https://www.theverge.com/news/869684/youtube-top-ai-channels-removed-kapwing?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "OpenAI to Retire GPT-4o, GPT-4.1, GPT-4.1 mini, and o4-mini from ChatGPT in February 2026",
+        "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Tesla to Launch Production-Ready Optimus Robot Soon, Signals Advancements in Robotics",
-        "link": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
+        "link": "https://x.com/suno/status/2016970370763424187?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Suno on X"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
+            "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "nature.com"
+        },
+        {
+            "text": "Google launches Project Genie for AI Ultra subscribers to explore infinite, interactive virtual worlds",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google adds Gemini navigation features to Maps for walking and cycling routes",
+            "link": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google brings Gemini 3 agentic capabilities to Chrome for enhanced browsing and productivity",
             "link": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -56,29 +71,14 @@ window.latestDigest = {
             "text": "OpenAI Sets Premium Ad Rates in Initial Rollout, Surpassing Meta and Google Pricing",
             "link": "https://www.theinformation.com/articles/openai-seeks-premium-prices-early-ads-push?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "Qwen3-Max by Alibaba Outperforms Gemini 3 Pro and GPT-5.2 on Humanity's Last Exam",
-            "link": "https://venturebeat.com/technology/qwen3-max-thinking-beats-gemini-3-pro-and-gpt-5-2-on-humanitys-last-exam?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "Google debuts AI-powered animated short Dear Upstairs Neighbors at Sundance Film Festival",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google Acquires Common Sense Machines to Boost 3D Image Generation with AI Technology",
-            "link": "https://www.theinformation.com/briefings/exclusive-google-acquires-3d-image-generator-startup?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
-        },
-        {
-            "text": "Sakana AI announces strategic partnership with Google to advance AI technology collaboration",
-            "link": "https://sakana.ai/google/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "sakana.ai"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI to Retire GPT-4o, GPT-4.1, GPT-4.1 mini, and o4-mini from ChatGPT in February 2026",
+            "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches EMEA Youth & Wellbeing Grant to support youth safety initiatives in AI era",
             "link": "https://openai.com/index/emea-youth-and-wellbeing-grant/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -93,15 +93,30 @@ window.latestDigest = {
             "text": "OpenAI launches Prism to accelerate science writing and collaboration with AI",
             "link": "https://openai.com/index/introducing-prism/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI's GPT-5.2 Cites Grokipedia as Source on Specific and Controversial Topics, Report Finds",
-            "link": "https://www.engadget.com/ai/report-reveals-that-openais-gpt-52-model-cites-grokipedia-192532977.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
         }
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
+            "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
+        {
+            "text": "Invideo Unveils AI Motion Graphics Tool with Anthropic, Revolutionizing Motion Design",
+            "link": "https://x.com/invideoOfficial/status/2016994995488878681?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Invideo on X"
+        },
+        {
+            "text": "Anthropic studies how AI assistance influences coding skill development and programming proficiency",
+            "link": "https://www.anthropic.com/research/AI-assistance-coding-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Anthropic sued by Universal Music, Concord, ABKCO over alleged use of songs to train AI chatbot Claude",
+            "link": "https://www.reuters.com/legal/litigation/anthropic-faces-new-music-publisher-lawsuit-over-alleged-piracy-2026-01-28/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "reuters.com"
+        },
         {
             "text": "Anthropic partners with UK Government to integrate AI assistance into GOV.UK digital services",
             "link": "https://www.anthropic.com/news/gov-UK-partnership?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -116,19 +131,29 @@ window.latestDigest = {
             "text": "Claude adds interactive integration with Asana, Slack, Figma and more for seamless in-app workflows",
             "link": "https://claude.com/blog/interactive-tools-in-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Claude in Excel Now Available on Pro Plans with Enhanced Features",
-            "link": "https://x.com/claudeai/status/2014834616889475508?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
-        },
-        {
-            "text": "ClaudeAI Updates Excel Pro Plans with Enhanced File Handling and Session Management",
-            "link": "https://factory.ai/news/factory-signals?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
         }
     ],
     "general": [
+        {
+            "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
+            "link": "https://x.com/suno/status/2016970370763424187?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Suno on X"
+        },
+        {
+            "text": "SpaceX and xAI May Merge Into One Company, Elon Musk Considers Consolidation",
+            "link": "https://www.theverge.com/tech/870380/elon-musk-space-x-xai-merger?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Apple acquires Israel-based AI startup Q.ai for $2 billion to boost artificial intelligence efforts",
+            "link": "https://9to5mac.com/2026/01/29/apple-acquires-secretive-q%E2%80%A4ai-startup-for-2-billion/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "9to5mac.com"
+        },
+        {
+            "text": "NVIDIA unveils Cosmos Policy for advanced robot control, setting new benchmarks in manipulation tasks",
+            "link": "https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "huggingface.co"
+        },
         {
             "text": "KREA AI Unveils Realtime Edit for Instant Image Editing with Complex Instructions",
             "link": "https://x.com/krea_ai/status/2016900392513347726?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -213,31 +238,6 @@ window.latestDigest = {
             "text": "Luma AI enhances Ray3 model with faster, more affordable 1080p generative video capabilities",
             "link": "https://www.csimagazine.com/csi/Luma%20AI-upgrades-Ray3-model.php?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "csimagazine.com"
-        },
-        {
-            "text": "NVIDIA unveils Earth-2, the first fully open AI weather model suite for global and local forecasting",
-            "link": "https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "Dario Amodei Addresses AI Risks and Challenges in The Adolescence of Technology Essay",
-            "link": "https://www.darioamodei.com/essay/the-adolescence-of-technology?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "darioamodei.com"
-        },
-        {
-            "text": "Gallup reports frequent AI use in the workplace rose in Q4, with industry and role differences noted",
-            "link": "https://www.gallup.com/workplace/701195/frequent-workplace-continued-rise.aspx?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "gallup.com"
-        },
-        {
-            "text": "Azorobotics unveils AI-powered solar robot for real-time crop disease detection in sustainable farming",
-            "link": "https://www.azorobotics.com/News.aspx?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "azorobotics.com"
-        },
-        {
-            "text": "Factory.ai unveils self-improving AI agent with automatic failure detection and correction system",
-            "link": "https://x.com/EpochAIResearch/status/2014769359747744200?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "factory.ai"
         }
     ]
 }
