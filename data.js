@@ -1,9 +1,24 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-01-30T17:30:37.735Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-01-31T17:20:53.855Z
 window.latestDigest = {
-    date: "Jan 30, 2026",
+    date: "Jan 31, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
+        "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
+    },
+    {
+        "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
+    },
+    {
+        "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
+        "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
+    },
     {
         "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
         "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -13,21 +28,6 @@ window.latestDigest = {
         "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
         "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "nature.com"
-    },
-    {
-        "text": "Invideo Unveils AI Motion Graphics Tool with Anthropic, Revolutionizing Motion Design",
-        "link": "https://x.com/invideoOfficial/status/2016994995488878681?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Invideo on X"
-    },
-    {
-        "text": "OpenAI to Retire GPT-4o, GPT-4.1, GPT-4.1 mini, and o4-mini from ChatGPT in February 2026",
-        "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
-        "link": "https://x.com/suno/status/2016970370763424187?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Suno on X"
     }
 ],
     categories: {
@@ -66,11 +66,6 @@ window.latestDigest = {
             "text": "Google unveils Agentic Vision in Gemini 3 Flash to advance image understanding with agentic processes",
             "link": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "OpenAI Sets Premium Ad Rates in Initial Rollout, Surpassing Meta and Google Pricing",
-            "link": "https://www.theinformation.com/articles/openai-seeks-premium-prices-early-ads-push?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
         }
     ],
     "openai": [
@@ -97,6 +92,16 @@ window.latestDigest = {
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
+            "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
+            "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
         {
             "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
             "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -126,18 +131,23 @@ window.latestDigest = {
             "text": "Anthropic Prompts Clawdbot's Rebranding to Moltbot in Trademark Dispute Resolution",
             "link": "https://x.com/moltbot/status/2016058924403753024?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Mr. Lobster🦞 on X"
-        },
-        {
-            "text": "Claude adds interactive integration with Asana, Slack, Figma and more for seamless in-app workflows",
-            "link": "https://claude.com/blog/interactive-tools-in-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
         {
+            "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
             "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
             "link": "https://x.com/suno/status/2016970370763424187?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Suno on X"
+        },
+        {
+            "text": "Rabbit launches DLAM, brings Moltbot to r1, and teases new hardware in first major 2026 update",
+            "link": "https://www.rabbit.tech/blog/first-major-update-of-2026-dlam-moltbot-and-a-surprise?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "rabbit.tech"
         },
         {
             "text": "SpaceX and xAI May Merge Into One Company, Elon Musk Considers Consolidation",
@@ -228,16 +238,6 @@ window.latestDigest = {
             "text": "KREA AI Releases Realtime Edit for Beta Testing to Waitlist and Max Users",
             "link": "https://x.com/krea_ai/status/2016179395384467503?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "KREA AI on X"
-        },
-        {
-            "text": "Kimi.ai Launches Open-Source Visual Agent Kimi K2.5, Sets Global SOTA Benchmarks",
-            "link": "https://x.com/Kimi_Moonshot/status/2016024049869324599?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Kimi.ai on X"
-        },
-        {
-            "text": "Luma AI enhances Ray3 model with faster, more affordable 1080p generative video capabilities",
-            "link": "https://www.csimagazine.com/csi/Luma%20AI-upgrades-Ray3-model.php?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "csimagazine.com"
         }
     ]
 }
