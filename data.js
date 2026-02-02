@@ -1,9 +1,19 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-01T17:21:02.222Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-02T17:34:59.110Z
 window.latestDigest = {
-    date: "Feb 1, 2026",
+    date: "Feb 2, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Anthropic partners with Allen Institute, Howard Hughes Medical Institute to boost scientific discovery",
+        "link": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
+    },
+    {
+        "text": "xAI's Grok Imagine 1.0 Releases with 720p & Improved Audio, Over a Billion Videos Generated Monthly",
+        "link": "https://x.com/xai/status/2018164753810764061?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "xAI on X"
+    },
     {
         "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
         "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -18,16 +28,6 @@ window.latestDigest = {
         "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
         "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "claude.com"
-    },
-    {
-        "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
-        "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
-    },
-    {
-        "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
-        "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "nature.com"
     }
 ],
     categories: {
@@ -83,15 +83,15 @@ window.latestDigest = {
             "text": "OpenAI launches EU Economic Blueprint 2.0 to boost AI adoption, skills, and growth across Europe",
             "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches Prism to accelerate science writing and collaboration with AI",
-            "link": "https://openai.com/index/introducing-prism/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Anthropic partners with Allen Institute, Howard Hughes Medical Institute to boost scientific discovery",
+            "link": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
             "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -126,18 +126,23 @@ window.latestDigest = {
             "text": "Anthropic partners with UK Government to integrate AI assistance into GOV.UK digital services",
             "link": "https://www.anthropic.com/news/gov-UK-partnership?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic Prompts Clawdbot's Rebranding to Moltbot in Trademark Dispute Resolution",
-            "link": "https://x.com/moltbot/status/2016058924403753024?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Mr. Lobster🦞 on X"
         }
     ],
     "general": [
         {
+            "text": "xAI's Grok Imagine 1.0 Releases with 720p & Improved Audio, Over a Billion Videos Generated Monthly",
+            "link": "https://x.com/xai/status/2018164753810764061?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "xAI on X"
+        },
+        {
             "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
             "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
+        },
+        {
+            "text": "ByteDance and Alibaba to unveil new AI models in intensifying race for AI leadership in China",
+            "link": "https://www.theinformation.com/articles/bytedance-alibaba-launch-new-models-race-ai-supremacy-china?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
         },
         {
             "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
@@ -233,11 +238,6 @@ window.latestDigest = {
             "text": "AnomalyMatch AI helps astronomers find over 800 cosmic anomalies in massive sky image survey",
             "link": "https://www.engadget.com/ai/astronomers-discover-over-800-cosmic-anomalies-using-a-new-ai-tool-205135155.html?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "engadget.com"
-        },
-        {
-            "text": "KREA AI Releases Realtime Edit for Beta Testing to Waitlist and Max Users",
-            "link": "https://x.com/krea_ai/status/2016179395384467503?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "KREA AI on X"
         }
     ]
 }
