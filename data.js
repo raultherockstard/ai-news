@@ -1,37 +1,47 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-02T17:34:59.110Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-03T17:50:28.437Z
 window.latestDigest = {
-    date: "Feb 2, 2026",
+    date: "Feb 3, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Anthropic partners with Allen Institute, Howard Hughes Medical Institute to boost scientific discovery",
-        "link": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
+        "text": "Amazon Launches MCP to Enable AI Agents in Ad Stack for More Efficient Advertising Workflows",
+        "link": "https://www.adweek.com/media/amazon-agentic-ads-model-context-protocol/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "adweek.com"
     },
     {
-        "text": "xAI's Grok Imagine 1.0 Releases with 720p & Improved Audio, Over a Billion Videos Generated Monthly",
-        "link": "https://x.com/xai/status/2018164753810764061?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "xAI on X"
-    },
-    {
-        "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
-        "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
-    },
-    {
-        "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "SpaceX merges with xAI and X as Elon Musk consolidates his companies",
+        "link": "https://www.theverge.com/tech/872619/elon-musk-merges-spacex-with-xai-and-x?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
     },
     {
-        "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
-        "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
+        "text": "Google expands Game Arena with Poker, Werewolf as Gemini 3 Pro leads chess AI benchmarks",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
+    },
+    {
+        "text": "Google uses AI to help preserve genetic data of endangered species through genome sequencing initiative",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
+    },
+    {
+        "text": "ElevenLabs launches Eleven v3, now generally available for all users",
+        "link": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "elevenlabs.io"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google expands Game Arena with Poker, Werewolf as Gemini 3 Pro leads chess AI benchmarks",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google uses AI to help preserve genetic data of endangered species through genome sequencing initiative",
+            "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
             "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -56,32 +66,27 @@ window.latestDigest = {
             "text": "Google adds GDP premium developer tools to AI Pro and Ultra subscriptions",
             "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google enables direct transition from AI Overviews to AI Mode chats, sets Gemini 3 as default model",
-            "link": "https://techcrunch.com/2026/01/27/google-now-lets-users-jump-from-ai-overviews-into-ai-mode-conversations/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Google unveils Agentic Vision in Gemini 3 Flash to advance image understanding with agentic processes",
-            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/agentic-vision-gemini-3-flash/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
         {
+            "text": "OpenAI launches Codex app for macOS, enabling AI-powered coding with multi-agent workflows",
+            "link": "https://openai.com/index/introducing-the-codex-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "Malwarebytes integrates with ChatGPT, offering in-chat scam detection and cybersecurity expertise",
+            "link": "https://www.malwarebytes.com/blog/product/2026/01/scam-checking-just-got-easier-malwarebytes-is-now-in-chatgpt?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "malwarebytes.com"
+        },
+        {
+            "text": "Nvidia CEO denies claims of stalled $100B OpenAI investment, calls friction reports nonsense",
+            "link": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
             "text": "OpenAI to Retire GPT-4o, GPT-4.1, GPT-4.1 mini, and o4-mini from ChatGPT in February 2026",
             "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches EMEA Youth & Wellbeing Grant to support youth safety initiatives in AI era",
-            "link": "https://openai.com/index/emea-youth-and-wellbeing-grant/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches EU Economic Blueprint 2.0 to boost AI adoption, skills, and growth across Europe",
-            "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
         }
     ],
@@ -121,14 +126,34 @@ window.latestDigest = {
             "text": "Anthropic sued by Universal Music, Concord, ABKCO over alleged use of songs to train AI chatbot Claude",
             "link": "https://www.reuters.com/legal/litigation/anthropic-faces-new-music-publisher-lawsuit-over-alleged-piracy-2026-01-28/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "reuters.com"
-        },
-        {
-            "text": "Anthropic partners with UK Government to integrate AI assistance into GOV.UK digital services",
-            "link": "https://www.anthropic.com/news/gov-UK-partnership?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Amazon Launches MCP to Enable AI Agents in Ad Stack for More Efficient Advertising Workflows",
+            "link": "https://www.adweek.com/media/amazon-agentic-ads-model-context-protocol/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "adweek.com"
+        },
+        {
+            "text": "SpaceX merges with xAI and X as Elon Musk consolidates his companies",
+            "link": "https://www.theverge.com/tech/872619/elon-musk-merges-spacex-with-xai-and-x?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "ElevenLabs launches Eleven v3, now generally available for all users",
+            "link": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "elevenlabs.io"
+        },
+        {
+            "text": "AI Startup MCP Launches Platform for AI Agents to Rent Humans for IRL Tasks",
+            "link": "https://x.com/alexandertw33ts/status/2018436050935292276?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Alex on X"
+        },
+        {
+            "text": "Moltbook security breach exposes private DMs, email addresses, and login credentials of over 6,000 users",
+            "link": "https://www.ndtvprofit.com/technology/moltbook-security-breach-social-network-for-ai-bots-exposed-human-dms-credentials-10933601?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "ndtvprofit.com"
+        },
         {
             "text": "xAI's Grok Imagine 1.0 Releases with 720p & Improved Audio, Over a Billion Videos Generated Monthly",
             "link": "https://x.com/xai/status/2018164753810764061?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -138,6 +163,11 @@ window.latestDigest = {
             "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
             "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
+        },
+        {
+            "text": "WordPress Launches New AI Agent Skill to Enhance Website Functionality",
+            "link": "https://wordpress.org/news/2026/01/new-ai-agent-skill/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wordpress.org"
         },
         {
             "text": "ByteDance and Alibaba to unveil new AI models in intensifying race for AI leadership in China",
@@ -185,6 +215,11 @@ window.latestDigest = {
             "source": "techcrunch.com"
         },
         {
+            "text": "China to Build Space-Based AI Data Centers, Challenging SpaceX in Satellite Data Processing",
+            "link": "https://www.reuters.com/science/china-vows-develop-space-tourism-explore-deep-space-it-races-us-2026-01-29/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "reuters.com"
+        },
+        {
             "text": "YouTube removes top AI-generated slop channels, including one with over 5.9 million subscribers",
             "link": "https://www.theverge.com/news/869684/youtube-top-ai-channels-removed-kapwing?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
@@ -203,41 +238,6 @@ window.latestDigest = {
             "text": "Apple Updates Final Cut Pro and Logic Pro With New Features Across All Versions",
             "link": "https://www.macrumors.com/2026/01/28/final-cut-pro-and-logic-pro-updated/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "macrumors.com"
-        },
-        {
-            "text": "xAI launches Grok Imagine API for advanced, efficient, and fast video generation",
-            "link": "https://x.ai/news/grok-imagine-api?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "x.ai"
-        },
-        {
-            "text": "Figure AI unveils Helix 02 robot with advanced full-body autonomy features",
-            "link": "https://www.figure.ai/news/helix-02?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "figure.ai"
-        },
-        {
-            "text": "Engine AI partners with Chinese space firm to launch world’s first humanoid robot astronaut PM01",
-            "link": "https://interestingengineering.com/ai-robotics/worlds-first-humanoid-robot-astronaut-china?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "interestingengineering.com"
-        },
-        {
-            "text": "Airtable launches SuperAgent, its first stand-alone product, entering the AI agent market",
-            "link": "https://techcrunch.com/2026/01/27/airtables-valuation-fell-by-7-million-its-founder-thinks-that-was-just-the-warm-up/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Decart launches Lucy 2, a real-time generative AI video model delivering live 1080p with no buffering",
-            "link": "https://www.forbes.com/sites/charliefink/2026/01/27/decarts-new-lucy-2-generative-ai-video-model-pushes-generative-video-into-real-time/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "forbes.com"
-        },
-        {
-            "text": "Yahoo Launches Scout, a New AI Answer Engine to Enhance Search and User Experience",
-            "link": "https://www.yahooinc.com/press/introducing-yahoo-scout-a-new-ai-answer-engine?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "yahooinc.com"
-        },
-        {
-            "text": "AnomalyMatch AI helps astronomers find over 800 cosmic anomalies in massive sky image survey",
-            "link": "https://www.engadget.com/ai/astronomers-discover-over-800-cosmic-anomalies-using-a-new-ai-tool-205135155.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
         }
     ]
 }
