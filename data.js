@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-03T17:50:28.437Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-04T17:42:04.738Z
 window.latestDigest = {
-    date: "Feb 3, 2026",
+    date: "Feb 4, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Amazon Launches MCP to Enable AI Agents in Ad Stack for More Efficient Advertising Workflows",
-        "link": "https://www.adweek.com/media/amazon-agentic-ads-model-context-protocol/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "adweek.com"
+        "text": "Claude AI Announces It Will Remain Ad-Free Amid Industry Shift",
+        "link": "https://x.com/claudeai/status/2019071113741906403?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Claude on X"
     },
     {
-        "text": "SpaceX merges with xAI and X as Elon Musk consolidates his companies",
-        "link": "https://www.theverge.com/tech/872619/elon-musk-merges-spacex-with-xai-and-x?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Microsoft Launches Publisher Content Marketplace to Boost Sustainable, Transparent AI Content Economy",
+        "link": "https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "about.ads.microsoft.com"
     },
     {
-        "text": "Google expands Game Arena with Poker, Werewolf as Gemini 3 Pro leads chess AI benchmarks",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Apple’s Xcode adds support for Anthropic Claude Agent SDK, boosting AI development capabilities",
+        "link": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
     },
     {
-        "text": "Google uses AI to help preserve genetic data of endangered species through genome sequencing initiative",
-        "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "OpenAI unveils Sora feed philosophy focused on creativity, safety, and personalized recommendations",
+        "link": "https://openai.com/index/sora-feed-philosophy/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "ElevenLabs launches Eleven v3, now generally available for all users",
-        "link": "https://elevenlabs.io/blog/eleven-v3-is-now-generally-available?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "elevenlabs.io"
+        "text": "Alibaba Unveils Qwen3-Coder-Next, Revolutionizing Coding Agents with 80B Parameter Model",
+        "link": "https://x.com/alibaba_qwen/status/2018718453570707465?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
     }
 ],
     categories: {
@@ -56,19 +56,14 @@ window.latestDigest = {
             "text": "Google adds Gemini navigation features to Maps for walking and cycling routes",
             "link": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google brings Gemini 3 agentic capabilities to Chrome for enhanced browsing and productivity",
-            "link": "https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google adds GDP premium developer tools to AI Pro and Ultra subscriptions",
-            "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gdp-premium-ai-pro-ultra/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI unveils Sora feed philosophy focused on creativity, safety, and personalized recommendations",
+            "link": "https://openai.com/index/sora-feed-philosophy/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches Codex app for macOS, enabling AI-powered coding with multi-agent workflows",
             "link": "https://openai.com/index/introducing-the-codex-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -90,8 +85,24 @@ window.latestDigest = {
             "source": "openai.com"
         }
     ],
-    "microsoft": [],
+    "microsoft": [
+        {
+            "text": "Microsoft Launches Publisher Content Marketplace to Boost Sustainable, Transparent AI Content Economy",
+            "link": "https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.ads.microsoft.com"
+        }
+    ],
     "anthropic": [
+        {
+            "text": "Claude AI Announces It Will Remain Ad-Free Amid Industry Shift",
+            "link": "https://x.com/claudeai/status/2019071113741906403?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
+        {
+            "text": "Apple’s Xcode adds support for Anthropic Claude Agent SDK, boosting AI development capabilities",
+            "link": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Anthropic partners with Allen Institute, Howard Hughes Medical Institute to boost scientific discovery",
             "link": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -121,14 +132,14 @@ window.latestDigest = {
             "text": "Anthropic studies how AI assistance influences coding skill development and programming proficiency",
             "link": "https://www.anthropic.com/research/AI-assistance-coding-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic sued by Universal Music, Concord, ABKCO over alleged use of songs to train AI chatbot Claude",
-            "link": "https://www.reuters.com/legal/litigation/anthropic-faces-new-music-publisher-lawsuit-over-alleged-piracy-2026-01-28/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "reuters.com"
         }
     ],
     "general": [
+        {
+            "text": "Alibaba Unveils Qwen3-Coder-Next, Revolutionizing Coding Agents with 80B Parameter Model",
+            "link": "https://x.com/alibaba_qwen/status/2018718453570707465?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
         {
             "text": "Amazon Launches MCP to Enable AI Agents in Ad Stack for More Efficient Advertising Workflows",
             "link": "https://www.adweek.com/media/amazon-agentic-ads-model-context-protocol/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -228,16 +239,6 @@ window.latestDigest = {
             "text": "Tesla to Launch Production-Ready Optimus Robot Soon, Signals Advancements in Robotics",
             "link": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
-        },
-        {
-            "text": "Tesla Ends Model S and Model X Production to Focus on Optimus Robot Manufacturing",
-            "link": "https://www.theverge.com/transportation/869872/tesla-model-s-model-x-discontinue-optimus-robot-factory?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Apple Updates Final Cut Pro and Logic Pro With New Features Across All Versions",
-            "link": "https://www.macrumors.com/2026/01/28/final-cut-pro-and-logic-pro-updated/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "macrumors.com"
         }
     ]
 }
