@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-04T17:42:04.738Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-05T17:43:46.619Z
 window.latestDigest = {
-    date: "Feb 4, 2026",
+    date: "Feb 5, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Claude AI Announces It Will Remain Ad-Free Amid Industry Shift",
-        "link": "https://x.com/claudeai/status/2019071113741906403?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Claude on X"
+        "text": "Perplexity AI Launches Model Council, a Multi-Model Research Feature for Unified Answers",
+        "link": "https://www.perplexity.ai/hub/blog/introducing-model-council?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "perplexity.ai"
     },
     {
-        "text": "Microsoft Launches Publisher Content Marketplace to Boost Sustainable, Transparent AI Content Economy",
-        "link": "https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "about.ads.microsoft.com"
+        "text": "Roblox Unveils Cube Foundation Model to Accelerate and Enhance 3D Creation Capabilities",
+        "link": "https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "about.roblox.com"
     },
     {
-        "text": "Apple’s Xcode adds support for Anthropic Claude Agent SDK, boosting AI development capabilities",
-        "link": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Mistral AI launches Voxtral Transcribe 2, a new open-source on-device speech-to-text model",
+        "link": "https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "venturebeat.com"
+    },
+    {
+        "text": "Google's Gemini app reaches 750 million monthly active users, challenging ChatGPT and Meta AI",
+        "link": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
+    },
+    {
+        "text": "Anthropic keeps Claude ad-free, citing commitment to user trust and helpful AI assistant experience",
+        "link": "https://www.anthropic.com/news/claude-is-a-space-to-think?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "anthropic.com"
-    },
-    {
-        "text": "OpenAI unveils Sora feed philosophy focused on creativity, safety, and personalized recommendations",
-        "link": "https://openai.com/index/sora-feed-philosophy/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "Alibaba Unveils Qwen3-Coder-Next, Revolutionizing Coding Agents with 80B Parameter Model",
-        "link": "https://x.com/alibaba_qwen/status/2018718453570707465?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google's Gemini app reaches 750 million monthly active users, challenging ChatGPT and Meta AI",
+            "link": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
         {
             "text": "Google expands Game Arena with Poker, Werewolf as Gemini 3 Pro leads chess AI benchmarks",
             "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -46,19 +51,19 @@ window.latestDigest = {
             "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
             "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "nature.com"
-        },
-        {
-            "text": "Google launches Project Genie for AI Ultra subscribers to explore infinite, interactive virtual worlds",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google adds Gemini navigation features to Maps for walking and cycling routes",
-            "link": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "Sam Altman Criticizes Anthropic's Ads for Being \"Clearly Dishonest\"",
+            "link": "https://x.com/sama/status/2019139174339928189?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Sam Altman on X"
+        },
+        {
+            "text": "OpenAI CEO Sam Altman Unveils Massive AI, Hardware, and Infrastructure Bets for Future Expansion",
+            "link": "https://www.forbes.com/sites/richardnieva/2026/02/03/sam-altman-explains-the-future/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "forbes.com"
+        },
         {
             "text": "OpenAI unveils Sora feed philosophy focused on creativity, safety, and personalized recommendations",
             "link": "https://openai.com/index/sora-feed-philosophy/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -94,6 +99,11 @@ window.latestDigest = {
     ],
     "anthropic": [
         {
+            "text": "Anthropic keeps Claude ad-free, citing commitment to user trust and helpful AI assistant experience",
+            "link": "https://www.anthropic.com/news/claude-is-a-space-to-think?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
             "text": "Claude AI Announces It Will Remain Ad-Free Amid Industry Shift",
             "link": "https://x.com/claudeai/status/2019071113741906403?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Claude on X"
@@ -127,18 +137,53 @@ window.latestDigest = {
             "text": "Invideo Unveils AI Motion Graphics Tool with Anthropic, Revolutionizing Motion Design",
             "link": "https://x.com/invideoOfficial/status/2016994995488878681?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Invideo on X"
-        },
-        {
-            "text": "Anthropic studies how AI assistance influences coding skill development and programming proficiency",
-            "link": "https://www.anthropic.com/research/AI-assistance-coding-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
         {
+            "text": "Perplexity AI Launches Model Council, a Multi-Model Research Feature for Unified Answers",
+            "link": "https://www.perplexity.ai/hub/blog/introducing-model-council?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "perplexity.ai"
+        },
+        {
+            "text": "Roblox Unveils Cube Foundation Model to Accelerate and Enhance 3D Creation Capabilities",
+            "link": "https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.roblox.com"
+        },
+        {
+            "text": "Mistral AI launches Voxtral Transcribe 2, a new open-source on-device speech-to-text model",
+            "link": "https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "Kling AI Unveils Kling 3.0 Model for Multimodal Creative Video Production",
+            "link": "https://x.com/kling_ai/status/2019064918960668819?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Kling AI on X"
+        },
+        {
+            "text": "Vercel revamps v0 to better connect AI-generated code with existing production infrastructure",
+            "link": "https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "Intel to Enter GPU Market, Challenging Nvidia’s Dominance with Customer-Focused Strategy",
+            "link": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "World Labs Unveils Persistent 3D Scenes for Extended User Interaction",
+            "link": "https://x.com/theworldlabs/status/2018738962517659708?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "World Labs on X"
+        },
+        {
             "text": "Alibaba Unveils Qwen3-Coder-Next, Revolutionizing Coding Agents with 80B Parameter Model",
             "link": "https://x.com/alibaba_qwen/status/2018718453570707465?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Qwen on X"
+        },
+        {
+            "text": "Adobe Firefly now offers unlimited AI image generations with top models for subscribers",
+            "link": "https://blog.adobe.com/en/publish/2026/02/02/create-unlimited-generations-adobe-firefly-all-in-one-creative-ai-studio?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.adobe.com"
         },
         {
             "text": "Amazon Launches MCP to Enable AI Agents in Ad Stack for More Efficient Advertising Workflows",
@@ -194,51 +239,6 @@ window.latestDigest = {
             "text": "Rabbit launches DLAM, brings Moltbot to r1, and teases new hardware in first major 2026 update",
             "link": "https://www.rabbit.tech/blog/first-major-update-of-2026-dlam-moltbot-and-a-surprise?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "rabbit.tech"
-        },
-        {
-            "text": "SpaceX and xAI May Merge Into One Company, Elon Musk Considers Consolidation",
-            "link": "https://www.theverge.com/tech/870380/elon-musk-space-x-xai-merger?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Apple acquires Israel-based AI startup Q.ai for $2 billion to boost artificial intelligence efforts",
-            "link": "https://9to5mac.com/2026/01/29/apple-acquires-secretive-q%E2%80%A4ai-startup-for-2-billion/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "9to5mac.com"
-        },
-        {
-            "text": "NVIDIA unveils Cosmos Policy for advanced robot control, setting new benchmarks in manipulation tasks",
-            "link": "https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "huggingface.co"
-        },
-        {
-            "text": "KREA AI Unveils Realtime Edit for Instant Image Editing with Complex Instructions",
-            "link": "https://x.com/krea_ai/status/2016900392513347726?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "KREA AI on X"
-        },
-        {
-            "text": "xAI's Grok Imagine Leads Text to Video and Image to Video in Artificial Analysis Arena",
-            "link": "https://x.com/artificialanlys/status/2016749756081721561?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Artificial Analysis on X"
-        },
-        {
-            "text": "Meta plans major AI rollout and agentic commerce tools launch in 2026, says Zuckerberg",
-            "link": "https://techcrunch.com/2026/01/28/zuckerberg-teases-agentic-commerce-tools-and-major-ai-rollout-in-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "China to Build Space-Based AI Data Centers, Challenging SpaceX in Satellite Data Processing",
-            "link": "https://www.reuters.com/science/china-vows-develop-space-tourism-explore-deep-space-it-races-us-2026-01-29/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "reuters.com"
-        },
-        {
-            "text": "YouTube removes top AI-generated slop channels, including one with over 5.9 million subscribers",
-            "link": "https://www.theverge.com/news/869684/youtube-top-ai-channels-removed-kapwing?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Tesla to Launch Production-Ready Optimus Robot Soon, Signals Advancements in Robotics",
-            "link": "https://www.theverge.com/transportation/869746/tesla-optimus-gen-3-q1-2026-earnings?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
         }
     ]
 }
