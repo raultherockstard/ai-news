@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-05T17:43:46.619Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-06T17:38:35.784Z
 window.latestDigest = {
-    date: "Feb 5, 2026",
+    date: "Feb 6, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Perplexity AI Launches Model Council, a Multi-Model Research Feature for Unified Answers",
-        "link": "https://www.perplexity.ai/hub/blog/introducing-model-council?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "perplexity.ai"
+        "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
+        "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     },
     {
-        "text": "Roblox Unveils Cube Foundation Model to Accelerate and Enhance 3D Creation Capabilities",
-        "link": "https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "about.roblox.com"
+        "text": "OpenAI launches Frontier platform for enterprise AI agent development, deployment, and management",
+        "link": "https://openai.com/index/introducing-openai-frontier/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Mistral AI launches Voxtral Transcribe 2, a new open-source on-device speech-to-text model",
-        "link": "https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "venturebeat.com"
+        "text": "OpenAI launches GPT-5.3-Codex with advanced coding and reasoning for real-world technical tasks",
+        "link": "https://openai.com/index/introducing-gpt-5-3-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Google's Gemini app reaches 750 million monthly active users, challenging ChatGPT and Meta AI",
-        "link": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
+        "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "v0 on X"
     },
     {
-        "text": "Anthropic keeps Claude ad-free, citing commitment to user trust and helpful AI assistant experience",
-        "link": "https://www.anthropic.com/news/claude-is-a-space-to-think?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
+        "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
+        "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
+            "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google's Gemini app reaches 750 million monthly active users, challenging ChatGPT and Meta AI",
             "link": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -46,14 +51,19 @@ window.latestDigest = {
             "text": "Google uses AI to help preserve genetic data of endangered species through genome sequencing initiative",
             "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "RESEARCH: **Google's AlphaGenome Cracks DNA's Hidden Code, Reveals Cancer Mutation Secrets**",
-            "link": "https://www.nature.com/articles/s41586-025-10014-0?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "nature.com"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI launches Frontier platform for enterprise AI agent development, deployment, and management",
+            "link": "https://openai.com/index/introducing-openai-frontier/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI launches GPT-5.3-Codex with advanced coding and reasoning for real-world technical tasks",
+            "link": "https://openai.com/index/introducing-gpt-5-3-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "Sam Altman Criticizes Anthropic's Ads for Being \"Clearly Dishonest\"",
             "link": "https://x.com/sama/status/2019139174339928189?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -83,11 +93,6 @@ window.latestDigest = {
             "text": "Nvidia CEO denies claims of stalled $100B OpenAI investment, calls friction reports nonsense",
             "link": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "OpenAI to Retire GPT-4o, GPT-4.1, GPT-4.1 mini, and o4-mini from ChatGPT in February 2026",
-            "link": "https://openai.com/index/retiring-gpt-4o-and-older-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
@@ -98,6 +103,16 @@ window.latestDigest = {
         }
     ],
     "anthropic": [
+        {
+            "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
+            "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
+        {
+            "text": "Anthropic launches upgraded Claude Opus 4.6 model with major improvements in coding and tool use",
+            "link": "https://www.anthropic.com/news/claude-opus-4-6?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Anthropic keeps Claude ad-free, citing commitment to user trust and helpful AI assistant experience",
             "link": "https://www.anthropic.com/news/claude-is-a-space-to-think?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -127,19 +142,14 @@ window.latestDigest = {
             "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
             "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Claude releases complete guide to building skills and optimizing workflow integrations for users",
-            "link": "https://claude.com/blog/complete-guide-to-building-skills-for-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
-        },
-        {
-            "text": "Invideo Unveils AI Motion Graphics Tool with Anthropic, Revolutionizing Motion Design",
-            "link": "https://x.com/invideoOfficial/status/2016994995488878681?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Invideo on X"
         }
     ],
     "general": [
+        {
+            "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
+            "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "v0 on X"
+        },
         {
             "text": "Perplexity AI Launches Model Council, a Multi-Model Research Feature for Unified Answers",
             "link": "https://www.perplexity.ai/hub/blog/introducing-model-council?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "ByteDance and Alibaba to unveil new AI models in intensifying race for AI leadership in China",
             "link": "https://www.theinformation.com/articles/bytedance-alibaba-launch-new-models-race-ai-supremacy-china?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "Suno Launches \"Sample\" Tool to Transform Sounds into Music",
-            "link": "https://x.com/suno/status/2016970370763424187?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Suno on X"
-        },
-        {
-            "text": "Rabbit launches DLAM, brings Moltbot to r1, and teases new hardware in first major 2026 update",
-            "link": "https://www.rabbit.tech/blog/first-major-update-of-2026-dlam-moltbot-and-a-surprise?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "rabbit.tech"
         }
     ]
 }
