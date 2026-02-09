@@ -1,9 +1,14 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-08T17:23:05.332Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-09T17:48:18.514Z
 window.latestDigest = {
-    date: "Feb 8, 2026",
+    date: "Feb 9, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
+        "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Kris | ai.com on X"
+    },
     {
         "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
         "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -23,11 +28,6 @@ window.latestDigest = {
         "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
         "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "v0 on X"
-    },
-    {
-        "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
-        "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
     }
 ],
     categories: {
@@ -146,6 +146,11 @@ window.latestDigest = {
     ],
     "general": [
         {
+            "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
+            "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Kris | ai.com on X"
+        },
+        {
             "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
             "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "v0 on X"
@@ -234,11 +239,6 @@ window.latestDigest = {
             "text": "WordPress Launches New AI Agent Skill to Enhance Website Functionality",
             "link": "https://wordpress.org/news/2026/01/new-ai-agent-skill/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "wordpress.org"
-        },
-        {
-            "text": "ByteDance and Alibaba to unveil new AI models in intensifying race for AI leadership in China",
-            "link": "https://www.theinformation.com/articles/bytedance-alibaba-launch-new-models-race-ai-supremacy-china?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
         }
     ]
 }
