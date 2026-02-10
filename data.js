@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-09T17:48:18.514Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-10T17:58:09.825Z
 window.latestDigest = {
-    date: "Feb 9, 2026",
+    date: "Feb 10, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
-        "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Kris | ai.com on X"
+        "text": "KREA AI Unveils Prompt-to-Workflow for Text-Based Node Creation in Krea Nodes",
+        "link": "https://x.com/krea_ai/status/2021249046049182024?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "KREA AI on X"
     },
     {
-        "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
-        "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Warp Unveils Oz: New Platform for Cloud-Based Agent Orchestration",
+        "link": "https://x.com/warpdotdev/status/2021247666965958999?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Warp on X"
     },
     {
-        "text": "OpenAI launches Frontier platform for enterprise AI agent development, deployment, and management",
-        "link": "https://openai.com/index/introducing-openai-frontier/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Alibaba Unleashes Qwen-Image-2.0 Model for Advanced Image Generation",
+        "link": "https://x.com/alibaba_qwen/status/2021137577311600949?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
     },
     {
-        "text": "OpenAI launches GPT-5.3-Codex with advanced coding and reasoning for real-world technical tasks",
-        "link": "https://openai.com/index/introducing-gpt-5-3-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Ring Super Bowl Ad Highlights AI Surveillance Network, Potential Law Enforcement Partnerships",
+        "link": "https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "truthout.org"
     },
     {
-        "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
-        "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "v0 on X"
+        "text": "ByteDance Unveils Advanced AI Video Generator Delivering Superior Results to Rival Models",
+        "link": "https://www.socialmediatoday.com/news/bytedance-launches-impressive-new-ai-video-generation-tool/811776/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "socialmediatoday.com"
     }
 ],
     categories: {
@@ -54,6 +54,16 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI starts testing ads in ChatGPT to support free access with privacy and user controls",
+            "link": "https://openai.com/index/testing-ads-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI launches secure custom ChatGPT on GenAI.mil for U.S. defense teams",
+            "link": "https://openai.com/index/bringing-chatgpt-to-genaimil/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches Frontier platform for enterprise AI agent development, deployment, and management",
             "link": "https://openai.com/index/introducing-openai-frontier/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -83,16 +93,6 @@ window.latestDigest = {
             "text": "OpenAI launches Codex app for macOS, enabling AI-powered coding with multi-agent workflows",
             "link": "https://openai.com/index/introducing-the-codex-app/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "Malwarebytes integrates with ChatGPT, offering in-chat scam detection and cybersecurity expertise",
-            "link": "https://www.malwarebytes.com/blog/product/2026/01/scam-checking-just-got-easier-malwarebytes-is-now-in-chatgpt?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "malwarebytes.com"
-        },
-        {
-            "text": "Nvidia CEO denies claims of stalled $100B OpenAI investment, calls friction reports nonsense",
-            "link": "https://techcrunch.com/2026/01/31/nvidia-ceo-pushes-back-against-report-that-his-companys-100b-openai-investment-has-stalled/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ],
     "microsoft": [
@@ -103,6 +103,11 @@ window.latestDigest = {
         }
     ],
     "anthropic": [
+        {
+            "text": "Anthropic relies on philosopher Amanda Askell to shape AI chatbot ethics and moral decision-making",
+            "link": "https://www.wsj.com/tech/ai/anthropic-amanda-askell-philosopher-ai-3c031883?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wsj.com"
+        },
         {
             "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
             "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -127,24 +132,34 @@ window.latestDigest = {
             "text": "Apple’s Xcode adds support for Anthropic Claude Agent SDK, boosting AI development capabilities",
             "link": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic partners with Allen Institute, Howard Hughes Medical Institute to boost scientific discovery",
-            "link": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic’s Claude AI Assists NASA Perseverance Rover in Historic 400-Meter Drive on Mars",
-            "link": "https://www.anthropic.com/features/claude-on-mars?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Claude launches Cowork plugins for customizable workflows and enhanced team productivity",
-            "link": "https://claude.com/blog/cowork-plugins?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
+        {
+            "text": "KREA AI Unveils Prompt-to-Workflow for Text-Based Node Creation in Krea Nodes",
+            "link": "https://x.com/krea_ai/status/2021249046049182024?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "KREA AI on X"
+        },
+        {
+            "text": "Warp Unveils Oz: New Platform for Cloud-Based Agent Orchestration",
+            "link": "https://x.com/warpdotdev/status/2021247666965958999?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Warp on X"
+        },
+        {
+            "text": "Alibaba Unleashes Qwen-Image-2.0 Model for Advanced Image Generation",
+            "link": "https://x.com/alibaba_qwen/status/2021137577311600949?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
+        {
+            "text": "Ring Super Bowl Ad Highlights AI Surveillance Network, Potential Law Enforcement Partnerships",
+            "link": "https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "truthout.org"
+        },
+        {
+            "text": "ByteDance Unveils Advanced AI Video Generator Delivering Superior Results to Rival Models",
+            "link": "https://www.socialmediatoday.com/news/bytedance-launches-impressive-new-ai-video-generation-tool/811776/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "socialmediatoday.com"
+        },
         {
             "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
             "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -224,21 +239,6 @@ window.latestDigest = {
             "text": "Moltbook security breach exposes private DMs, email addresses, and login credentials of over 6,000 users",
             "link": "https://www.ndtvprofit.com/technology/moltbook-security-breach-social-network-for-ai-bots-exposed-human-dms-credentials-10933601?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "ndtvprofit.com"
-        },
-        {
-            "text": "xAI's Grok Imagine 1.0 Releases with 720p & Improved Audio, Over a Billion Videos Generated Monthly",
-            "link": "https://x.com/xai/status/2018164753810764061?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "xAI on X"
-        },
-        {
-            "text": "Moltbook social network for AI agents sparks viral debate on AI consciousness",
-            "link": "https://www.theverge.com/ai-artificial-intelligence/871006/social-network-facebook-for-ai-agents-moltbook-moltbot-openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "WordPress Launches New AI Agent Skill to Enhance Website Functionality",
-            "link": "https://wordpress.org/news/2026/01/new-ai-agent-skill/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wordpress.org"
         }
     ]
 }
