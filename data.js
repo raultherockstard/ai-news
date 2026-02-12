@@ -1,37 +1,47 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-11T17:53:55.891Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-12T17:54:49.445Z
 window.latestDigest = {
-    date: "Feb 11, 2026",
+    date: "Feb 12, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "xAI loses second cofounder in two days as Jimmy Ba exits after Tony Wu at Elon Musk's AI company",
-        "link": "https://www.businessinsider.com/elon-musk-xai-loses-second-cofounder-jimmy-ba-2026-2?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "businessinsider.com"
+        "text": "OpenAI to Deprecate Legacy ChatGPT Models Including GPT-5 and GPT-4 Variants",
+        "link": "https://x.com/openainewsroom/status/2021992846862258403?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "OpenAI Newsroom on X"
     },
     {
-        "text": "Cowork Launches on Windows with Full Feature Parity to MacOS",
-        "link": "https://x.com/claudeai/status/2021336313979625910?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Claude on X"
+        "text": "Google Unveils Major Upgrade to Gemini 3 Deep Think Specialized Reasoning Mode for Science and Research",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     },
     {
-        "text": "OpenAI Launches ChatGPT Powered by GPT-5.2, Promises Enhanced Capabilities",
-        "link": "https://x.com/openai/status/2021299935678026168?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "OpenAI on X"
+        "text": "Waymo launches 6th-generation Driver for fully autonomous operations in more cities and harsher climates",
+        "link": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "waymo.com"
     },
     {
-        "text": "Cisco Unveils Silicon One G300 and New Systems to Boost AI Data Center Performance and Scalability",
-        "link": "https://investor.cisco.com/news/news-details/2026/Cisco-Announces-New-Silicon-One-G300-Advanced-Systems-and-Optics-to-Power-and-Scale-AI-Data-Centers-for-the-Agentic-Era/default.aspx?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "investor.cisco.com"
+        "text": "ByteDance Seed Team Officially Launches Seedance 2.0",
+        "link": "https://seed.bytedance.com/en/blog/seedance-2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "seed.bytedance.com"
     },
     {
-        "text": "Meta AI adds new features to animate Facebook profile pictures and feed posts for unique sharing",
-        "link": "https://about.fb.com/news/2026/02/animate-facebook-profile-picture-meta-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "about.fb.com"
+        "text": "MiniMax launches M2.5 AI model with SOTA productivity, faster performance, and ultra-low operating cost",
+        "link": "https://www.minimax.io/news/minimax-m25?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "minimax.io"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google Unveils Major Upgrade to Gemini 3 Deep Think Specialized Reasoning Mode for Science and Research",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google DeepMind unveils Gemini Deep Think to accelerate discovery in maths, physics, and computer science",
+            "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "deepmind.google"
+        },
         {
             "text": "Google sued by Autodesk for alleged trademark infringement in AI movie-making software",
             "link": "https://www.reuters.com/legal/litigation/google-sued-by-autodesk-over-ai-powered-movie-making-software-2026-02-09/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -41,14 +51,19 @@ window.latestDigest = {
             "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
             "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google's Gemini app reaches 750 million monthly active users, challenging ChatGPT and Meta AI",
-            "link": "https://techcrunch.com/2026/02/04/googles-gemini-app-has-surpassed-750m-monthly-active-users/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI to Deprecate Legacy ChatGPT Models Including GPT-5 and GPT-4 Variants",
+            "link": "https://x.com/openainewsroom/status/2021992846862258403?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "OpenAI Newsroom on X"
+        },
+        {
+            "text": "OpenAI Denies Involvement in Viral Alexander Skarsgård Ad, Actor Confirms Authenticity",
+            "link": "https://x.com/unusual_whales/status/2021767498866340334?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "unusual_whales on X"
+        },
         {
             "text": "OpenAI Launches ChatGPT Powered by GPT-5.2, Promises Enhanced Capabilities",
             "link": "https://x.com/openai/status/2021299935678026168?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -73,31 +88,20 @@ window.latestDigest = {
             "text": "OpenAI launches GPT-5.3-Codex with advanced coding and reasoning for real-world technical tasks",
             "link": "https://openai.com/index/introducing-gpt-5-3-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "Sam Altman Criticizes Anthropic's Ads for Being \"Clearly Dishonest\"",
-            "link": "https://x.com/sama/status/2019139174339928189?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Sam Altman on X"
-        },
-        {
-            "text": "OpenAI CEO Sam Altman Unveils Massive AI, Hardware, and Infrastructure Bets for Future Expansion",
-            "link": "https://www.forbes.com/sites/richardnieva/2026/02/03/sam-altman-explains-the-future/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "forbes.com"
-        },
-        {
-            "text": "OpenAI unveils Sora feed philosophy focused on creativity, safety, and personalized recommendations",
-            "link": "https://openai.com/index/sora-feed-philosophy/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
-    "microsoft": [
-        {
-            "text": "Microsoft Launches Publisher Content Marketplace to Boost Sustainable, Transparent AI Content Economy",
-            "link": "https://about.ads.microsoft.com/en/blog/post/february-2026/building-toward-a-sustainable-content-economy-for-the-agentic-web?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.ads.microsoft.com"
-        }
-    ],
+    "microsoft": [],
     "anthropic": [
+        {
+            "text": "Anthropic donates $20 million to Public First Action to support public interest AI initiatives",
+            "link": "https://www.anthropic.com/news/donate-public-first-action?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Anthropic addresses rising data center electricity costs to maintain reliable AI operations",
+            "link": "https://www.anthropic.com/news/covering-electricity-price-increases?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Anthropic relies on philosopher Amanda Askell to shape AI chatbot ethics and moral decision-making",
             "link": "https://www.wsj.com/tech/ai/anthropic-amanda-askell-philosopher-ai-3c031883?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -112,29 +116,54 @@ window.latestDigest = {
             "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
             "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Anthropic launches upgraded Claude Opus 4.6 model with major improvements in coding and tool use",
-            "link": "https://www.anthropic.com/news/claude-opus-4-6?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic keeps Claude ad-free, citing commitment to user trust and helpful AI assistant experience",
-            "link": "https://www.anthropic.com/news/claude-is-a-space-to-think?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Claude AI Announces It Will Remain Ad-Free Amid Industry Shift",
-            "link": "https://x.com/claudeai/status/2019071113741906403?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
-        },
-        {
-            "text": "Apple’s Xcode adds support for Anthropic Claude Agent SDK, boosting AI development capabilities",
-            "link": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Waymo launches 6th-generation Driver for fully autonomous operations in more cities and harsher climates",
+            "link": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "waymo.com"
+        },
+        {
+            "text": "ByteDance Seed Team Officially Launches Seedance 2.0",
+            "link": "https://seed.bytedance.com/en/blog/seedance-2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "seed.bytedance.com"
+        },
+        {
+            "text": "MiniMax launches M2.5 AI model with SOTA productivity, faster performance, and ultra-low operating cost",
+            "link": "https://www.minimax.io/news/minimax-m25?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "minimax.io"
+        },
+        {
+            "text": "RunwayML Launches Story Panels Workflow for AI-Generated Film and Content Creation",
+            "link": "https://x.com/runwayml/status/2021968843476750655?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Runway on X"
+        },
+        {
+            "text": "Coinbase unveils crypto wallets designed for AI agents to automate 24/7 trading for users",
+            "link": "https://cointelegraph.com/news/coinbase-launches-crypto-wallets-built-ai-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "cointelegraph.com"
+        },
+        {
+            "text": "Higgsfield Faces Backlash Over Racist Videos and Payment Issues Amid Rapid Revenue Growth",
+            "link": "https://www.forbes.com/sites/rashishrivastava/2026/02/11/racist-videos-and-payment-problems-the-dark-side-of-this-ai-startups-super-fast-growth/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "forbes.com"
+        },
+        {
+            "text": "T-Mobile introduces live translation for phone calls, works even on old flip phones without an app",
+            "link": "https://www.theverge.com/tech/877008/t-mobile-live-translation-languages-ai-network?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "z.ai releases GLM-5, advancing from Vibe Coding to Agentic Engineering in AI development",
+            "link": "https://z.ai/blog/glm-5?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "z.ai"
+        },
+        {
+            "text": "Meta launches Dear Algo to let Threads users customize their feed based on content preferences",
+            "link": "https://about.fb.com/news/2026/02/threads-dear-algo/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.fb.com"
+        },
         {
             "text": "xAI loses second cofounder in two days as Jimmy Ba exits after Tony Wu at Elon Musk's AI company",
             "link": "https://www.businessinsider.com/elon-musk-xai-loses-second-cofounder-jimmy-ba-2026-2?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -209,36 +238,6 @@ window.latestDigest = {
             "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
             "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "v0 on X"
-        },
-        {
-            "text": "Perplexity AI Launches Model Council, a Multi-Model Research Feature for Unified Answers",
-            "link": "https://www.perplexity.ai/hub/blog/introducing-model-council?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "perplexity.ai"
-        },
-        {
-            "text": "Roblox Unveils Cube Foundation Model to Accelerate and Enhance 3D Creation Capabilities",
-            "link": "https://about.roblox.com/newsroom/2026/02/accelerating-creation-powered-roblox-cube-foundation-model?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.roblox.com"
-        },
-        {
-            "text": "Mistral AI launches Voxtral Transcribe 2, a new open-source on-device speech-to-text model",
-            "link": "https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "Kling AI Unveils Kling 3.0 Model for Multimodal Creative Video Production",
-            "link": "https://x.com/kling_ai/status/2019064918960668819?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Kling AI on X"
-        },
-        {
-            "text": "Vercel revamps v0 to better connect AI-generated code with existing production infrastructure",
-            "link": "https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "Intel to Enter GPU Market, Challenging Nvidia’s Dominance with Customer-Focused Strategy",
-            "link": "https://techcrunch.com/2026/02/03/intel-will-start-making-gpus-a-market-dominated-by-nvidia/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ]
 }
