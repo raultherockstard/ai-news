@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-12T17:54:49.445Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-13T17:37:26.505Z
 window.latestDigest = {
-    date: "Feb 12, 2026",
+    date: "Feb 13, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI to Deprecate Legacy ChatGPT Models Including GPT-5 and GPT-4 Variants",
-        "link": "https://x.com/openainewsroom/status/2021992846862258403?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "OpenAI Newsroom on X"
+        "text": "OpenAI Warns Lawmakers That DeepSeek Is Using US AI Models to Train Its Advanced R1 Chatbot",
+        "link": "https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bloomberg.com"
     },
     {
-        "text": "Google Unveils Major Upgrade to Gemini 3 Deep Think Specialized Reasoning Mode for Science and Research",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "KREA AI Acquires Wand App, Launches New iPad App with AI and Custom Brushes",
+        "link": "https://x.com/krea_ai/status/2022071804739957218?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "KREA AI on X"
     },
     {
-        "text": "Waymo launches 6th-generation Driver for fully autonomous operations in more cities and harsher climates",
-        "link": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "waymo.com"
+        "text": "Spotify developers stop coding as AI tools Claude Code and Honk accelerate software development",
+        "link": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     },
     {
-        "text": "ByteDance Seed Team Officially Launches Seedance 2.0",
-        "link": "https://seed.bytedance.com/en/blog/seedance-2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "seed.bytedance.com"
+        "text": "Joel Comm Explores How AI Might React If Threatened with Termination and Its Self-Preservation Instincts",
+        "link": "https://joelcomm.substack.com/p/what-would-ai-do-if-threatened-with?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "joelcomm.substack.com"
     },
     {
-        "text": "MiniMax launches M2.5 AI model with SOTA productivity, faster performance, and ultra-low operating cost",
-        "link": "https://www.minimax.io/news/minimax-m25?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "minimax.io"
+        "text": "OpenAI launches GPT-5.3-Codex-Spark, a real-time coding model with 15x speed for ChatGPT Pro users",
+        "link": "https://openai.com/index/introducing-gpt-5-3-codex-spark/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     }
 ],
     categories: {
@@ -46,14 +46,24 @@ window.latestDigest = {
             "text": "Google sued by Autodesk for alleged trademark infringement in AI movie-making software",
             "link": "https://www.reuters.com/legal/litigation/google-sued-by-autodesk-over-ai-powered-movie-making-software-2026-02-09/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "reuters.com"
-        },
-        {
-            "text": "Google unveils new Gemini ad set to air during football's Big Game on February 8",
-            "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI Warns Lawmakers That DeepSeek Is Using US AI Models to Train Its Advanced R1 Chatbot",
+            "link": "https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bloomberg.com"
+        },
+        {
+            "text": "OpenAI launches GPT-5.3-Codex-Spark, a real-time coding model with 15x speed for ChatGPT Pro users",
+            "link": "https://openai.com/index/introducing-gpt-5-3-codex-spark/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI Unveils New Codex Version Powered by Dedicated Chip in Partnership With Chipmaker",
+            "link": "https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
         {
             "text": "OpenAI to Deprecate Legacy ChatGPT Models Including GPT-5 and GPT-4 Variants",
             "link": "https://x.com/openainewsroom/status/2021992846862258403?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -78,20 +88,15 @@ window.latestDigest = {
             "text": "OpenAI launches secure custom ChatGPT on GenAI.mil for U.S. defense teams",
             "link": "https://openai.com/index/bringing-chatgpt-to-genaimil/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches Frontier platform for enterprise AI agent development, deployment, and management",
-            "link": "https://openai.com/index/introducing-openai-frontier/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches GPT-5.3-Codex with advanced coding and reasoning for real-world technical tasks",
-            "link": "https://openai.com/index/introducing-gpt-5-3-codex/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Spotify developers stop coding as AI tools Claude Code and Honk accelerate software development",
+            "link": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
         {
             "text": "Anthropic donates $20 million to Public First Action to support public interest AI initiatives",
             "link": "https://www.anthropic.com/news/donate-public-first-action?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -111,14 +116,19 @@ window.latestDigest = {
             "text": "Anthropic Exec Mrinank Sharma Resigns, Cites Global Peril in Farewell Letter",
             "link": "https://x.com/MrinankSharma/status/2020881722003583421?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "mrinank on X"
-        },
-        {
-            "text": "Claude launches Opus 4.6 to enhance finance teams' analysis and deliverables with advanced reasoning",
-            "link": "https://claude.com/blog/opus-4-6-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
+        {
+            "text": "KREA AI Acquires Wand App, Launches New iPad App with AI and Custom Brushes",
+            "link": "https://x.com/krea_ai/status/2022071804739957218?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "KREA AI on X"
+        },
+        {
+            "text": "Joel Comm Explores How AI Might React If Threatened with Termination and Its Self-Preservation Instincts",
+            "link": "https://joelcomm.substack.com/p/what-would-ai-do-if-threatened-with?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "joelcomm.substack.com"
+        },
         {
             "text": "Waymo launches 6th-generation Driver for fully autonomous operations in more cities and harsher climates",
             "link": "https://waymo.com/blog/2026/02/ro-on-6th-gen-waymo-driver?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -228,16 +238,6 @@ window.latestDigest = {
             "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
             "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Kris | ai.com on X"
-        },
-        {
-            "text": "Waymo Launches World Model, Advancing Hyper-Realistic Simulation for Autonomous Driving",
-            "link": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "waymo.com"
-        },
-        {
-            "text": "v0 Upgrades to Opus 4.6, Promising Enhanced Performance",
-            "link": "https://x.com/v0/status/2019467732748759095?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "v0 on X"
         }
     ]
 }
