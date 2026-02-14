@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-13T17:37:26.505Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-14T17:22:31.833Z
 window.latestDigest = {
-    date: "Feb 13, 2026",
+    date: "Feb 14, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI Warns Lawmakers That DeepSeek Is Using US AI Models to Train Its Advanced R1 Chatbot",
-        "link": "https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bloomberg.com"
+        "text": "ByteDance releases Seed 2.0 agent models in Pro, Lite and Mini with upgraded multimodal capabilities",
+        "link": "https://seed.bytedance.com/en/seed2?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "seed.bytedance.com"
     },
     {
-        "text": "KREA AI Acquires Wand App, Launches New iPad App with AI and Custom Brushes",
-        "link": "https://x.com/krea_ai/status/2022071804739957218?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "KREA AI on X"
+        "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
+        "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "wsj.com"
     },
     {
-        "text": "Spotify developers stop coding as AI tools Claude Code and Honk accelerate software development",
-        "link": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Disney Sends ByteDance Cease-and-Desist Over Seedance 2.0 AI Video Model",
+        "link": "https://deadline.com/2026/02/disney-bytedance-cease-and-desist-letter-seedance-ai-video-1236719549/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "deadline.com"
+    },
+    {
+        "text": "Airbnb to add AI features for search, discovery and customer support",
+        "link": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "techcrunch.com"
     },
     {
-        "text": "Joel Comm Explores How AI Might React If Threatened with Termination and Its Self-Preservation Instincts",
-        "link": "https://joelcomm.substack.com/p/what-would-ai-do-if-threatened-with?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "joelcomm.substack.com"
-    },
-    {
-        "text": "OpenAI launches GPT-5.3-Codex-Spark, a real-time coding model with 15x speed for ChatGPT Pro users",
-        "link": "https://openai.com/index/introducing-gpt-5-3-codex-spark/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "NVIDIA enables free OpenClaw AI agent setup on GeForce RTX, NVIDIA RTX GPUs, and DGX Spark systems",
+        "link": "https://www.nvidia.com/en-us/geforce/news/open-claw-rtx-gpu-dgx-spark-guide/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "nvidia.com"
     }
 ],
     categories: {
@@ -41,14 +41,24 @@ window.latestDigest = {
             "text": "Google DeepMind unveils Gemini Deep Think to accelerate discovery in maths, physics, and computer science",
             "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "deepmind.google"
-        },
-        {
-            "text": "Google sued by Autodesk for alleged trademark infringement in AI movie-making software",
-            "link": "https://www.reuters.com/legal/litigation/google-sued-by-autodesk-over-ai-powered-movie-making-software-2026-02-09/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "reuters.com"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI unveils new real-time access system for scaling Codex and Sora beyond rate limits",
+            "link": "https://openai.com/index/beyond-rate-limits/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI adds Lockdown Mode and Elevated Risk labels to ChatGPT for enhanced organizational security",
+            "link": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI GPT-5.2 Preprint Reports New Theoretical Physics Result on Unexpected Gluon Interaction",
+            "link": "https://x.com/OpenAI/status/2022390096625078389?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "OpenAI on X"
+        },
         {
             "text": "OpenAI Warns Lawmakers That DeepSeek Is Using US AI Models to Train Its Advanced R1 Chatbot",
             "link": "https://www.bloomberg.com/news/articles/2026-02-12/openai-accuses-deepseek-of-distilling-us-models-to-gain-an-edge?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -78,24 +88,35 @@ window.latestDigest = {
             "text": "OpenAI Launches ChatGPT Powered by GPT-5.2, Promises Enhanced Capabilities",
             "link": "https://x.com/openai/status/2021299935678026168?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "OpenAI on X"
-        },
-        {
-            "text": "OpenAI starts testing ads in ChatGPT to support free access with privacy and user controls",
-            "link": "https://openai.com/index/testing-ads-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches secure custom ChatGPT on GenAI.mil for U.S. defense teams",
-            "link": "https://openai.com/index/bringing-chatgpt-to-genaimil/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
-    "microsoft": [],
+    "microsoft": [
+        {
+            "text": "Microsoft AI CEO says AI could automate most white-collar tasks within 12-18 months",
+            "link": "https://www.businessinsider.com/microsoft-ai-ceo-mustafa-suleyman-white-collar-tasks-automation-prediction-2026-2?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "businessinsider.com"
+        }
+    ],
     "anthropic": [
+        {
+            "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
+            "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wsj.com"
+        },
+        {
+            "text": "Anthropic partners with CodePath to bring Claude AI to top US college computer science program",
+            "link": "https://www.anthropic.com/news/anthropic-codepath-partnership?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Spotify developers stop coding as AI tools Claude Code and Honk accelerate software development",
             "link": "https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
+        },
+        {
+            "text": "Claude Reaches Top 10 in App Store Following Superbowl Ad Boost",
+            "link": "https://x.com/RobertJBye/status/2022029680900178406?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Robert Bye on X"
         },
         {
             "text": "Anthropic donates $20 million to Public First Action to support public interest AI initiatives",
@@ -106,23 +127,53 @@ window.latestDigest = {
             "text": "Anthropic addresses rising data center electricity costs to maintain reliable AI operations",
             "link": "https://www.anthropic.com/news/covering-electricity-price-increases?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic relies on philosopher Amanda Askell to shape AI chatbot ethics and moral decision-making",
-            "link": "https://www.wsj.com/tech/ai/anthropic-amanda-askell-philosopher-ai-3c031883?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wsj.com"
-        },
-        {
-            "text": "Anthropic Exec Mrinank Sharma Resigns, Cites Global Peril in Farewell Letter",
-            "link": "https://x.com/MrinankSharma/status/2020881722003583421?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "mrinank on X"
         }
     ],
     "general": [
         {
+            "text": "ByteDance releases Seed 2.0 agent models in Pro, Lite and Mini with upgraded multimodal capabilities",
+            "link": "https://seed.bytedance.com/en/seed2?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "seed.bytedance.com"
+        },
+        {
+            "text": "Disney Sends ByteDance Cease-and-Desist Over Seedance 2.0 AI Video Model",
+            "link": "https://deadline.com/2026/02/disney-bytedance-cease-and-desist-letter-seedance-ai-video-1236719549/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "deadline.com"
+        },
+        {
+            "text": "Airbnb to add AI features for search, discovery and customer support",
+            "link": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "NVIDIA enables free OpenClaw AI agent setup on GeForce RTX, NVIDIA RTX GPUs, and DGX Spark systems",
+            "link": "https://www.nvidia.com/en-us/geforce/news/open-claw-rtx-gpu-dgx-spark-guide/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "nvidia.com"
+        },
+        {
+            "text": "SAG-AFTRA criticizes Bytedance Seedance 2.0 for unauthorized use of members' voices and likenesses",
+            "link": "https://www.sagaftra.org/sag-aftra-statement-seedance-20?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "sagaftra.org"
+        },
+        {
+            "text": "Meta may soon add facial recognition to smart glasses, feature could launch later this year",
+            "link": "https://www.engadget.com/ai/meta-is-reportedly-working-to-bring-facial-recognition-to-its-smart-glasses-144721330.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
+            "text": "Nvidia’s DMS compresses LLM KV cache up to 8x, cutting reasoning costs without accuracy loss",
+            "link": "https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
             "text": "KREA AI Acquires Wand App, Launches New iPad App with AI and Custom Brushes",
             "link": "https://x.com/krea_ai/status/2022071804739957218?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "KREA AI on X"
+        },
+        {
+            "text": "Ring ends Flock Safety partnership following surveillance backlash",
+            "link": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
         },
         {
             "text": "Joel Comm Explores How AI Might React If Threatened with Termination and Its Self-Preservation Instincts",
@@ -148,6 +199,11 @@ window.latestDigest = {
             "text": "RunwayML Launches Story Panels Workflow for AI-Generated Film and Content Creation",
             "link": "https://x.com/runwayml/status/2021968843476750655?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Runway on X"
+        },
+        {
+            "text": "ElevenLabs rolls out first-of-its-kind AI agent insurance policy",
+            "link": "https://www.prnewswire.com/news-releases/elevenlabs-secures-first-of-its-kind-ai-agent-insurance-302684587.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "prnewswire.com"
         },
         {
             "text": "Coinbase unveils crypto wallets designed for AI agents to automate 24/7 trading for users",
@@ -183,61 +239,6 @@ window.latestDigest = {
             "text": "Cowork Launches on Windows with Full Feature Parity to MacOS",
             "link": "https://x.com/claudeai/status/2021336313979625910?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Claude on X"
-        },
-        {
-            "text": "Cisco Unveils Silicon One G300 and New Systems to Boost AI Data Center Performance and Scalability",
-            "link": "https://investor.cisco.com/news/news-details/2026/Cisco-Announces-New-Silicon-One-G300-Advanced-Systems-and-Optics-to-Power-and-Scale-AI-Data-Centers-for-the-Agentic-Era/default.aspx?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "investor.cisco.com"
-        },
-        {
-            "text": "Meta AI adds new features to animate Facebook profile pictures and feed posts for unique sharing",
-            "link": "https://about.fb.com/news/2026/02/animate-facebook-profile-picture-meta-ai/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.fb.com"
-        },
-        {
-            "text": "YouTube Premium launches AI-powered playlist generator for mood-based music creation",
-            "link": "https://wersm.com/youtube-premium-lets-ai-build-your-playlists/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wersm.com"
-        },
-        {
-            "text": "KREA AI Unveils Prompt-to-Workflow for Text-Based Node Creation in Krea Nodes",
-            "link": "https://x.com/krea_ai/status/2021249046049182024?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "KREA AI on X"
-        },
-        {
-            "text": "Warp Unveils Oz: New Platform for Cloud-Based Agent Orchestration",
-            "link": "https://x.com/warpdotdev/status/2021247666965958999?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Warp on X"
-        },
-        {
-            "text": "Alibaba Unleashes Qwen-Image-2.0 Model for Advanced Image Generation",
-            "link": "https://x.com/alibaba_qwen/status/2021137577311600949?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Ring Super Bowl Ad Highlights AI Surveillance Network, Potential Law Enforcement Partnerships",
-            "link": "https://truthout.org/articles/super-bowl-ad-for-ring-cameras-touted-ai-surveillance-network/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "truthout.org"
-        },
-        {
-            "text": "Tony Wu Resigns from xAI, Looks Forward to New Opportunities with a Small Team",
-            "link": "https://x.com/yuhu_ai_/status/2021113745024614671?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Yuhuai (Tony) Wu on X"
-        },
-        {
-            "text": "ByteDance Unveils Advanced AI Video Generator Delivering Superior Results to Rival Models",
-            "link": "https://www.socialmediatoday.com/news/bytedance-launches-impressive-new-ai-video-generation-tool/811776/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "socialmediatoday.com"
-        },
-        {
-            "text": "Nvidia launches DreamDojo, a robot world model trained on 44,000 hours of human video",
-            "link": "https://venturebeat.com/technology/nvidia-releases-dreamdojo-a-robot-world-model-trained-on-44-000-hours-of?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
-        },
-        {
-            "text": "ai.com Launches Revolutionary AI Agent for Personal and Business Task Automation",
-            "link": "https://x.com/kris/status/2020663711015514399?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Kris | ai.com on X"
         }
     ]
 }
