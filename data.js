@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-15T17:22:41.954Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-16T17:35:08.602Z
 window.latestDigest = {
-    date: "Feb 15, 2026",
+    date: "Feb 16, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "ByteDance releases Seed 2.0 agent models in Pro, Lite and Mini with upgraded multimodal capabilities",
-        "link": "https://seed.bytedance.com/en/seed2?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "seed.bytedance.com"
+        "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
+        "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Unitree on X"
     },
     {
-        "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
-        "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "wsj.com"
+        "text": "Alibaba Qwen Launches Qwen3.5-397B-A17B, First Open-Weight Qwen3.5 Multimodal Model",
+        "link": "https://x.com/alibaba_qwen/status/2023331062433153103?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
     },
     {
-        "text": "Disney Sends ByteDance Cease-and-Desist Over Seedance 2.0 AI Video Model",
-        "link": "https://deadline.com/2026/02/disney-bytedance-cease-and-desist-letter-seedance-ai-video-1236719549/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "deadline.com"
+        "text": "OpenClaw Founder Joins OpenAI as Project Moves to Foundation, Staying Open and Independent",
+        "link": "https://steipete.me/posts/2026/openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "steipete.me"
     },
     {
-        "text": "Airbnb to add AI features for search, discovery and customer support",
-        "link": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "OpenAI Hires OpenClaw Creator Peter Steinberger to Advance Personal Agents",
+        "link": "https://x.com/mreflow/status/2023152475948380179?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Matt Wolfe on X"
     },
     {
-        "text": "NVIDIA enables free OpenClaw AI agent setup on GeForce RTX, NVIDIA RTX GPUs, and DGX Spark systems",
-        "link": "https://www.nvidia.com/en-us/geforce/news/open-claw-rtx-gpu-dgx-spark-guide/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "nvidia.com"
+        "text": "Kimi.ai Launches Kimi Claw, Bringing OpenClaw to the Browser With 5,000+ Skills and 40GB Storage",
+        "link": "https://x.com/kimi_moonshot/status/2023029674549596301?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Kimi.ai on X"
     }
 ],
     categories: {
@@ -36,14 +36,19 @@ window.latestDigest = {
             "text": "Google Unveils Major Upgrade to Gemini 3 Deep Think Specialized Reasoning Mode for Science and Research",
             "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google DeepMind unveils Gemini Deep Think to accelerate discovery in maths, physics, and computer science",
-            "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "deepmind.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenClaw Founder Joins OpenAI as Project Moves to Foundation, Staying Open and Independent",
+            "link": "https://steipete.me/posts/2026/openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "steipete.me"
+        },
+        {
+            "text": "OpenAI Hires OpenClaw Creator Peter Steinberger to Advance Personal Agents",
+            "link": "https://x.com/mreflow/status/2023152475948380179?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Matt Wolfe on X"
+        },
         {
             "text": "OpenAI unveils new real-time access system for scaling Codex and Sora beyond rate limits",
             "link": "https://openai.com/index/beyond-rate-limits/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -83,11 +88,6 @@ window.latestDigest = {
             "text": "OpenAI Denies Involvement in Viral Alexander Skarsgård Ad, Actor Confirms Authenticity",
             "link": "https://x.com/unusual_whales/status/2021767498866340334?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "unusual_whales on X"
-        },
-        {
-            "text": "OpenAI Launches ChatGPT Powered by GPT-5.2, Promises Enhanced Capabilities",
-            "link": "https://x.com/openai/status/2021299935678026168?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "OpenAI on X"
         }
     ],
     "microsoft": [
@@ -130,6 +130,26 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
+            "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Unitree on X"
+        },
+        {
+            "text": "Alibaba Qwen Launches Qwen3.5-397B-A17B, First Open-Weight Qwen3.5 Multimodal Model",
+            "link": "https://x.com/alibaba_qwen/status/2023331062433153103?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
+        {
+            "text": "Kimi.ai Launches Kimi Claw, Bringing OpenClaw to the Browser With 5,000+ Skills and 40GB Storage",
+            "link": "https://x.com/kimi_moonshot/status/2023029674549596301?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Kimi.ai on X"
+        },
+        {
+            "text": "xAI to Release Grok 4.20 Next Week, Musk Says It Will Beat Grok 4.1",
+            "link": "https://x.com/elonmusk/status/2022921927791382896?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Elon Musk on X"
+        },
         {
             "text": "ByteDance releases Seed 2.0 agent models in Pro, Lite and Mini with upgraded multimodal capabilities",
             "link": "https://seed.bytedance.com/en/seed2?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -219,26 +239,6 @@ window.latestDigest = {
             "text": "T-Mobile introduces live translation for phone calls, works even on old flip phones without an app",
             "link": "https://www.theverge.com/tech/877008/t-mobile-live-translation-languages-ai-network?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
-        },
-        {
-            "text": "z.ai releases GLM-5, advancing from Vibe Coding to Agentic Engineering in AI development",
-            "link": "https://z.ai/blog/glm-5?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "z.ai"
-        },
-        {
-            "text": "Meta launches Dear Algo to let Threads users customize their feed based on content preferences",
-            "link": "https://about.fb.com/news/2026/02/threads-dear-algo/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "about.fb.com"
-        },
-        {
-            "text": "xAI loses second cofounder in two days as Jimmy Ba exits after Tony Wu at Elon Musk's AI company",
-            "link": "https://www.businessinsider.com/elon-musk-xai-loses-second-cofounder-jimmy-ba-2026-2?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "businessinsider.com"
-        },
-        {
-            "text": "Cowork Launches on Windows with Full Feature Parity to MacOS",
-            "link": "https://x.com/claudeai/status/2021336313979625910?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
         }
     ]
 }
