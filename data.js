@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-16T17:35:08.602Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-17T17:52:59.014Z
 window.latestDigest = {
-    date: "Feb 16, 2026",
+    date: "Feb 17, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
-        "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Unitree on X"
+        "text": "Interesting Engineering: AI evolves virtual animals that develop functioning vision over time",
+        "link": "https://interestingengineering.com/ai-robotics/ai-creates-artificial-animal-functioning-visions?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "interestingengineering.com"
     },
     {
-        "text": "Alibaba Qwen Launches Qwen3.5-397B-A17B, First Open-Weight Qwen3.5 Multimodal Model",
-        "link": "https://x.com/alibaba_qwen/status/2023331062433153103?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
+        "text": "Manus launches chat-based Manus Agents for messaging apps with tools and integrations, no setup",
+        "link": "https://manus.im/blog/manus-agents-telegram?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "manus.im"
     },
     {
-        "text": "OpenClaw Founder Joins OpenAI as Project Moves to Foundation, Staying Open and Independent",
-        "link": "https://steipete.me/posts/2026/openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "steipete.me"
+        "text": "Meta granted patent for AI that simulates deceased users’ social media posts and chats",
+        "link": "https://www.dexerto.com/entertainment/meta-patents-ai-that-takes-over-a-dead-persons-account-to-keep-posting-and-chatting-3320326/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "dexerto.com"
     },
     {
-        "text": "OpenAI Hires OpenClaw Creator Peter Steinberger to Advance Personal Agents",
-        "link": "https://x.com/mreflow/status/2023152475948380179?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Matt Wolfe on X"
+        "text": "Meta Adds Manus AI Integration to Ads Manager to Streamline Ad Creation",
+        "link": "https://www.socialmediatoday.com/news/meta-launches-manus-ai-integration-in-ads-manager/812288/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "socialmediatoday.com"
     },
     {
-        "text": "Kimi.ai Launches Kimi Claw, Bringing OpenClaw to the Browser With 5,000+ Skills and 40GB Storage",
-        "link": "https://x.com/kimi_moonshot/status/2023029674549596301?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Kimi.ai on X"
+        "text": "Vatican launches AI-assisted live translation for Mass in 60 languages",
+        "link": "https://www.engadget.com/ai/the-vatican-introduces-an-ai-assisted-live-translation-service-163014907.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "engadget.com"
     }
 ],
     categories: {
@@ -83,11 +83,6 @@ window.latestDigest = {
             "text": "OpenAI to Deprecate Legacy ChatGPT Models Including GPT-5 and GPT-4 Variants",
             "link": "https://x.com/openainewsroom/status/2021992846862258403?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "OpenAI Newsroom on X"
-        },
-        {
-            "text": "OpenAI Denies Involvement in Viral Alexander Skarsgård Ad, Actor Confirms Authenticity",
-            "link": "https://x.com/unusual_whales/status/2021767498866340334?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "unusual_whales on X"
         }
     ],
     "microsoft": [
@@ -98,6 +93,16 @@ window.latestDigest = {
         }
     ],
     "anthropic": [
+        {
+            "text": "Anthropic opens Bengaluru office, announces new partnerships across India",
+            "link": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Pentagon Reportedly Upset With Anthropic Over Stance on Drone Swarms, Mass Surveillance",
+            "link": "https://gizmodo.com/pentagon-reportedly-hopping-mad-at-anthropic-for-not-blindly-supporting-everything-military-does-2000722286?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "gizmodo.com"
+        },
         {
             "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
             "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -122,14 +127,34 @@ window.latestDigest = {
             "text": "Anthropic donates $20 million to Public First Action to support public interest AI initiatives",
             "link": "https://www.anthropic.com/news/donate-public-first-action?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic addresses rising data center electricity costs to maintain reliable AI operations",
-            "link": "https://www.anthropic.com/news/covering-electricity-price-increases?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Interesting Engineering: AI evolves virtual animals that develop functioning vision over time",
+            "link": "https://interestingengineering.com/ai-robotics/ai-creates-artificial-animal-functioning-visions?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "interestingengineering.com"
+        },
+        {
+            "text": "Manus launches chat-based Manus Agents for messaging apps with tools and integrations, no setup",
+            "link": "https://manus.im/blog/manus-agents-telegram?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "manus.im"
+        },
+        {
+            "text": "Meta granted patent for AI that simulates deceased users’ social media posts and chats",
+            "link": "https://www.dexerto.com/entertainment/meta-patents-ai-that-takes-over-a-dead-persons-account-to-keep-posting-and-chatting-3320326/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "dexerto.com"
+        },
+        {
+            "text": "Meta Adds Manus AI Integration to Ads Manager to Streamline Ad Creation",
+            "link": "https://www.socialmediatoday.com/news/meta-launches-manus-ai-integration-in-ads-manager/812288/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "socialmediatoday.com"
+        },
+        {
+            "text": "Vatican launches AI-assisted live translation for Mass in 60 languages",
+            "link": "https://www.engadget.com/ai/the-vatican-introduces-an-ai-assisted-live-translation-service-163014907.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
         {
             "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
             "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -214,31 +239,6 @@ window.latestDigest = {
             "text": "MiniMax launches M2.5 AI model with SOTA productivity, faster performance, and ultra-low operating cost",
             "link": "https://www.minimax.io/news/minimax-m25?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "minimax.io"
-        },
-        {
-            "text": "RunwayML Launches Story Panels Workflow for AI-Generated Film and Content Creation",
-            "link": "https://x.com/runwayml/status/2021968843476750655?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Runway on X"
-        },
-        {
-            "text": "ElevenLabs rolls out first-of-its-kind AI agent insurance policy",
-            "link": "https://www.prnewswire.com/news-releases/elevenlabs-secures-first-of-its-kind-ai-agent-insurance-302684587.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "prnewswire.com"
-        },
-        {
-            "text": "Coinbase unveils crypto wallets designed for AI agents to automate 24/7 trading for users",
-            "link": "https://cointelegraph.com/news/coinbase-launches-crypto-wallets-built-ai-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "cointelegraph.com"
-        },
-        {
-            "text": "Higgsfield Faces Backlash Over Racist Videos and Payment Issues Amid Rapid Revenue Growth",
-            "link": "https://www.forbes.com/sites/rashishrivastava/2026/02/11/racist-videos-and-payment-problems-the-dark-side-of-this-ai-startups-super-fast-growth/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "forbes.com"
-        },
-        {
-            "text": "T-Mobile introduces live translation for phone calls, works even on old flip phones without an app",
-            "link": "https://www.theverge.com/tech/877008/t-mobile-live-translation-languages-ai-network?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
         }
     ]
 }
