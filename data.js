@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-18T17:50:24.120Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-19T17:46:34.213Z
 window.latestDigest = {
-    date: "Feb 18, 2026",
+    date: "Feb 19, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Autodesk invests $200M in World Labs to integrate world models into 3D workflows",
-        "link": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Meta reportedly plans to launch a smartwatch this year",
+        "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Google Gemini Adds Lyria 3 for Creating 30-Second Music Tracks from Text and Images",
-        "link": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Ring leak reveals expanded AI Search Party ambitions beyond lost pets, aiming to reduce crime",
+        "link": "https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Interesting Engineering: AI robot swarm achieves 99.67% success in firefighting trial",
-        "link": "https://interestingengineering.com/ai-robotics/ai-firefighting-robot-swarm-trial?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "interestingengineering.com"
+        "text": "Leonardo.Ai Launches “Yours to Create” Campaign, Urging Creators to Embrace Generative AI",
+        "link": "https://x.com/LeonardoAi/status/2024212882909798790?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Leonardo.Ai on X"
     },
     {
-        "text": "Perplexity bets on subscriptions and business sales, avoiding ads",
-        "link": "https://www.businessinsider.com/perplexity-shifts-to-subscriptions-business-growth-2026-2?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "businessinsider.com"
+        "text": "OpenAI Hires Instagram’s Charles Porch as VP of Global Creative Partnerships",
+        "link": "https://www.vanityfair.com/news/story/openai-hires-charles-porch-instagram?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "vanityfair.com"
     },
     {
-        "text": "Meta partners with NVIDIA on long-term AI data center infrastructure supply deal",
-        "link": "https://about.fb.com/news/2026/02/meta-nvidia-announce-long-term-infrastructure-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "about.fb.com"
+        "text": "Apple iOS 26.4 Adds CarPlay Support for ChatGPT, Claude and Gemini",
+        "link": "https://www.macrumors.com/2026/02/18/ios-26-4-carplay-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "macrumors.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Apple iOS 26.4 Adds CarPlay Support for ChatGPT, Claude and Gemini",
+            "link": "https://www.macrumors.com/2026/02/18/ios-26-4-carplay-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "macrumors.com"
+        },
         {
             "text": "Google Gemini Adds Lyria 3 for Creating 30-Second Music Tracks from Text and Images",
             "link": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -44,6 +49,11 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI Hires Instagram’s Charles Porch as VP of Global Creative Partnerships",
+            "link": "https://www.vanityfair.com/news/story/openai-hires-charles-porch-instagram?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "vanityfair.com"
+        },
         {
             "text": "Court bars OpenAI from using 'Cameo'; Sora feature renamed to Characters",
             "link": "https://techcrunch.com/2026/02/17/u-s-court-bars-openai-from-using-cameo/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -58,21 +68,6 @@ window.latestDigest = {
             "text": "OpenAI Hires OpenClaw Creator Peter Steinberger to Advance Personal Agents",
             "link": "https://x.com/mreflow/status/2023152475948380179?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Matt Wolfe on X"
-        },
-        {
-            "text": "OpenAI unveils new real-time access system for scaling Codex and Sora beyond rate limits",
-            "link": "https://openai.com/index/beyond-rate-limits/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI adds Lockdown Mode and Elevated Risk labels to ChatGPT for enhanced organizational security",
-            "link": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI GPT-5.2 Preprint Reports New Theoretical Physics Result on Unexpected Gluon Interaction",
-            "link": "https://x.com/OpenAI/status/2022390096625078389?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "OpenAI on X"
         }
     ],
     "microsoft": [],
@@ -101,18 +96,38 @@ window.latestDigest = {
             "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
             "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "wsj.com"
-        },
-        {
-            "text": "Anthropic partners with CodePath to bring Claude AI to top US college computer science program",
-            "link": "https://www.anthropic.com/news/anthropic-codepath-partnership?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
         {
+            "text": "Meta reportedly plans to launch a smartwatch this year",
+            "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Ring leak reveals expanded AI Search Party ambitions beyond lost pets, aiming to reduce crime",
+            "link": "https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Leonardo.Ai Launches “Yours to Create” Campaign, Urging Creators to Embrace Generative AI",
+            "link": "https://x.com/LeonardoAi/status/2024212882909798790?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Leonardo.Ai on X"
+        },
+        {
+            "text": "Cursor launches plugin marketplace to extend AI agents with external tools",
+            "link": "https://cursor.com/blog/marketplace?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "cursor.com"
+        },
+        {
             "text": "Autodesk invests $200M in World Labs to integrate world models into 3D workflows",
             "link": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
+        },
+        {
+            "text": "Tavus Unveils Phoenix-4 Real-Time Human Rendering Model With Emotion Control",
+            "link": "https://x.com/tavus/status/2024163626765148488?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Tavus on X"
         },
         {
             "text": "Interesting Engineering: AI robot swarm achieves 99.67% success in firefighting trial",
@@ -223,21 +238,6 @@ window.latestDigest = {
             "text": "NVIDIA enables free OpenClaw AI agent setup on GeForce RTX, NVIDIA RTX GPUs, and DGX Spark systems",
             "link": "https://www.nvidia.com/en-us/geforce/news/open-claw-rtx-gpu-dgx-spark-guide/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "nvidia.com"
-        },
-        {
-            "text": "SAG-AFTRA criticizes Bytedance Seedance 2.0 for unauthorized use of members' voices and likenesses",
-            "link": "https://www.sagaftra.org/sag-aftra-statement-seedance-20?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "sagaftra.org"
-        },
-        {
-            "text": "Meta may soon add facial recognition to smart glasses, feature could launch later this year",
-            "link": "https://www.engadget.com/ai/meta-is-reportedly-working-to-bring-facial-recognition-to-its-smart-glasses-144721330.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "Nvidia’s DMS compresses LLM KV cache up to 8x, cutting reasoning costs without accuracy loss",
-            "link": "https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
         }
     ]
 }
