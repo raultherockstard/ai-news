@@ -1,37 +1,52 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-19T17:46:34.213Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-20T17:34:19.650Z
 window.latestDigest = {
-    date: "Feb 19, 2026",
+    date: "Feb 20, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Meta reportedly plans to launch a smartwatch this year",
-        "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "OpenAI Adds Interactive Code Blocks in ChatGPT With Split-Screen and Full-Screen Editing",
+        "link": "https://x.com/OpenAIDevs/status/2024600394299822096?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "OpenAI Developers on X"
     },
     {
-        "text": "Ring leak reveals expanded AI Search Party ambitions beyond lost pets, aiming to reduce crime",
-        "link": "https://www.theverge.com/tech/880906/ring-siminoff-email-leak-search-party-expansion?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "YouTube tests conversational AI assistant on smart TVs for video questions",
+        "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     },
     {
-        "text": "Leonardo.Ai Launches “Yours to Create” Campaign, Urging Creators to Embrace Generative AI",
-        "link": "https://x.com/LeonardoAi/status/2024212882909798790?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Leonardo.Ai on X"
+        "text": "Replit Launches Replit Animation for Viral Video Creation Powered by Gemini 3.1 Pro",
+        "link": "https://x.com/Replit/status/2024578806208745637?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Replit ⠕ on X"
     },
     {
-        "text": "OpenAI Hires Instagram’s Charles Porch as VP of Global Creative Partnerships",
-        "link": "https://www.vanityfair.com/news/story/openai-hires-charles-porch-instagram?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "vanityfair.com"
+        "text": "Reddit tests AI-powered shopping product carousels in search for select US users",
+        "link": "https://redditinc.com/news/in-case-you-saw-it-we-are-testing-a-new-shopping-product-experience-in-search?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "redditinc.com"
     },
     {
-        "text": "Apple iOS 26.4 Adds CarPlay Support for ChatGPT, Claude and Gemini",
-        "link": "https://www.macrumors.com/2026/02/18/ios-26-4-carplay-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "macrumors.com"
+        "text": "OpenAI commits $7.5M to The Alignment Project for independent AI alignment research",
+        "link": "https://openai.com/index/advancing-independent-research-ai-alignment/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Replit Launches Replit Animation for Viral Video Creation Powered by Gemini 3.1 Pro",
+            "link": "https://x.com/Replit/status/2024578806208745637?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Replit ⠕ on X"
+        },
+        {
+            "text": "Google unveils Pomelli Photoshoot to turn product photos into studio-quality marketing assets",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/pomelli-photoshoot/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google unveils Gemini 3.1 Pro AI model for complex tasks",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Apple iOS 26.4 Adds CarPlay Support for ChatGPT, Claude and Gemini",
             "link": "https://www.macrumors.com/2026/02/18/ios-26-4-carplay-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -50,6 +65,16 @@ window.latestDigest = {
     ],
     "openai": [
         {
+            "text": "OpenAI Adds Interactive Code Blocks in ChatGPT With Split-Screen and Full-Screen Editing",
+            "link": "https://x.com/OpenAIDevs/status/2024600394299822096?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "OpenAI Developers on X"
+        },
+        {
+            "text": "OpenAI commits $7.5M to The Alignment Project for independent AI alignment research",
+            "link": "https://openai.com/index/advancing-independent-research-ai-alignment/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
             "text": "OpenAI Hires Instagram’s Charles Porch as VP of Global Creative Partnerships",
             "link": "https://www.vanityfair.com/news/story/openai-hires-charles-porch-instagram?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "vanityfair.com"
@@ -58,20 +83,20 @@ window.latestDigest = {
             "text": "Court bars OpenAI from using 'Cameo'; Sora feature renamed to Characters",
             "link": "https://techcrunch.com/2026/02/17/u-s-court-bars-openai-from-using-cameo/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "OpenClaw Founder Joins OpenAI as Project Moves to Foundation, Staying Open and Independent",
-            "link": "https://steipete.me/posts/2026/openclaw?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "steipete.me"
-        },
-        {
-            "text": "OpenAI Hires OpenClaw Creator Peter Steinberger to Advance Personal Agents",
-            "link": "https://x.com/mreflow/status/2023152475948380179?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Matt Wolfe on X"
         }
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Claude Adds PowerPoint Integration to Pro Plan With New Connectors Support",
+            "link": "https://x.com/claudeai/status/2024550844998570324?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
+        {
+            "text": "Anthropic measures Claude agent autonomy, finding longer sessions and more auto-approve with experience",
+            "link": "https://www.anthropic.com/research/measuring-agent-autonomy?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Figma partners with Anthropic to launch Code to Canvas for editable designs from Claude Code",
             "link": "https://www.figma.com/blog/introducing-claude-code-to-figma/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -86,19 +111,24 @@ window.latestDigest = {
             "text": "Anthropic opens Bengaluru office, announces new partnerships across India",
             "link": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Pentagon Reportedly Upset With Anthropic Over Stance on Drone Swarms, Mass Surveillance",
-            "link": "https://gizmodo.com/pentagon-reportedly-hopping-mad-at-anthropic-for-not-blindly-supporting-everything-military-does-2000722286?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "gizmodo.com"
-        },
-        {
-            "text": "Pentagon Used Anthropic Claude via Palantir Contract in Venezuela Maduro Raid",
-            "link": "https://www.wsj.com/politics/national-security/pentagon-used-anthropics-claude-in-maduro-venezuela-raid-583aff17?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wsj.com"
         }
     ],
     "general": [
+        {
+            "text": "YouTube tests conversational AI assistant on smart TVs for video questions",
+            "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "Reddit tests AI-powered shopping product carousels in search for select US users",
+            "link": "https://redditinc.com/news/in-case-you-saw-it-we-are-testing-a-new-shopping-product-experience-in-search?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "redditinc.com"
+        },
+        {
+            "text": "TIME Cover: Coalition of Americans Urges Slowing AI as Tech Moves Too Fast",
+            "link": "https://x.com/TIME/status/2024455282169172314?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "TIME on X"
+        },
         {
             "text": "Meta reportedly plans to launch a smartwatch this year",
             "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -170,6 +200,11 @@ window.latestDigest = {
             "source": "Elon Musk on X"
         },
         {
+            "text": "ElevenLabs Launches Always-On AI Customer Support Agents in 70+ Languages",
+            "link": "https://elevenlabs.io/agents/elevenagents-for-support?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "elevenlabs.io"
+        },
+        {
             "text": "Interesting Engineering: AI evolves virtual animals that develop functioning vision over time",
             "link": "https://interestingengineering.com/ai-robotics/ai-creates-artificial-animal-functioning-visions?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "interestingengineering.com"
@@ -203,41 +238,6 @@ window.latestDigest = {
             "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
             "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Unitree on X"
-        },
-        {
-            "text": "Alibaba Qwen Launches Qwen3.5-397B-A17B, First Open-Weight Qwen3.5 Multimodal Model",
-            "link": "https://x.com/alibaba_qwen/status/2023331062433153103?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Kimi.ai Launches Kimi Claw, Bringing OpenClaw to the Browser With 5,000+ Skills and 40GB Storage",
-            "link": "https://x.com/kimi_moonshot/status/2023029674549596301?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Kimi.ai on X"
-        },
-        {
-            "text": "xAI to Release Grok 4.20 Next Week, Musk Says It Will Beat Grok 4.1",
-            "link": "https://x.com/elonmusk/status/2022921927791382896?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Elon Musk on X"
-        },
-        {
-            "text": "ByteDance releases Seed 2.0 agent models in Pro, Lite and Mini with upgraded multimodal capabilities",
-            "link": "https://seed.bytedance.com/en/seed2?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "seed.bytedance.com"
-        },
-        {
-            "text": "Disney Sends ByteDance Cease-and-Desist Over Seedance 2.0 AI Video Model",
-            "link": "https://deadline.com/2026/02/disney-bytedance-cease-and-desist-letter-seedance-ai-video-1236719549/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "deadline.com"
-        },
-        {
-            "text": "Airbnb to add AI features for search, discovery and customer support",
-            "link": "https://techcrunch.com/2026/02/13/airbnb-plans-to-bake-in-ai-features-for-search-discovery-and-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "NVIDIA enables free OpenClaw AI agent setup on GeForce RTX, NVIDIA RTX GPUs, and DGX Spark systems",
-            "link": "https://www.nvidia.com/en-us/geforce/news/open-claw-rtx-gpu-dgx-spark-guide/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "nvidia.com"
         }
     ]
 }
