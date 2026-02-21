@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-20T17:34:19.650Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-21T17:21:30.798Z
 window.latestDigest = {
-    date: "Feb 20, 2026",
+    date: "Feb 21, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI Adds Interactive Code Blocks in ChatGPT With Split-Screen and Full-Screen Editing",
-        "link": "https://x.com/OpenAIDevs/status/2024600394299822096?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "OpenAI Developers on X"
+        "text": "OpenAI Boosts GPT-5.3-Codex-Spark Speed 30% to 1,200+ Tokens per Second",
+        "link": "https://x.com/thsottiaux/status/2024947946849186064?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Tibo on X"
     },
     {
-        "text": "YouTube tests conversational AI assistant on smart TVs for video questions",
-        "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Claude Adds Desktop App Previews, Code Review, and Background CI/PR Handling to Claude Code",
+        "link": "https://x.com/claudeai/status/2024937960572104707?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Claude on X"
     },
     {
-        "text": "Replit Launches Replit Animation for Viral Video Creation Powered by Gemini 3.1 Pro",
-        "link": "https://x.com/Replit/status/2024578806208745637?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Replit ⠕ on X"
+        "text": "Pika Launches AI Selves With Persistent Memory for User-Created Digital Extensions",
+        "link": "https://x.com/pika_labs/status/2024919175878377587?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Pika on X"
     },
     {
-        "text": "Reddit tests AI-powered shopping product carousels in search for select US users",
-        "link": "https://redditinc.com/news/in-case-you-saw-it-we-are-testing-a-new-shopping-product-experience-in-search?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "redditinc.com"
+        "text": "Anthropic launches Claude Code Security preview to scan codebases and suggest vulnerability patches",
+        "link": "https://www.anthropic.com/news/claude-code-security?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
     },
     {
-        "text": "OpenAI commits $7.5M to The Alignment Project for independent AI alignment research",
-        "link": "https://openai.com/index/advancing-independent-research-ai-alignment/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Meta’s Smart Glasses Ambitions Face Privacy Concerns Amid Reputation Challenges",
+        "link": "https://www.theverge.com/column/881744/meta-smart-glasses-facial-recognition-rayban-privacy-wearables?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     }
 ],
     categories: {
@@ -48,6 +48,11 @@ window.latestDigest = {
             "source": "blog.google"
         },
         {
+            "text": "Irregular finds ChatGPT, Claude and Gemini AI-generated passwords are easy to crack",
+            "link": "https://www.techspot.com/news/111392-ai-generated-passwords-surprisingly-easy-crack-researchers-find.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techspot.com"
+        },
+        {
             "text": "Apple iOS 26.4 Adds CarPlay Support for ChatGPT, Claude and Gemini",
             "link": "https://www.macrumors.com/2026/02/18/ios-26-4-carplay-support/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "macrumors.com"
@@ -64,6 +69,16 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI Boosts GPT-5.3-Codex-Spark Speed 30% to 1,200+ Tokens per Second",
+            "link": "https://x.com/thsottiaux/status/2024947946849186064?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Tibo on X"
+        },
+        {
+            "text": "OpenAI Plans AI Device Lineup With Smart Speaker, Possible Smart Glasses and Lamp",
+            "link": "https://www.theinformation.com/articles/inside-openai-team-developing-ai-devices?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
         {
             "text": "OpenAI Adds Interactive Code Blocks in ChatGPT With Split-Screen and Full-Screen Editing",
             "link": "https://x.com/OpenAIDevs/status/2024600394299822096?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -88,6 +103,16 @@ window.latestDigest = {
     "microsoft": [],
     "anthropic": [
         {
+            "text": "Claude Adds Desktop App Previews, Code Review, and Background CI/PR Handling to Claude Code",
+            "link": "https://x.com/claudeai/status/2024937960572104707?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
+        {
+            "text": "Anthropic launches Claude Code Security preview to scan codebases and suggest vulnerability patches",
+            "link": "https://www.anthropic.com/news/claude-code-security?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
             "text": "Claude Adds PowerPoint Integration to Pro Plan With New Connectors Support",
             "link": "https://x.com/claudeai/status/2024550844998570324?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Claude on X"
@@ -106,14 +131,19 @@ window.latestDigest = {
             "text": "Anthropic Introduces Claude Sonnet 4.6 Upgrade for Coding, Agents, Reasoning, and Design",
             "link": "https://www.anthropic.com/news/claude-sonnet-4-6?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic opens Bengaluru office, announces new partnerships across India",
-            "link": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Pika Launches AI Selves With Persistent Memory for User-Created Digital Extensions",
+            "link": "https://x.com/pika_labs/status/2024919175878377587?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Pika on X"
+        },
+        {
+            "text": "Meta’s Smart Glasses Ambitions Face Privacy Concerns Amid Reputation Challenges",
+            "link": "https://www.theverge.com/column/881744/meta-smart-glasses-facial-recognition-rayban-privacy-wearables?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
         {
             "text": "YouTube tests conversational AI assistant on smart TVs for video questions",
             "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -123,6 +153,11 @@ window.latestDigest = {
             "text": "Reddit tests AI-powered shopping product carousels in search for select US users",
             "link": "https://redditinc.com/news/in-case-you-saw-it-we-are-testing-a-new-shopping-product-experience-in-search?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "redditinc.com"
+        },
+        {
+            "text": "AMC Theatres Pulls AI Award-Winning Short From Pre-Show After Online Backlash",
+            "link": "https://www.hollywoodreporter.com/movies/movie-news/ai-short-movie-amc-theaters-1236509143/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "hollywoodreporter.com"
         },
         {
             "text": "TIME Cover: Coalition of Americans Urges Slowing AI as Tech Moves Too Fast",
@@ -203,41 +238,6 @@ window.latestDigest = {
             "text": "ElevenLabs Launches Always-On AI Customer Support Agents in 70+ Languages",
             "link": "https://elevenlabs.io/agents/elevenagents-for-support?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "elevenlabs.io"
-        },
-        {
-            "text": "Interesting Engineering: AI evolves virtual animals that develop functioning vision over time",
-            "link": "https://interestingengineering.com/ai-robotics/ai-creates-artificial-animal-functioning-visions?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "interestingengineering.com"
-        },
-        {
-            "text": "Manus launches chat-based Manus Agents for messaging apps with tools and integrations, no setup",
-            "link": "https://manus.im/blog/manus-agents-telegram?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "manus.im"
-        },
-        {
-            "text": "Meta granted patent for AI that simulates deceased users’ social media posts and chats",
-            "link": "https://www.dexerto.com/entertainment/meta-patents-ai-that-takes-over-a-dead-persons-account-to-keep-posting-and-chatting-3320326/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "dexerto.com"
-        },
-        {
-            "text": "Meta Adds Manus AI Integration to Ads Manager to Streamline Ad Creation",
-            "link": "https://www.socialmediatoday.com/news/meta-launches-manus-ai-integration-in-ads-manager/812288/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "socialmediatoday.com"
-        },
-        {
-            "text": "Vatican launches AI-assisted live translation for Mass in 60 languages",
-            "link": "https://www.engadget.com/ai/the-vatican-introduces-an-ai-assisted-live-translation-service-163014907.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "Unity CEO says AI tech will soon eliminate the need for coding",
-            "link": "https://www.gamedeveloper.com/programming/unity-says-its-ai-tech-will-soon-be-able-to-prompt-full-casual-games-into-existence-?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "gamedeveloper.com"
-        },
-        {
-            "text": "Unitree G1 Robots Deliver World's First Autonomous Humanoid Cluster Kung Fu Performance",
-            "link": "https://x.com/unitreerobotics/status/2023430834695627030?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Unitree on X"
         }
     ]
 }
