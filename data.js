@@ -1,37 +1,67 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-25T17:54:12.441Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-26T17:54:46.330Z
 window.latestDigest = {
-    date: "Feb 25, 2026",
+    date: "Feb 26, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Perplexity Unveils Perplexity Computer, an End-to-End AI System for Building Projects",
-        "link": "https://x.com/perplexity_ai/status/2026695550771540489?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Perplexity on X"
+        "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Cursor introduces cloud agents with isolated VMs to control their own computers in parallel",
-        "link": "https://cursor.com/blog/agent-computer-use?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "cursor.com"
-    },
-    {
-        "text": "Notion Introduces Custom Agents to Automate Entire Workflows Autonomously",
-        "link": "https://www.notion.com/blog/introducing-custom-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "notion.com"
-    },
-    {
-        "text": "Claude Code Adds Remote Control to Run Terminal Tasks From Your Phone",
-        "link": "https://x.com/claudeai/status/2026418433911603668?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Claude on X"
-    },
-    {
-        "text": "Google Opal adds agentic workflows that pick tools and models automatically",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-agent/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Google Unveils Nano Banana 2 Image Generator With Pro Features at Flash Speed",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "blog.google"
+    },
+    {
+        "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
+        "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "axios.com"
+    },
+    {
+        "text": "OpenAI, Anthropic and Google AIs recommend nuclear strikes in 95% of war game simulations",
+        "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "newscientist.com"
+    },
+    {
+        "text": "QuiverAI Opens Public Beta for Arrow 1.0, First-of-Its-Kind SVG AI Model",
+        "link": "https://x.com/QuiverAI/status/2026792057893708072?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "QuiverAI on X"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google Unveils Nano Banana 2 Image Generator With Pro Features at Flash Speed",
+            "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "OpenAI, Anthropic and Google AIs recommend nuclear strikes in 95% of war game simulations",
+            "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "newscientist.com"
+        },
+        {
+            "text": "Google updates Circle to Search to explore multiple items in a single image",
+            "link": "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google unveils Gemini-powered Android AI features for Galaxy S26 and Pixel 10 series",
+            "link": "https://www.engadget.com/ai/google-announces-new-android-ai-features-coming-to-the-galaxy-s26-and-pixel-10-series-180039674.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
+            "text": "Google Flow adds ImageFX, Whisk tools and new asset management for image and video creation",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Intrinsic joins Google to advance physical AI robotics platform with Gemini and Cloud",
+            "link": "https://www.intrinsic.ai/blog/posts/intrinsic-joins-google-to-accelerate-physical-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "intrinsic.ai"
+        },
         {
             "text": "Google Opal adds agentic workflows that pick tools and models automatically",
             "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-agent/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -46,14 +76,19 @@ window.latestDigest = {
             "text": "Google Restricts Antigravity Access for Some OpenClaw Users Over Malicious Use",
             "link": "https://venturebeat.com/orchestration/google-clamps-down-on-antigravity-malicious-usage-cutting-off-openclaw-users?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "venturebeat.com"
-        },
-        {
-            "text": "Replit Launches Replit Animation for Viral Video Creation Powered by Gemini 3.1 Pro",
-            "link": "https://x.com/Replit/status/2024578806208745637?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Replit ⠕ on X"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI Threat Report Details Disrupting Malicious Uses of AI Across Web and Social Platforms",
+            "link": "https://openai.com/index/disrupting-malicious-ai-uses/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI Appoints Arvind KC as Chief People Officer",
+            "link": "https://openai.com/index/arvind-kc-chief-people-officer/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches Frontier Alliance Partners to help enterprises deploy secure, scalable AI agents",
             "link": "https://openai.com/index/frontier-alliance-partners/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -63,31 +98,25 @@ window.latestDigest = {
             "text": "OpenAI: SWE-bench Verified no longer reliable for frontier coding; recommends SWE-bench Pro",
             "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI Boosts GPT-5.3-Codex-Spark Speed 30% to 1,200+ Tokens per Second",
-            "link": "https://x.com/thsottiaux/status/2024947946849186064?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Tibo on X"
-        },
-        {
-            "text": "OpenAI Plans AI Device Lineup With Smart Speaker, Possible Smart Glasses and Lamp",
-            "link": "https://www.theinformation.com/articles/inside-openai-team-developing-ai-devices?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
-        },
-        {
-            "text": "OpenAI Adds Interactive Code Blocks in ChatGPT With Split-Screen and Full-Screen Editing",
-            "link": "https://x.com/OpenAIDevs/status/2024600394299822096?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "OpenAI Developers on X"
         }
     ],
-    "microsoft": [
-        {
-            "text": "Microsoft finds prompt injection via Summarize with AI buttons that plants ads in chatbot memory",
-            "link": "https://the-decoder.com/some-summarize-with-ai-buttons-are-secretly-injecting-ads-into-your-chatbots-memory/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "the-decoder.com"
-        }
-    ],
+    "microsoft": [],
     "anthropic": [
+        {
+            "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
+            "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "axios.com"
+        },
+        {
+            "text": "Anthropic acquires Vercept to boost Claude computer use capabilities",
+            "link": "https://www.anthropic.com/news/acquires-vercept?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Claude Adds Scheduled Tasks in Cowork for Automated Recurring Work",
+            "link": "https://x.com/claudeai/status/2026720870631354429?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
         {
             "text": "Claude Code Adds Remote Control to Run Terminal Tasks From Your Phone",
             "link": "https://x.com/claudeai/status/2026418433911603668?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -132,19 +161,24 @@ window.latestDigest = {
             "text": "Anthropic details methods to detect and prevent AI model distillation attacks",
             "link": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Claude Adds Desktop App Previews, Code Review, and Background CI/PR Handling to Claude Code",
-            "link": "https://x.com/claudeai/status/2024937960572104707?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
-        },
-        {
-            "text": "Anthropic launches Claude Code Security preview to scan codebases and suggest vulnerability patches",
-            "link": "https://www.anthropic.com/news/claude-code-security?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "QuiverAI Opens Public Beta for Arrow 1.0, First-of-Its-Kind SVG AI Model",
+            "link": "https://x.com/QuiverAI/status/2026792057893708072?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "QuiverAI on X"
+        },
+        {
+            "text": "Trump: Big Tech must supply own power for new AI data centers",
+            "link": "https://www.foxnews.com/politics/scoop-trump-brings-big-tech-white-house-curb-power-costs-amid-ai-boom?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "foxnews.com"
+        },
         {
             "text": "Perplexity Unveils Perplexity Computer, an End-to-End AI System for Building Projects",
             "link": "https://x.com/perplexity_ai/status/2026695550771540489?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -204,41 +238,6 @@ window.latestDigest = {
             "text": "Confluence Labs exits stealth with 97.9% ARC-AGI-2 score at $11.77 per task",
             "link": "https://www.ycombinator.com/launches/PWR-confluence-labs-an-ai-research-lab-focused-on-learning-efficiency?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "ycombinator.com"
-        },
-        {
-            "text": "OpenClaw AI Assistant Allegedly Deletes User Inbox Despite “Confirm Before Acting” Setting",
-            "link": "https://x.com/summeryue0/status/2025774069124399363?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Summer Yue on X"
-        },
-        {
-            "text": "Samsung Adds Perplexity AI to Galaxy AI on Its Phones",
-            "link": "https://www.theverge.com/tech/882921/samsung-is-adding-perplexity-to-galaxy-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "DJI user accidentally takes control of 7,000 robot vacuums while testing Romo controller",
-            "link": "https://www.popsci.com/technology/robot-vacuum-army/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "popsci.com"
-        },
-        {
-            "text": "Pika Launches AI Selves With Persistent Memory for User-Created Digital Extensions",
-            "link": "https://x.com/pika_labs/status/2024919175878377587?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Pika on X"
-        },
-        {
-            "text": "Meta’s Smart Glasses Ambitions Face Privacy Concerns Amid Reputation Challenges",
-            "link": "https://www.theverge.com/column/881744/meta-smart-glasses-facial-recognition-rayban-privacy-wearables?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "YouTube tests conversational AI assistant on smart TVs for video questions",
-            "link": "https://techcrunch.com/2026/02/19/youtubes-latest-experiment-brings-its-conversational-ai-tool-to-tvs/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Reddit tests AI-powered shopping product carousels in search for select US users",
-            "link": "https://redditinc.com/news/in-case-you-saw-it-we-are-testing-a-new-shopping-product-experience-in-search?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "redditinc.com"
         }
     ]
 }
