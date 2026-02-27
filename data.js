@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-26T17:54:46.330Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-27T17:32:22.377Z
 window.latestDigest = {
-    date: "Feb 26, 2026",
+    date: "Feb 27, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
+        "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blogs.microsoft.com"
     },
     {
-        "text": "Google Unveils Nano Banana 2 Image Generator With Pro Features at Flash Speed",
-        "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "OpenAI and Amazon Partner to Bring Frontier Platform to AWS, Expanding Enterprise AI Agents",
+        "link": "https://openai.com/index/amazon-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
-        "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "axios.com"
+        "text": "OpenAI and PNNL launch DraftNEPABench to speed federal permitting with AI coding agents",
+        "link": "https://openai.com/index/pacific-northwest-national-laboratory/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "OpenAI, Anthropic and Google AIs recommend nuclear strikes in 95% of war game simulations",
-        "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "newscientist.com"
+        "text": "OpenAI and Figma launch Codex integration linking code to design in Figma",
+        "link": "https://openai.com/index/figma-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "QuiverAI Opens Public Beta for Arrow 1.0, First-of-Its-Kind SVG AI Model",
-        "link": "https://x.com/QuiverAI/status/2026792057893708072?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "QuiverAI on X"
+        "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
+        "link": "https://www.anthropic.com/news/statement-department-of-war?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
     }
 ],
     categories: {
@@ -71,14 +71,29 @@ window.latestDigest = {
             "text": "ProducerAI Joins Google Labs to Help Creatives Learn and Create Music",
             "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/producerai/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google Restricts Antigravity Access for Some OpenClaw Users Over Malicious Use",
-            "link": "https://venturebeat.com/orchestration/google-clamps-down-on-antigravity-malicious-usage-cutting-off-openclaw-users?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "venturebeat.com"
         }
     ],
     "openai": [
+        {
+            "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
+            "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.microsoft.com"
+        },
+        {
+            "text": "OpenAI and Amazon Partner to Bring Frontier Platform to AWS, Expanding Enterprise AI Agents",
+            "link": "https://openai.com/index/amazon-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI and PNNL launch DraftNEPABench to speed federal permitting with AI coding agents",
+            "link": "https://openai.com/index/pacific-northwest-national-laboratory/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI and Figma launch Codex integration linking code to design in Figma",
+            "link": "https://openai.com/index/figma-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI Threat Report Details Disrupting Malicious Uses of AI Across Web and Social Platforms",
             "link": "https://openai.com/index/disrupting-malicious-ai-uses/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -88,20 +103,21 @@ window.latestDigest = {
             "text": "OpenAI Appoints Arvind KC as Chief People Officer",
             "link": "https://openai.com/index/arvind-kc-chief-people-officer/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI launches Frontier Alliance Partners to help enterprises deploy secure, scalable AI agents",
-            "link": "https://openai.com/index/frontier-alliance-partners/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI: SWE-bench Verified no longer reliable for frontier coding; recommends SWE-bench Pro",
-            "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
-    "microsoft": [],
+    "microsoft": [
+        {
+            "text": "Microsoft unveils Copilot Tasks to shift Copilot from chat responses to action completion",
+            "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "microsoft.com"
+        }
+    ],
     "anthropic": [
+        {
+            "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
+            "link": "https://www.anthropic.com/news/statement-department-of-war?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
         {
             "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
             "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -151,19 +167,14 @@ window.latestDigest = {
             "text": "Anthropic introduces AI Fluency Index tracking 11 behaviors in thousands of Claude.ai chats",
             "link": "https://www.anthropic.com/research/AI-fluency-index?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Claude: AI Lowers Costs for COBOL Modernization by Automating Consultant Work",
-            "link": "https://claude.com/blog/how-ai-helps-break-cost-barrier-cobol-modernization?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
-        },
-        {
-            "text": "Anthropic details methods to detect and prevent AI model distillation attacks",
-            "link": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "Apple releases Xcode 26.3 with autonomous coding agents for project analysis and edits",
+            "link": "https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "appleinsider.com"
+        },
         {
             "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
             "link": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -228,16 +239,6 @@ window.latestDigest = {
             "text": "Wispr Flow launches Android app for AI dictation with 100+ language translation",
             "link": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "xAI reaches deal with the Pentagon to use Grok in classified systems",
-            "link": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "axios.com"
-        },
-        {
-            "text": "Confluence Labs exits stealth with 97.9% ARC-AGI-2 score at $11.77 per task",
-            "link": "https://www.ycombinator.com/launches/PWR-confluence-labs-an-ai-research-lab-focused-on-learning-efficiency?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "ycombinator.com"
         }
     ]
 }
