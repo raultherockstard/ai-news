@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-27T17:32:22.377Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-02-28T17:17:09.221Z
 window.latestDigest = {
-    date: "Feb 27, 2026",
+    date: "Feb 28, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
+        "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
+    },
+    {
+        "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
+        "link": "https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "wsj.com"
+    },
+    {
+        "text": "Ilya Sutskever Praises OpenAI and Anthropic for Holding Firm on Safety Stance",
+        "link": "https://x.com/ilyasut/status/2027486969174102261?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Ilya Sutskever on X"
+    },
+    {
+        "text": "OpenAI announces $110B investment round at $730B pre-money valuation",
+        "link": "https://openai.com/index/scaling-ai-for-everyone/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
+    },
     {
         "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
         "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "blogs.microsoft.com"
-    },
-    {
-        "text": "OpenAI and Amazon Partner to Bring Frontier Platform to AWS, Expanding Enterprise AI Agents",
-        "link": "https://openai.com/index/amazon-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "OpenAI and PNNL launch DraftNEPABench to speed federal permitting with AI coding agents",
-        "link": "https://openai.com/index/pacific-northwest-national-laboratory/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "OpenAI and Figma launch Codex integration linking code to design in Figma",
-        "link": "https://openai.com/index/figma-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
-        "link": "https://www.anthropic.com/news/statement-department-of-war?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
     }
 ],
     categories: {
@@ -74,6 +74,26 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
+            "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
+            "link": "https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wsj.com"
+        },
+        {
+            "text": "Ilya Sutskever Praises OpenAI and Anthropic for Holding Firm on Safety Stance",
+            "link": "https://x.com/ilyasut/status/2027486969174102261?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Ilya Sutskever on X"
+        },
+        {
+            "text": "OpenAI announces $110B investment round at $730B pre-money valuation",
+            "link": "https://openai.com/index/scaling-ai-for-everyone/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
             "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -152,21 +172,6 @@ window.latestDigest = {
             "text": "Anthropic proposes persona selection model explaining why AI models act human-like",
             "link": "https://www.anthropic.com/research/persona-selection-model?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
-        },
-        {
-            "text": "Anthropic CEO to meet Hegseth as Pentagon weighs potential ban",
-            "link": "https://www.axios.com/2026/02/23/hegseth-dario-pentagon-meeting-antrhopic-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "axios.com"
-        },
-        {
-            "text": "IBM Shares Drop 10% After Anthropic Says Claude Can Streamline COBOL Code",
-            "link": "https://x.com/kobeissiletter/status/2026018343833026834?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "The Kobeissi Letter on X"
-        },
-        {
-            "text": "Anthropic introduces AI Fluency Index tracking 11 behaviors in thousands of Claude.ai chats",
-            "link": "https://www.anthropic.com/research/AI-fluency-index?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
@@ -174,6 +179,11 @@ window.latestDigest = {
             "text": "Apple releases Xcode 26.3 with autonomous coding agents for project analysis and edits",
             "link": "https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "appleinsider.com"
+        },
+        {
+            "text": "Block cuts nearly half its staff as Dorsey shifts company to AI",
+            "link": "https://www.theverge.com/tech/885710/jack-dorsey-block-layoffs-job-cuts-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
         },
         {
             "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "DeepSeek trained AI model on Nvidia Blackwell chip despite US export ban, official says",
             "link": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "reuters.com"
-        },
-        {
-            "text": "SI Inc Unveils General Computer Action Model Trained on 11M Hours of Video",
-            "link": "https://si.inc/posts/fdm1/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "si.inc"
-        },
-        {
-            "text": "Wispr Flow launches Android app for AI dictation with 100+ language translation",
-            "link": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ]
 }
