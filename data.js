@@ -1,13 +1,23 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-02-28T17:17:09.221Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-01T17:19:37.756Z
 window.latestDigest = {
-    date: "Feb 28, 2026",
+    date: "Mar 1, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
+        "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
+    },
     {
         "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
         "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "openai.com"
+    },
+    {
+        "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
+        "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "wsj.com"
     },
     {
         "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
@@ -18,16 +28,6 @@ window.latestDigest = {
         "text": "Ilya Sutskever Praises OpenAI and Anthropic for Holding Firm on Safety Stance",
         "link": "https://x.com/ilyasut/status/2027486969174102261?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "Ilya Sutskever on X"
-    },
-    {
-        "text": "OpenAI announces $110B investment round at $730B pre-money valuation",
-        "link": "https://openai.com/index/scaling-ai-for-everyone/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
-    },
-    {
-        "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
-        "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blogs.microsoft.com"
     }
 ],
     categories: {
@@ -74,6 +74,11 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
+            "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
             "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -167,14 +172,14 @@ window.latestDigest = {
             "text": "Claude adds finance plugins with cross-app workflows from Excel to PowerPoint",
             "link": "https://claude.com/blog/cowork-plugins-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Anthropic proposes persona selection model explaining why AI models act human-like",
-            "link": "https://www.anthropic.com/research/persona-selection-model?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
         }
     ],
     "general": [
+        {
+            "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
+            "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wsj.com"
+        },
         {
             "text": "Apple releases Xcode 26.3 with autonomous coding agents for project analysis and edits",
             "link": "https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -234,11 +239,6 @@ window.latestDigest = {
             "text": "Unitree Unveils As2 Companion Robot With 90N·m Torque, 13km Range, 15kg Payload",
             "link": "https://x.com/UnitreeRobotics/status/2026221314676228580?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Unitree on X"
-        },
-        {
-            "text": "DeepSeek trained AI model on Nvidia Blackwell chip despite US export ban, official says",
-            "link": "https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "reuters.com"
         }
     ]
 }
