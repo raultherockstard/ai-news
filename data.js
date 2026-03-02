@@ -1,9 +1,19 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-01T17:19:37.756Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-02T17:41:06.149Z
 window.latestDigest = {
-    date: "Mar 1, 2026",
+    date: "Mar 2, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
+    {
+        "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
+        "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Treasury Secretary Scott Bessent on X"
+    },
+    {
+        "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
+        "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Qwen on X"
+    },
     {
         "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
         "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -18,16 +28,6 @@ window.latestDigest = {
         "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
         "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "wsj.com"
-    },
-    {
-        "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
-        "link": "https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "wsj.com"
-    },
-    {
-        "text": "Ilya Sutskever Praises OpenAI and Anthropic for Holding Firm on Safety Stance",
-        "link": "https://x.com/ilyasut/status/2027486969174102261?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Ilya Sutskever on X"
     }
 ],
     categories: {
@@ -139,6 +139,11 @@ window.latestDigest = {
     ],
     "anthropic": [
         {
+            "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
+            "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Treasury Secretary Scott Bessent on X"
+        },
+        {
             "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
             "link": "https://www.anthropic.com/news/statement-department-of-war?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "anthropic.com"
@@ -175,6 +180,11 @@ window.latestDigest = {
         }
     ],
     "general": [
+        {
+            "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
+            "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Qwen on X"
+        },
         {
             "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
             "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "AMD, Meta Expand Partnership to Deploy 6GW of AMD GPUs",
             "link": "https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "amd.com"
-        },
-        {
-            "text": "Alibaba Qwen Unveils Qwen 3.5 Medium Models, Claims More Intelligence With Less Compute",
-            "link": "https://x.com/Alibaba_Qwen/status/2026339351530188939?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
-        },
-        {
-            "text": "Unitree Unveils As2 Companion Robot With 90N·m Torque, 13km Range, 15kg Payload",
-            "link": "https://x.com/UnitreeRobotics/status/2026221314676228580?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Unitree on X"
         }
     ]
 }
