@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-02T17:41:06.149Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-03T17:40:06.290Z
 window.latestDigest = {
-    date: "Mar 2, 2026",
+    date: "Mar 3, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
-        "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Treasury Secretary Scott Bessent on X"
+        "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
+        "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Thariq on X"
     },
     {
-        "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
-        "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Qwen on X"
+        "text": "Claude adds Memory to free plan with easier import and export options",
+        "link": "https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Claude on X"
     },
     {
-        "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
-        "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Anthropic’s Claude gains users leaving OpenAI’s ChatGPT; TechCrunch explains how to switch",
+        "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     },
     {
-        "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
-        "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Apple unveils new iPad Air with M4 chip and more memory",
+        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "apple.com"
     },
     {
-        "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
-        "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "wsj.com"
+        "text": "Apple Introduces Affordable iPhone 17e to Expand iPhone 17 Lineup",
+        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "apple.com"
     }
 ],
     categories: {
@@ -61,19 +61,14 @@ window.latestDigest = {
             "text": "Intrinsic joins Google to advance physical AI robotics platform with Gemini and Cloud",
             "link": "https://www.intrinsic.ai/blog/posts/intrinsic-joins-google-to-accelerate-physical-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "intrinsic.ai"
-        },
-        {
-            "text": "Google Opal adds agentic workflows that pick tools and models automatically",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/opal-agent/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "ProducerAI Joins Google Labs to Help Creatives Learn and Create Music",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/producerai/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "Anthropic’s Claude gains users leaving OpenAI’s ChatGPT; TechCrunch explains how to switch",
+            "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
         {
             "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
             "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -123,11 +118,6 @@ window.latestDigest = {
             "text": "OpenAI Threat Report Details Disrupting Malicious Uses of AI Across Web and Social Platforms",
             "link": "https://openai.com/index/disrupting-malicious-ai-uses/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI Appoints Arvind KC as Chief People Officer",
-            "link": "https://openai.com/index/arvind-kc-chief-people-officer/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
@@ -139,9 +129,24 @@ window.latestDigest = {
     ],
     "anthropic": [
         {
+            "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
+            "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Thariq on X"
+        },
+        {
+            "text": "Claude adds Memory to free plan with easier import and export options",
+            "link": "https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
+        {
             "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
             "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Treasury Secretary Scott Bessent on X"
+        },
+        {
+            "text": "Claude adds import feature to transfer preferences, projects, and context from other AI providers",
+            "link": "https://claude.com/import-memory?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
         },
         {
             "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
@@ -162,28 +167,33 @@ window.latestDigest = {
             "text": "Claude Adds Scheduled Tasks in Cowork for Automated Recurring Work",
             "link": "https://x.com/claudeai/status/2026720870631354429?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Claude on X"
-        },
-        {
-            "text": "Claude Code Adds Remote Control to Run Terminal Tasks From Your Phone",
-            "link": "https://x.com/claudeai/status/2026418433911603668?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
-        },
-        {
-            "text": "Hegseth gives Anthropic CEO until Friday to reverse stance in AI safeguards dispute",
-            "link": "https://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "axios.com"
-        },
-        {
-            "text": "Claude adds finance plugins with cross-app workflows from Excel to PowerPoint",
-            "link": "https://claude.com/blog/cowork-plugins-finance?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
         {
+            "text": "Apple unveils new iPad Air with M4 chip and more memory",
+            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "apple.com"
+        },
+        {
+            "text": "Apple Introduces Affordable iPhone 17e to Expand iPhone 17 Lineup",
+            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "apple.com"
+        },
+        {
             "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
             "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Qwen on X"
+        },
+        {
+            "text": "Qualcomm unveils Snapdragon Wear Elite chip for next-gen AI wearables beyond smartwatches",
+            "link": "https://www.theverge.com/tech/886434/qualcomm-snapdragon-wear-elite-wearables?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "HONOR showcases Robot Phone, humanoid robot and Magic V6 to expand AI ecosystem at MWC 2026",
+            "link": "https://www.honor.com/global/news/honor-mwc2026-launch/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "honor.com"
         },
         {
             "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "Notion Introduces Custom Agents to Automate Entire Workflows Autonomously",
             "link": "https://www.notion.com/blog/introducing-custom-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "notion.com"
-        },
-        {
-            "text": "NVIDIA survey: Healthcare shifts from AI pilots to deployment, showing ROI in key applications",
-            "link": "https://blogs.nvidia.com/blog/ai-in-healthcare-survey-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.nvidia.com"
-        },
-        {
-            "text": "AMD, Meta Expand Partnership to Deploy 6GW of AMD GPUs",
-            "link": "https://www.amd.com/en/newsroom/press-releases/2026-2-24-amd-and-meta-announce-expanded-strategic-partnersh.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "amd.com"
         }
     ]
 }
