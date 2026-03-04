@@ -1,37 +1,42 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-03T17:40:06.290Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-04T17:35:32.647Z
 window.latestDigest = {
-    date: "Mar 3, 2026",
+    date: "Mar 4, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
-        "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Thariq on X"
+        "text": "OpenAI GPT-5.4 to Add Extreme Reasoning Mode and Expand Context to 1M Tokens",
+        "link": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theinformation.com"
     },
     {
-        "text": "Claude adds Memory to free plan with easier import and export options",
-        "link": "https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Claude on X"
+        "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
+        "link": "https://openai.com/index/gpt-5-3-instant/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "openai.com"
     },
     {
-        "text": "Anthropic’s Claude gains users leaving OpenAI’s ChatGPT; TechCrunch explains how to switch",
-        "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
+        "text": "Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills",
+        "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
     },
     {
-        "text": "Apple unveils new iPad Air with M4 chip and more memory",
-        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Apple unveils new 14- and 16-inch MacBook Pro with M5 Pro and M5 Max",
+        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "apple.com"
     },
     {
-        "text": "Apple Introduces Affordable iPhone 17e to Expand iPhone 17 Lineup",
-        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "apple.com"
+        "text": "Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     }
 ],
     categories: {
     "google": [
+        {
+            "text": "Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
         {
             "text": "Google Unveils Nano Banana 2 Image Generator With Pro Features at Flash Speed",
             "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -41,32 +46,32 @@ window.latestDigest = {
             "text": "OpenAI, Anthropic and Google AIs recommend nuclear strikes in 95% of war game simulations",
             "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "newscientist.com"
-        },
-        {
-            "text": "Google updates Circle to Search to explore multiple items in a single image",
-            "link": "https://blog.google/products-and-platforms/products/search/circle-to-search-february-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google unveils Gemini-powered Android AI features for Galaxy S26 and Pixel 10 series",
-            "link": "https://www.engadget.com/ai/google-announces-new-android-ai-features-coming-to-the-galaxy-s26-and-pixel-10-series-180039674.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "Google Flow adds ImageFX, Whisk tools and new asset management for image and video creation",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Intrinsic joins Google to advance physical AI robotics platform with Gemini and Cloud",
-            "link": "https://www.intrinsic.ai/blog/posts/intrinsic-joins-google-to-accelerate-physical-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "intrinsic.ai"
         }
     ],
     "openai": [
         {
+            "text": "OpenAI GPT-5.4 to Add Extreme Reasoning Mode and Expand Context to 1M Tokens",
+            "link": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
+        {
+            "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
+            "link": "https://openai.com/index/gpt-5-3-instant/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
             "text": "Anthropic’s Claude gains users leaving OpenAI’s ChatGPT; TechCrunch explains how to switch",
             "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "OpenAI to amend Pentagon deal to ban use of its AI for mass surveillance of Americans",
+            "link": "https://www.engadget.com/ai/openai-will-amend-defense-department-deal-to-prevent-mass-surveillance-in-the-us-050637400.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "engadget.com"
+        },
+        {
+            "text": "OpenAI's ChatGPT app uninstalls jump 295% after DoD deal; Claude downloads rise",
+            "link": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
         },
         {
@@ -113,11 +118,6 @@ window.latestDigest = {
             "text": "OpenAI and Figma launch Codex integration linking code to design in Figma",
             "link": "https://openai.com/index/figma-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "OpenAI Threat Report Details Disrupting Malicious Uses of AI Across Web and Social Platforms",
-            "link": "https://openai.com/index/disrupting-malicious-ai-uses/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
@@ -129,6 +129,11 @@ window.latestDigest = {
     ],
     "anthropic": [
         {
+            "text": "Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills",
+            "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
+        {
             "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
             "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Thariq on X"
@@ -137,6 +142,11 @@ window.latestDigest = {
             "text": "Claude adds Memory to free plan with easier import and export options",
             "link": "https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Claude on X"
+        },
+        {
+            "text": "Anthropic pitched Pentagon’s $100M voice-controlled autonomous drone swarm challenge",
+            "link": "https://www.bloomberg.com/news/articles/2026-03-02/anthropic-made-pitch-in-drone-swarm-contest-during-pentagon-feud?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bloomberg.com"
         },
         {
             "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
@@ -157,19 +167,24 @@ window.latestDigest = {
             "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
             "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "axios.com"
-        },
-        {
-            "text": "Anthropic acquires Vercept to boost Claude computer use capabilities",
-            "link": "https://www.anthropic.com/news/acquires-vercept?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Claude Adds Scheduled Tasks in Cowork for Automated Recurring Work",
-            "link": "https://x.com/claudeai/status/2026720870631354429?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
         }
     ],
     "general": [
+        {
+            "text": "Apple unveils new 14- and 16-inch MacBook Pro with M5 Pro and M5 Max",
+            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "apple.com"
+        },
+        {
+            "text": "Deveillance Unveils Spectre I Smart Device to Block Unwanted Audio Recordings",
+            "link": "https://x.com/aidaxbaradari/status/2028864606568067491?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Aida Baradari on X"
+        },
+        {
+            "text": "Grok releases Grok 4.20 Beta 2 with improved instruction following and reduced hallucinations",
+            "link": "https://x.com/grok/status/2028714422462448041?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Grok on X"
+        },
         {
             "text": "Apple unveils new iPad Air with M4 chip and more memory",
             "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -201,6 +216,11 @@ window.latestDigest = {
             "source": "wsj.com"
         },
         {
+            "text": "Meta smart glasses footage reviewed by workers raises privacy concerns, investigation finds",
+            "link": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "svd.se"
+        },
+        {
             "text": "Apple releases Xcode 26.3 with autonomous coding agents for project analysis and edits",
             "link": "https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "appleinsider.com"
@@ -219,26 +239,6 @@ window.latestDigest = {
             "text": "QuiverAI Opens Public Beta for Arrow 1.0, First-of-Its-Kind SVG AI Model",
             "link": "https://x.com/QuiverAI/status/2026792057893708072?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "QuiverAI on X"
-        },
-        {
-            "text": "Trump: Big Tech must supply own power for new AI data centers",
-            "link": "https://www.foxnews.com/politics/scoop-trump-brings-big-tech-white-house-curb-power-costs-amid-ai-boom?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "foxnews.com"
-        },
-        {
-            "text": "Perplexity Unveils Perplexity Computer, an End-to-End AI System for Building Projects",
-            "link": "https://x.com/perplexity_ai/status/2026695550771540489?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Perplexity on X"
-        },
-        {
-            "text": "Cursor introduces cloud agents with isolated VMs to control their own computers in parallel",
-            "link": "https://cursor.com/blog/agent-computer-use?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "cursor.com"
-        },
-        {
-            "text": "Notion Introduces Custom Agents to Automate Entire Workflows Autonomously",
-            "link": "https://www.notion.com/blog/introducing-custom-agents?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "notion.com"
         }
     ]
 }
