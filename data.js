@@ -1,58 +1,103 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-04T17:35:32.647Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-05T18:47:03.993Z
 window.latestDigest = {
-    date: "Mar 4, 2026",
+    date: "Mar 5, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI GPT-5.4 to Add Extreme Reasoning Mode and Expand Context to 1M Tokens",
-        "link": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theinformation.com"
-    },
-    {
-        "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
-        "link": "https://openai.com/index/gpt-5-3-instant/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use",
+        "link": "https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "openai.com"
     },
     {
-        "text": "Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills",
-        "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
+        "text": "Google, Meta, Microsoft and other tech giants sign Trump pledge to curb data center power costs",
+        "link": "https://www.theverge.com/news/889578/data-center-power-pledge-white-house-google-meta-microsoft?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
     },
     {
-        "text": "Apple unveils new 14- and 16-inch MacBook Pro with M5 Pro and M5 Max",
-        "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "apple.com"
+        "text": "ICO questions Meta after report says AI smart glasses videos reviewed by Kenya subcontractor",
+        "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bbc.com"
     },
     {
-        "text": "Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "blog.google"
+        "text": "Nvidia to Scale Back Investments in OpenAI and Anthropic, CEO Jensen Huang Says",
+        "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
+    },
+    {
+        "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
+        "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theinformation.com"
     }
 ],
     categories: {
     "google": [
         {
+            "text": "Google, Meta, Microsoft and other tech giants sign Trump pledge to curb data center power costs",
+            "link": "https://www.theverge.com/news/889578/data-center-power-pledge-white-house-google-meta-microsoft?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Google NotebookLM adds Cinematic Video Overviews powered by Gemini 3 and Veo 3",
+            "link": "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google Search AI Mode rolls out Canvas in U.S., adding writing and coding support",
+            "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
             "text": "Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet",
             "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google Unveils Nano Banana 2 Image Generator With Pro Features at Flash Speed",
-            "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "OpenAI, Anthropic and Google AIs recommend nuclear strikes in 95% of war game simulations",
-            "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "newscientist.com"
         }
     ],
     "openai": [
         {
+            "text": "OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use",
+            "link": "https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "Nvidia to Scale Back Investments in OpenAI and Anthropic, CEO Jensen Huang Says",
+            "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "OpenAI launches Learning Outcomes Measurement Suite to assess AI’s impact on learning",
+            "link": "https://openai.com/index/understanding-ai-and-learning-outcomes/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI preprint extends single-minus amplitudes to gravitons with help from GPT-5.2 Pro",
+            "link": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI Codex App Launches on Windows With Native Agent Sandbox and PowerShell Support",
+            "link": "https://x.com/OpenAIDevs/status/2029252453246595301?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "OpenAI Developers on X"
+        },
+        {
             "text": "OpenAI GPT-5.4 to Add Extreme Reasoning Mode and Expand Context to 1M Tokens",
             "link": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
+        },
+        {
+            "text": "OpenAI's Altman: Company Can't Control Pentagon Use of Its AI Software",
+            "link": "https://www.bloomberg.com/news/articles/2026-03-04/altman-tells-staff-openai-has-no-say-over-pentagon-decisions?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bloomberg.com"
+        },
+        {
+            "text": "OpenAI Developing Internal Alternative to Microsoft’s GitHub",
+            "link": "https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
+        {
+            "text": "OpenAI CEO Altman Defends Classified Pentagon Work to Staff Amid Backlash",
+            "link": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "wsj.com"
         },
         {
             "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
@@ -88,46 +133,15 @@ window.latestDigest = {
             "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
             "link": "https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "wsj.com"
-        },
-        {
-            "text": "Ilya Sutskever Praises OpenAI and Anthropic for Holding Firm on Safety Stance",
-            "link": "https://x.com/ilyasut/status/2027486969174102261?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Ilya Sutskever on X"
-        },
-        {
-            "text": "OpenAI announces $110B investment round at $730B pre-money valuation",
-            "link": "https://openai.com/index/scaling-ai-for-everyone/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "Microsoft and OpenAI issue joint statement reaffirming long-term AI partnership",
-            "link": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blogs.microsoft.com"
-        },
-        {
-            "text": "OpenAI and Amazon Partner to Bring Frontier Platform to AWS, Expanding Enterprise AI Agents",
-            "link": "https://openai.com/index/amazon-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI and PNNL launch DraftNEPABench to speed federal permitting with AI coding agents",
-            "link": "https://openai.com/index/pacific-northwest-national-laboratory/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI and Figma launch Codex integration linking code to design in Figma",
-            "link": "https://openai.com/index/figma-partnership/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
-    "microsoft": [
-        {
-            "text": "Microsoft unveils Copilot Tasks to shift Copilot from chat responses to action completion",
-            "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/2026/02/26/copilot-tasks-from-answers-to-actions/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "microsoft.com"
-        }
-    ],
+    "microsoft": [],
     "anthropic": [
+        {
+            "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
+            "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theinformation.com"
+        },
         {
             "text": "Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills",
             "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -157,19 +171,29 @@ window.latestDigest = {
             "text": "Claude adds import feature to transfer preferences, projects, and context from other AI providers",
             "link": "https://claude.com/import-memory?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "claude.com"
-        },
-        {
-            "text": "Anthropic says it won't remove AI safeguards for mass surveillance or fully autonomous weapons",
-            "link": "https://www.anthropic.com/news/statement-department-of-war?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "anthropic.com"
-        },
-        {
-            "text": "Pentagon asks contractors to assess reliance on Anthropic’s Claude amid blacklist step",
-            "link": "https://www.axios.com/2026/02/25/anthropic-pentagon-blacklist-claude?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "axios.com"
         }
     ],
     "general": [
+        {
+            "text": "ICO questions Meta after report says AI smart glasses videos reviewed by Kenya subcontractor",
+            "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bbc.com"
+        },
+        {
+            "text": "AWS launches OpenClaw on Amazon Lightsail for private autonomous AI agents with Bedrock preconfig﻿ured",
+            "link": "https://aws.amazon.com/blogs/aws/introducing-openclaw-on-amazon-lightsail-to-run-your-autonomous-private-ai-agents/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "aws.amazon.com"
+        },
+        {
+            "text": "LTX Studio Launches Dubbing and Captions for Enterprise Video Localization",
+            "link": "https://x.com/ltxstudio/status/2029231622546182292?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "LTX Studio on X"
+        },
+        {
+            "text": "Alibaba Qwen tech lead Junyang Lin steps down after major AI model launch",
+            "link": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
         {
             "text": "Apple unveils new 14- and 16-inch MacBook Pro with M5 Pro and M5 Max",
             "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -214,31 +238,6 @@ window.latestDigest = {
             "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
             "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "wsj.com"
-        },
-        {
-            "text": "Meta smart glasses footage reviewed by workers raises privacy concerns, investigation finds",
-            "link": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "svd.se"
-        },
-        {
-            "text": "Apple releases Xcode 26.3 with autonomous coding agents for project analysis and edits",
-            "link": "https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "appleinsider.com"
-        },
-        {
-            "text": "Block cuts nearly half its staff as Dorsey shifts company to AI",
-            "link": "https://www.theverge.com/tech/885710/jack-dorsey-block-layoffs-job-cuts-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "Burger King launches Patty AI headset assistant to monitor staff politeness",
-            "link": "https://www.theverge.com/ai-artificial-intelligence/884911/burger-king-ai-assistant-patty?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "QuiverAI Opens Public Beta for Arrow 1.0, First-of-Its-Kind SVG AI Model",
-            "link": "https://x.com/QuiverAI/status/2026792057893708072?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "QuiverAI on X"
         }
     ]
 }
