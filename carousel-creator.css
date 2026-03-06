@@ -492,3 +492,83 @@ body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #444; }
+
+/* ── Mobile ─────────────────────────────── */
+@media (max-width: 768px) {
+  body { overflow: hidden; }
+
+  .workspace {
+    display: block;
+    position: relative;
+    height: calc(100vh - 52px - 54px);
+    overflow: hidden;
+  }
+
+  /* All panels stacked in same space, only active one visible */
+  .slide-list-panel,
+  .canvas-panel,
+  .design-panel {
+    position: absolute;
+    inset: 0;
+    display: none;
+    border: none;
+  }
+  .slide-list-panel.mobile-active { display: flex; flex-direction: column; overflow-y: auto; padding: 12px; }
+  .canvas-panel.mobile-active     { display: flex; }
+  .design-panel.mobile-active     { display: flex; flex-direction: column; overflow-y: auto; }
+
+  /* Slide thumbnails in a 3-col grid */
+  .slide-list { flex-direction: row; flex-wrap: wrap; gap: 8px; }
+  .slide-list li { flex: 0 0 calc(33.33% - 6px); }
+
+  /* Canvas fits screen width */
+  .canvas-viewport { padding: 8px; }
+
+  /* Header compact */
+  .header { padding: 0 12px; }
+  .logo { font-size: 14px; }
+  .header-actions .btn { padding: 6px 10px; font-size: 12px; }
+
+  /* Bigger touch targets */
+  .btn { min-height: 40px; }
+  .elem-btn { padding: 12px 4px; font-size: 13px; }
+
+  /* Prevent iOS auto-zoom on inputs */
+  .select-input,
+  .text-input,
+  .textarea-input,
+  .number-input { font-size: 16px; }
+
+  /* Bottom tab bar */
+  .mobile-tabs {
+    display: flex;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: 54px;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    z-index: 200;
+  }
+  .mobile-tab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-family: var(--font);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-tab.active { color: var(--accent); }
+  .mobile-tab-icon { font-size: 20px; line-height: 1; }
+}
+
+@media (min-width: 769px) {
+  .mobile-tabs { display: none; }
+}

@@ -23,13 +23,13 @@
     <main class="workspace">
 
       <!-- LEFT: SLIDE LIST -->
-      <aside class="slide-list-panel">
+      <aside class="slide-list-panel" id="slideListPanel">
         <p class="panel-label">Slides</p>
         <ul id="slideList" class="slide-list"></ul>
       </aside>
 
       <!-- CENTER: CANVAS PREVIEW -->
-      <section class="canvas-panel">
+      <section class="canvas-panel mobile-active" id="canvasPanelEl">
         <div class="canvas-toolbar">
           <span id="slideName" class="slide-title-display">Slide 1</span>
           <div class="canvas-toolbar-right">
@@ -64,7 +64,7 @@
       </section>
 
       <!-- RIGHT: DESIGN PANEL -->
-      <aside class="design-panel">
+      <aside class="design-panel" id="designPanelEl">
         <div class="panel-section">
           <p class="panel-label">Background</p>
           <button class="btn btn-full" onclick="document.getElementById('mediaInput').click()">
@@ -187,6 +187,21 @@
       </aside>
     </main>
 
+    <!-- Mobile bottom tab bar -->
+    <nav class="mobile-tabs">
+      <button class="mobile-tab" id="tabSlides" onclick="switchTab('slides')">
+        <span class="mobile-tab-icon">&#9776;</span>
+        <span>Slides</span>
+      </button>
+      <button class="mobile-tab active" id="tabCanvas" onclick="switchTab('canvas')">
+        <span class="mobile-tab-icon">&#9654;</span>
+        <span>Canvas</span>
+      </button>
+      <button class="mobile-tab" id="tabDesign" onclick="switchTab('design')">
+        <span class="mobile-tab-icon">&#9881;</span>
+        <span>Design</span>
+      </button>
+    </nav>
   </div>
 
   <!-- Export progress modal -->

@@ -27,6 +27,7 @@ const DISPLAY_SCALE = 0.5; // render at half size for perf
 document.addEventListener('DOMContentLoaded', () => {
   addSlide();  // start with one blank slide
   bindControls();
+  setTimeout(autoFitCanvasMobile, 50);
 });
 
 function bindControls() {
@@ -56,6 +57,13 @@ function bindControls() {
   // Global mouseup / mousemove for drag
   document.addEventListener('mousemove', onMouseMove);
   document.addEventListener('mouseup', onMouseUp);
+
+  // Touch equivalents
+  document.addEventListener('touchmove', onTouchMove, { passive: false });
+  document.addEventListener('touchend', onTouchEnd);
+
+  // Auto-fit canvas on mobile when orientation changes
+  window.addEventListener('resize', autoFitCanvasMobile);
 }
 
 // ── Slide management ──────────────────────────────────────────────────────────
@@ -229,6 +237,11 @@ function renderElement(el) {
 
   div.onclick = (e) => { e.stopPropagation(); selectElem(el.id); };
   div.addEventListener('mousedown', (e) => startDrag(e, el.id));
+  div.addEventListener('touchstart', (e) => {
+    e.preventDefault();
+    const t = e.touches[0];
+    startDrag({ clientX: t.clientX, clientY: t.clientY, preventDefault: () => {} }, el.id);
+  }, { passive: false });
 
   switch (el.type) {
     case 'text':
@@ -279,6 +292,11 @@ function renderElement(el) {
   const rh = document.createElement('div');
   rh.className = 'resize-handle';
   rh.addEventListener('mousedown', (e) => { e.stopPropagation(); startResize(e, el.id); });
+  rh.addEventListener('touchstart', (e) => {
+    e.stopPropagation(); e.preventDefault();
+    const t = e.touches[0];
+    startResize({ clientX: t.clientX, clientY: t.clientY, preventDefault: () => {} }, el.id);
+  }, { passive: false });
   div.appendChild(rh);
 
   overlay.appendChild(div);
@@ -626,4 +644,48 @@ function hideModal() {
 }
 function setProgress(pct) {
   document.getElementById('progressFill').style.width = pct + '%';
+}
+
+// ── Mobile tab switching ───────────────────────────────────────────────────────
+function switchTab(tab) {
+  const panels = {
+    slides: document.getElementById('slideListPanel'),
+    canvas: document.getElementById('canvasPanelEl'),
+    design: document.getElementById('designPanelEl'),
+  };
+  const tabs = {
+    slides: document.getElementById('tabSlides'),
+    canvas: document.getElementById('tabCanvas'),
+    design: document.getElementById('tabDesign'),
+  };
+  Object.values(panels).forEach(p => p && p.classList.remove('mobile-active'));
+  Object.values(tabs).forEach(t => t && t.classList.remove('active'));
+  if (panels[tab]) panels[tab].classList.add('mobile-active');
+  if (tabs[tab]) tabs[tab].classList.add('active');
+  if (tab === 'canvas') autoFitCanvasMobile();
+}
+
+// ── Auto-fit canvas to mobile viewport ───────────────────────────────────────
+function autoFitCanvasMobile() {
+  if (window.innerWidth > 768) return;
+  const slide = currentSlide();
+  if (!slide) return;
+  const size = SIZES[slide.canvasSize] || SIZES['1080x1080'];
+  const baseW = size.w * DISPLAY_SCALE;
+  const available = window.innerWidth - 24;
+  state.zoom = Math.max(0.2, Math.min(available / baseW, 1));
+  document.getElementById('zoomLevel').textContent = Math.round(state.zoom * 100) + '%';
+  renderCanvas();
+}
+
+// ── Touch drag/resize ─────────────────────────────────────────────────────────
+function onTouchMove(e) {
+  if (!state.dragging && !state.resizing) return;
+  e.preventDefault();
+  const t = e.touches[0];
+  onMouseMove({ clientX: t.clientX, clientY: t.clientY });
+}
+
+function onTouchEnd() {
+  onMouseUp();
 }
