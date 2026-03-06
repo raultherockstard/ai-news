@@ -43,10 +43,9 @@
             <!-- Media background -->
             <div class="canvas-media" id="canvasMedia">
               <div class="upload-placeholder" id="uploadPlaceholder">
-                <input type="file" id="mediaInput" accept="image/*,video/*" style="position:absolute;width:0;height:0;opacity:0;overflow:hidden;" />
-                <button class="upload-btn" onclick="document.getElementById('mediaInput').click()">
+                <label for="mediaInput" class="upload-btn">
                   &#128247; Upload Image or Video
-                </button>
+                </label>
                 <p class="upload-hint">Supports JPG, PNG, GIF, MP4, MOV</p>
               </div>
             </div>
@@ -64,9 +63,9 @@
 
         <!-- Quick-add toolbar (mobile only) -->
         <div class="quick-toolbar">
-          <button class="qt-btn" onclick="document.getElementById('mediaInput').click()">
+          <label for="mediaInput" class="qt-btn">
             <span class="qt-icon">&#128247;</span><span class="qt-label">Photo</span>
-          </button>
+          </label>
           <button class="qt-btn" onclick="addHeading()">
             <span class="qt-icon" style="font-size:17px;font-weight:900">Aa</span><span class="qt-label">Heading</span>
           </button>
@@ -95,9 +94,9 @@
       <aside class="design-panel" id="designPanelEl">
         <div class="panel-section">
           <p class="panel-label">Background</p>
-          <button class="btn btn-full" onclick="document.getElementById('mediaInput').click()">
+          <label for="mediaInput" class="btn btn-full" style="cursor:pointer;">
             &#128247; Change Media
-          </button>
+          </label>
           <label class="field-label">Background color (no media)</label>
           <input type="color" id="bgColor" class="color-input" value="#1a1a2e" />
 
@@ -240,6 +239,9 @@
       <p id="progressLabel" class="modal-sub">Preparing slides</p>
     </div>
   </div>
+
+  <!-- File input lives at body level so iOS can always access it -->
+  <input type="file" id="mediaInput" accept="image/*,video/*" style="position:fixed;top:-100px;left:-100px;width:1px;height:1px;opacity:0;" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
