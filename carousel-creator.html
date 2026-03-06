@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carousel Creator</title>
+  <link rel="stylesheet" href="carousel-creator.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-inner">
+        <span class="logo">&#9654; Carousel Creator</span>
+        <div class="header-actions">
+          <button id="addSlideBtn" class="btn btn-secondary">+ Add Slide</button>
+          <button id="exportBtn" class="btn btn-primary">&#8595; Export All</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="workspace">
+
+      <!-- LEFT: SLIDE LIST -->
+      <aside class="slide-list-panel">
+        <p class="panel-label">Slides</p>
+        <ul id="slideList" class="slide-list"></ul>
+      </aside>
+
+      <!-- CENTER: CANVAS PREVIEW -->
+      <section class="canvas-panel">
+        <div class="canvas-toolbar">
+          <span id="slideName" class="slide-title-display">Slide 1</span>
+          <div class="canvas-toolbar-right">
+            <button class="btn btn-icon" id="zoomOutBtn" title="Zoom out">&#8722;</button>
+            <span id="zoomLevel" class="zoom-label">100%</span>
+            <button class="btn btn-icon" id="zoomInBtn" title="Zoom in">&#43;</button>
+          </div>
+        </div>
+        <div class="canvas-viewport" id="canvasViewport">
+          <div class="canvas-frame" id="canvasFrame">
+            <!-- Media background -->
+            <div class="canvas-media" id="canvasMedia">
+              <div class="upload-placeholder" id="uploadPlaceholder">
+                <input type="file" id="mediaInput" accept="image/*,video/*" hidden />
+                <button class="upload-btn" onclick="document.getElementById('mediaInput').click()">
+                  &#128247; Upload Image or Video
+                </button>
+                <p class="upload-hint">Supports JPG, PNG, GIF, MP4, MOV</p>
+              </div>
+            </div>
+
+            <!-- Overlay layer (text + icons) -->
+            <div class="canvas-overlay" id="canvasOverlay"></div>
+
+            <!-- Gradient overlay -->
+            <div class="canvas-gradient" id="canvasGradient"></div>
+
+            <!-- Slide number badge -->
+            <div class="slide-number-badge" id="slideNumberBadge">1 / 1</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT: DESIGN PANEL -->
+      <aside class="design-panel">
+        <div class="panel-section">
+          <p class="panel-label">Background</p>
+          <button class="btn btn-full" onclick="document.getElementById('mediaInput').click()">
+            &#128247; Change Media
+          </button>
+          <label class="field-label">Background color (no media)</label>
+          <input type="color" id="bgColor" class="color-input" value="#1a1a2e" />
+
+          <label class="field-label">Gradient overlay</label>
+          <select id="gradientSelect" class="select-input">
+            <option value="none">None</option>
+            <option value="dark-bottom" selected>Dark bottom</option>
+            <option value="dark-top">Dark top</option>
+            <option value="dark-full">Dark full</option>
+            <option value="brand-blue">Brand blue</option>
+            <option value="brand-purple">Brand purple</option>
+            <option value="brand-fire">Fire gradient</option>
+          </select>
+
+          <label class="field-label">Overlay opacity</label>
+          <input type="range" id="overlayOpacity" min="0" max="100" value="50" class="range-input" />
+        </div>
+
+        <div class="panel-section">
+          <p class="panel-label">Add Elements</p>
+          <div class="element-grid">
+            <button class="elem-btn" onclick="addText()">T Text</button>
+            <button class="elem-btn" onclick="addHeading()">H Heading</button>
+            <button class="elem-btn" onclick="addSubtitle()">S Subtitle</button>
+            <button class="elem-btn" onclick="addIcon('&#10003;')">&#10003; Check</button>
+            <button class="elem-btn" onclick="addIcon('&#9733;')">&#9733; Star</button>
+            <button class="elem-btn" onclick="addIcon('&#9654;')">&#9654; Play</button>
+            <button class="elem-btn" onclick="addIcon('&#128313;')">&#128313; Arrow</button>
+            <button class="elem-btn" onclick="addIcon('&#10024;')">&#10024; Sparkle</button>
+            <button class="elem-btn" onclick="addIcon('&#128293;')">&#128293; Fire</button>
+            <button class="elem-btn" onclick="addIcon('&#128640;')">&#128640; Rocket</button>
+            <button class="elem-btn" onclick="addIcon('&#128161;')">&#128161; Idea</button>
+            <button class="elem-btn" onclick="addIcon('&#128200;')">&#128200; Chart</button>
+            <button class="elem-btn" onclick="addShape('rectangle')">&#9632; Rect</button>
+            <button class="elem-btn" onclick="addShape('circle')">&#9679; Circle</button>
+            <button class="elem-btn" onclick="addDivider()">&#8212; Line</button>
+            <button class="elem-btn" onclick="addBadge()">&#127991; Badge</button>
+          </div>
+        </div>
+
+        <div class="panel-section" id="elementPropsPanel" style="display:none">
+          <p class="panel-label">Element Properties</p>
+          <div id="textProps" style="display:none">
+            <label class="field-label">Text</label>
+            <textarea id="elemText" class="textarea-input" rows="2"></textarea>
+            <label class="field-label">Font size</label>
+            <input type="range" id="fontSize" min="10" max="120" value="24" class="range-input" />
+            <span id="fontSizeVal" class="range-val">24px</span>
+            <label class="field-label">Font weight</label>
+            <select id="fontWeight" class="select-input">
+              <option value="400">Regular</option>
+              <option value="600" selected>Semi-Bold</option>
+              <option value="700">Bold</option>
+              <option value="800">Extra Bold</option>
+              <option value="900">Black</option>
+            </select>
+            <label class="field-label">Text color</label>
+            <input type="color" id="textColor" class="color-input" value="#ffffff" />
+            <label class="field-label">Text align</label>
+            <div class="btn-group">
+              <button class="btn btn-sm" onclick="setAlign('left')">L</button>
+              <button class="btn btn-sm" onclick="setAlign('center')">C</button>
+              <button class="btn btn-sm" onclick="setAlign('right')">R</button>
+            </div>
+          </div>
+          <div id="shapeProps" style="display:none">
+            <label class="field-label">Shape color</label>
+            <input type="color" id="shapeColor" class="color-input" value="#ffffff" />
+            <label class="field-label">Opacity</label>
+            <input type="range" id="shapeOpacity" min="10" max="100" value="80" class="range-input" />
+            <span id="shapeOpacityVal" class="range-val">80%</span>
+          </div>
+          <div class="prop-row">
+            <label class="field-label">Position X</label>
+            <input type="number" id="elemX" class="number-input" value="50" />
+            <label class="field-label">Position Y</label>
+            <input type="number" id="elemY" class="number-input" value="50" />
+          </div>
+          <button class="btn btn-danger btn-full" onclick="deleteSelected()">&#128465; Delete Element</button>
+        </div>
+
+        <div class="panel-section">
+          <p class="panel-label">Slide Settings</p>
+          <label class="field-label">Slide title (internal)</label>
+          <input type="text" id="slideTitle" class="text-input" placeholder="e.g. Intro" />
+          <label class="field-label">Canvas size</label>
+          <select id="canvasSize" class="select-input">
+            <option value="1080x1080" selected>Square 1:1 (1080×1080)</option>
+            <option value="1080x1350">Portrait 4:5 (1080×1350)</option>
+            <option value="1080x1920">Story 9:16 (1080×1920)</option>
+            <option value="1920x1080">Landscape 16:9 (1920×1080)</option>
+          </select>
+          <label class="field-label">Slide transition style</label>
+          <select id="transitionStyle" class="select-input">
+            <option value="none">None</option>
+            <option value="slide">Slide</option>
+            <option value="fade">Fade</option>
+          </select>
+        </div>
+
+        <div class="panel-section">
+          <p class="panel-label">Slide Actions</p>
+          <button class="btn btn-full btn-secondary" onclick="duplicateSlide()">&#128203; Duplicate Slide</button>
+          <button class="btn btn-full btn-secondary" onclick="moveSlideUp()">&#8593; Move Up</button>
+          <button class="btn btn-full btn-secondary" onclick="moveSlideDown()">&#8595; Move Down</button>
+          <button class="btn btn-full btn-danger" onclick="deleteSlide()">&#128465; Delete Slide</button>
+        </div>
+
+        <div class="panel-section">
+          <p class="panel-label">Export</p>
+          <button class="btn btn-full btn-primary" id="exportPNGBtn">&#128247; Export Slide as PNG</button>
+          <button class="btn btn-full btn-primary" id="exportAllBtn">&#128230; Export All Slides (ZIP)</button>
+          <p class="export-note">Uses html2canvas for raster export.</p>
+        </div>
+      </aside>
+    </main>
+
+  </div>
+
+  <!-- Export progress modal -->
+  <div class="modal-backdrop" id="exportModal" style="display:none">
+    <div class="modal">
+      <p class="modal-title">Exporting...</p>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <p id="progressLabel" class="modal-sub">Preparing slides</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="carousel-creator.js"></script>
+</body>
+</html>
