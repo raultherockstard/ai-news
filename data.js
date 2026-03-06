@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-05T18:47:03.993Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-06T17:31:37.675Z
 window.latestDigest = {
-    date: "Mar 5, 2026",
+    date: "Mar 6, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use",
-        "link": "https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "OpenAI launches ChatGPT for Excel with new GPT-5.4 financial data integrations",
+        "link": "https://openai.com/index/chatgpt-for-excel/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "openai.com"
     },
     {
-        "text": "Google, Meta, Microsoft and other tech giants sign Trump pledge to curb data center power costs",
-        "link": "https://www.theverge.com/news/889578/data-center-power-pledge-white-house-google-meta-microsoft?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Anthropic CEO Dario Amodei Updates on “Department of War” Statement",
+        "link": "https://www.anthropic.com/news/where-stand-department-war?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "anthropic.com"
     },
     {
-        "text": "ICO questions Meta after report says AI smart glasses videos reviewed by Kenya subcontractor",
-        "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bbc.com"
+        "text": "Pentagon Notifies Anthropic It Is a US Supply-Chain Risk",
+        "link": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-says-it-s-told-anthropic-the-firm-is-supply-chain-risk?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "bloomberg.com"
     },
     {
-        "text": "Nvidia to Scale Back Investments in OpenAI and Anthropic, CEO Jensen Huang Says",
-        "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Meta sued over AI smart glasses privacy after subcontractors reviewed user footage",
+        "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "techcrunch.com"
     },
     {
-        "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
-        "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theinformation.com"
+        "text": "Luma launches creative AI agents powered by new Unified Intelligence models",
+        "link": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "techcrunch.com"
     }
 ],
     categories: {
@@ -54,6 +54,16 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI launches ChatGPT for Excel with new GPT-5.4 financial data integrations",
+            "link": "https://openai.com/index/chatgpt-for-excel/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
+        {
+            "text": "OpenAI: Reasoning Models Struggle to Control Chain-of-Thought, Supporting Monitorability",
+            "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches GPT-5.4 with 1M-token context and improved coding and tool use",
             "link": "https://openai.com/index/introducing-gpt-5-4/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -118,25 +128,20 @@ window.latestDigest = {
             "text": "OpenAI's ChatGPT app uninstalls jump 295% after DoD deal; Claude downloads rise",
             "link": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "OpenAI details Department of War contract, safety redlines, and classified AI deployment",
-            "link": "https://openai.com/index/our-agreement-with-the-department-of-war/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI updates ChatGPT mental health safeguards, adds trusted contact feature and notes litigation",
-            "link": "https://openai.com/index/update-on-mental-health-related-work/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI pursues Pentagon deal for classified AI use amid Anthropic standoff",
-            "link": "https://www.wsj.com/tech/ai/openais-sam-altman-calls-for-de-escalation-in-anthropic-showdown-with-hegseth-03ecbac8?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wsj.com"
         }
     ],
     "microsoft": [],
     "anthropic": [
+        {
+            "text": "Anthropic CEO Dario Amodei Updates on “Department of War” Statement",
+            "link": "https://www.anthropic.com/news/where-stand-department-war?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Pentagon Notifies Anthropic It Is a US Supply-Chain Risk",
+            "link": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-says-it-s-told-anthropic-the-firm-is-supply-chain-risk?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "bloomberg.com"
+        },
         {
             "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
             "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -166,14 +171,24 @@ window.latestDigest = {
             "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
             "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Treasury Secretary Scott Bessent on X"
-        },
-        {
-            "text": "Claude adds import feature to transfer preferences, projects, and context from other AI providers",
-            "link": "https://claude.com/import-memory?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
         }
     ],
     "general": [
+        {
+            "text": "Meta sued over AI smart glasses privacy after subcontractors reviewed user footage",
+            "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "Luma launches creative AI agents powered by new Unified Intelligence models",
+            "link": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
+        },
+        {
+            "text": "Netflix acquires AI filmmaking tools startup InterPositive, founded by Ben Affleck",
+            "link": "https://about.netflix.com/en/news/why-interpositive-is-joining-netflix?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.netflix.com"
+        },
         {
             "text": "ICO questions Meta after report says AI smart glasses videos reviewed by Kenya subcontractor",
             "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -223,21 +238,6 @@ window.latestDigest = {
             "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
             "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Qwen on X"
-        },
-        {
-            "text": "Qualcomm unveils Snapdragon Wear Elite chip for next-gen AI wearables beyond smartwatches",
-            "link": "https://www.theverge.com/tech/886434/qualcomm-snapdragon-wear-elite-wearables?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theverge.com"
-        },
-        {
-            "text": "HONOR showcases Robot Phone, humanoid robot and Magic V6 to expand AI ecosystem at MWC 2026",
-            "link": "https://www.honor.com/global/news/honor-mwc2026-launch/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "honor.com"
-        },
-        {
-            "text": "xAI’s Grok Raised Safety Alarms at Federal Agencies Before Pentagon Approved Classified Use",
-            "link": "https://www.wsj.com/politics/national-security/elon-musk-xai-grok-security-safety-government-73ab4f6e?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wsj.com"
         }
     ]
 }
