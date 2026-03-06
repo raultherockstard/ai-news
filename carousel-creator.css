@@ -550,11 +550,15 @@ body {
   .canvas-panel.mobile-active {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
+  /* Explicit height so quick-toolbar and slide-strip always show */
   .canvas-viewport {
-    flex: 1;
+    height: calc(100vh - 50px - 56px - 42px - 66px - 68px);
+    max-height: calc(100vh - 50px - 56px - 42px - 66px - 68px);
+    overflow: auto;
     padding: 10px;
-    min-height: 0;
+    flex-shrink: 0;
   }
 
   /* Quick add toolbar */

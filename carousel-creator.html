@@ -240,8 +240,8 @@
     </div>
   </div>
 
-  <!-- File input lives at body level so iOS can always access it -->
-  <input type="file" id="mediaInput" accept="image/*,video/*" style="position:fixed;top:-100px;left:-100px;width:1px;height:1px;opacity:0;" />
+  <!-- File input: display:none works with <label for=""> on all mobile browsers -->
+  <input type="file" id="mediaInput" accept="image/*,video/*" style="display:none" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>

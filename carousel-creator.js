@@ -703,8 +703,12 @@ function autoFitCanvasMobile() {
   if (!slide) return;
   const size = SIZES[slide.canvasSize] || SIZES['1080x1080'];
   const baseW = size.w * DISPLAY_SCALE;
-  const available = window.innerWidth - 24;
-  state.zoom = Math.max(0.2, Math.min(available / baseW, 1));
+  const baseH = size.h * DISPLAY_SCALE;
+  const availW = window.innerWidth - 20;
+  const availH = window.innerHeight - 282; // header+tabs+canvas-toolbar+quick+strip
+  const zoomW = availW / baseW;
+  const zoomH = availH / baseH;
+  state.zoom = Math.max(0.2, Math.min(zoomW, zoomH, 1));
   document.getElementById('zoomLevel').textContent = Math.round(state.zoom * 100) + '%';
   renderCanvas();
 }
