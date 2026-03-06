@@ -12,7 +12,7 @@
     <!-- HEADER -->
     <header class="header">
       <div class="header-inner">
-        <span class="logo">&#9654; Carousel Creator</span>
+        <span class="logo">&#9654; <span>Carousel</span> Creator</span>
         <div class="header-actions">
           <button id="addSlideBtn" class="btn btn-secondary">+ Add Slide</button>
           <button id="exportBtn" class="btn btn-primary">&#8595; Export All</button>
@@ -60,6 +60,34 @@
             <!-- Slide number badge -->
             <div class="slide-number-badge" id="slideNumberBadge">1 / 1</div>
           </div>
+        </div>
+
+        <!-- Quick-add toolbar (mobile only) -->
+        <div class="quick-toolbar">
+          <button class="qt-btn" onclick="document.getElementById('mediaInput').click()">
+            <span class="qt-icon">&#128247;</span><span class="qt-label">Photo</span>
+          </button>
+          <button class="qt-btn" onclick="addHeading()">
+            <span class="qt-icon" style="font-size:17px;font-weight:900">Aa</span><span class="qt-label">Heading</span>
+          </button>
+          <button class="qt-btn" onclick="addText()">
+            <span class="qt-icon" style="font-size:17px">T</span><span class="qt-label">Text</span>
+          </button>
+          <button class="qt-btn" onclick="addBadge()">
+            <span class="qt-icon">&#127991;</span><span class="qt-label">Badge</span>
+          </button>
+          <button class="qt-btn" onclick="addIcon('&#10024;')">
+            <span class="qt-icon">&#10024;</span><span class="qt-label">Icon</span>
+          </button>
+          <button class="qt-btn" onclick="switchTab('design')">
+            <span class="qt-icon">&#9881;</span><span class="qt-label">Design</span>
+          </button>
+        </div>
+
+        <!-- Slide film strip (mobile only) -->
+        <div class="slide-strip-bar">
+          <div class="slide-strip" id="slideStrip"></div>
+          <button class="strip-add-btn" onclick="addSlide()" title="Add slide">&#43;</button>
         </div>
       </section>
 
@@ -189,17 +217,17 @@
 
     <!-- Mobile bottom tab bar -->
     <nav class="mobile-tabs">
+      <button class="mobile-tab active" id="tabCanvas" onclick="switchTab('canvas')">
+        <span class="mobile-tab-icon">&#9654;</span>
+        <span>Edit</span>
+      </button>
+      <button class="mobile-tab" id="tabDesign" onclick="switchTab('design')">
+        <span class="mobile-tab-icon">&#10024;</span>
+        <span>Design</span>
+      </button>
       <button class="mobile-tab" id="tabSlides" onclick="switchTab('slides')">
         <span class="mobile-tab-icon">&#9776;</span>
         <span>Slides</span>
-      </button>
-      <button class="mobile-tab active" id="tabCanvas" onclick="switchTab('canvas')">
-        <span class="mobile-tab-icon">&#9654;</span>
-        <span>Canvas</span>
-      </button>
-      <button class="mobile-tab" id="tabDesign" onclick="switchTab('design')">
-        <span class="mobile-tab-icon">&#9881;</span>
-        <span>Design</span>
       </button>
     </nav>
   </div>

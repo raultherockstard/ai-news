@@ -165,6 +165,7 @@ function renderSlideList() {
     li.appendChild(thumb);
     list.appendChild(li);
   });
+  renderSlideStrip();
 }
 
 // ── Render canvas (center panel) ─────────────────────────────────────────────
@@ -663,6 +664,36 @@ function switchTab(tab) {
   if (panels[tab]) panels[tab].classList.add('mobile-active');
   if (tabs[tab]) tabs[tab].classList.add('active');
   if (tab === 'canvas') autoFitCanvasMobile();
+}
+
+// ── Slide strip (mobile film strip) ──────────────────────────────────────────
+function renderSlideStrip() {
+  const strip = document.getElementById('slideStrip');
+  if (!strip) return;
+  strip.innerHTML = '';
+  state.slides.forEach((slide, idx) => {
+    const thumb = document.createElement('div');
+    thumb.className = 'strip-thumb' + (idx === state.activeIdx ? ' active' : '');
+    thumb.onclick = () => selectSlide(idx);
+
+    if (slide.mediaUrl && slide.mediaType === 'image') {
+      const img = document.createElement('img');
+      img.src = slide.mediaUrl;
+      thumb.appendChild(img);
+    } else {
+      const bg = document.createElement('div');
+      bg.className = 'strip-thumb-bg';
+      bg.style.background = slide.bgColor || '#1a1a2e';
+      thumb.appendChild(bg);
+    }
+
+    const num = document.createElement('span');
+    num.className = 'strip-thumb-num';
+    num.textContent = idx + 1;
+    thumb.appendChild(num);
+
+    strip.appendChild(thumb);
+  });
 }
 
 // ── Auto-fit canvas to mobile viewport ───────────────────────────────────────
