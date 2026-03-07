@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-06T17:31:37.675Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-07T17:17:52.490Z
 window.latestDigest = {
-    date: "Mar 6, 2026",
+    date: "Mar 7, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "OpenAI launches ChatGPT for Excel with new GPT-5.4 financial data integrations",
-        "link": "https://openai.com/index/chatgpt-for-excel/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "openai.com"
+        "text": "Oracle and OpenAI abandon Texas AI data center expansion plans, Bloomberg reports",
+        "link": "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "reuters.com"
     },
     {
-        "text": "Anthropic CEO Dario Amodei Updates on “Department of War” Statement",
-        "link": "https://www.anthropic.com/news/where-stand-department-war?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "Grammarly AI “Expert Review” feature cites journalists and professors without their permission",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theverge.com"
+    },
+    {
+        "text": "Anthropic Launches Local Scheduled Tasks in Claude Code Desktop",
+        "link": "https://x.com/trq212/status/2030019397335843288?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "Thariq on X"
+    },
+    {
+        "text": "Microsoft to keep offering Anthropic models to customers despite Pentagon blacklist",
+        "link": "https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "cnbc.com"
+    },
+    {
+        "text": "Anthropic partners with Mozilla to improve Firefox security",
+        "link": "https://www.anthropic.com/news/mozilla-firefox-security?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "anthropic.com"
-    },
-    {
-        "text": "Pentagon Notifies Anthropic It Is a US Supply-Chain Risk",
-        "link": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-says-it-s-told-anthropic-the-firm-is-supply-chain-risk?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "bloomberg.com"
-    },
-    {
-        "text": "Meta sued over AI smart glasses privacy after subcontractors reviewed user footage",
-        "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
-    },
-    {
-        "text": "Luma launches creative AI agents powered by new Unified Intelligence models",
-        "link": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "techcrunch.com"
     }
 ],
     categories: {
@@ -54,6 +54,16 @@ window.latestDigest = {
         }
     ],
     "openai": [
+        {
+            "text": "Oracle and OpenAI abandon Texas AI data center expansion plans, Bloomberg reports",
+            "link": "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "reuters.com"
+        },
+        {
+            "text": "OpenAI launches Codex Security in research preview for AI-driven vulnerability detection and patching",
+            "link": "https://openai.com/index/codex-security-now-in-research-preview/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI launches ChatGPT for Excel with new GPT-5.4 financial data integrations",
             "link": "https://openai.com/index/chatgpt-for-excel/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -113,25 +123,31 @@ window.latestDigest = {
             "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
             "link": "https://openai.com/index/gpt-5-3-instant/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "openai.com"
-        },
-        {
-            "text": "Anthropic’s Claude gains users leaving OpenAI’s ChatGPT; TechCrunch explains how to switch",
-            "link": "https://techcrunch.com/2026/03/02/users-are-ditching-chatgpt-for-claude-heres-how-to-make-the-switch/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "OpenAI to amend Pentagon deal to ban use of its AI for mass surveillance of Americans",
-            "link": "https://www.engadget.com/ai/openai-will-amend-defense-department-deal-to-prevent-mass-surveillance-in-the-us-050637400.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "engadget.com"
-        },
-        {
-            "text": "OpenAI's ChatGPT app uninstalls jump 295% after DoD deal; Claude downloads rise",
-            "link": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
         }
     ],
-    "microsoft": [],
+    "microsoft": [
+        {
+            "text": "Microsoft to keep offering Anthropic models to customers despite Pentagon blacklist",
+            "link": "https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "cnbc.com"
+        }
+    ],
     "anthropic": [
+        {
+            "text": "Anthropic Launches Local Scheduled Tasks in Claude Code Desktop",
+            "link": "https://x.com/trq212/status/2030019397335843288?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Thariq on X"
+        },
+        {
+            "text": "Anthropic partners with Mozilla to improve Firefox security",
+            "link": "https://www.anthropic.com/news/mozilla-firefox-security?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "anthropic.com"
+        },
+        {
+            "text": "Claude launches Claude Marketplace to simplify enterprise AI tool procurement in limited preview",
+            "link": "https://x.com/claudeai/status/2029966517497122886?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Claude on X"
+        },
         {
             "text": "Anthropic CEO Dario Amodei Updates on “Department of War” Statement",
             "link": "https://www.anthropic.com/news/where-stand-department-war?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -156,24 +172,24 @@ window.latestDigest = {
             "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
             "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Thariq on X"
-        },
-        {
-            "text": "Claude adds Memory to free plan with easier import and export options",
-            "link": "https://x.com/claudeai/status/2028559427167834314?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Claude on X"
-        },
-        {
-            "text": "Anthropic pitched Pentagon’s $100M voice-controlled autonomous drone swarm challenge",
-            "link": "https://www.bloomberg.com/news/articles/2026-03-02/anthropic-made-pitch-in-drone-swarm-contest-during-pentagon-feud?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "bloomberg.com"
-        },
-        {
-            "text": "Treasury to End Use of Anthropic Products, Including Claude Platform, Under Trump Order",
-            "link": "https://x.com/secscottbessent/status/2028499953283117283?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Treasury Secretary Scott Bessent on X"
         }
     ],
     "general": [
+        {
+            "text": "Grammarly AI “Expert Review” feature cites journalists and professors without their permission",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "Perplexity Introduces Skills for Perplexity Computer, Reusable Actions It Learns Once",
+            "link": "https://x.com/AskPerplexity/status/2029966192899936603?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Computer on X"
+        },
+        {
+            "text": "Roblox Adds AI Chat Rephrasing and Enhanced Filters to Reduce ##### in Text Chat",
+            "link": "https://about.roblox.com/newsroom/2026/03/rethinking-chat-for-fun-gameplay-civility?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "about.roblox.com"
+        },
         {
             "text": "Meta sued over AI smart glasses privacy after subcontractors reviewed user footage",
             "link": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -223,21 +239,6 @@ window.latestDigest = {
             "text": "Grok releases Grok 4.20 Beta 2 with improved instruction following and reduced hallucinations",
             "link": "https://x.com/grok/status/2028714422462448041?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "Grok on X"
-        },
-        {
-            "text": "Apple unveils new iPad Air with M4 chip and more memory",
-            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "apple.com"
-        },
-        {
-            "text": "Apple Introduces Affordable iPhone 17e to Expand iPhone 17 Lineup",
-            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "apple.com"
-        },
-        {
-            "text": "Alibaba Qwen Launches Qwen3.5 Small Model Series (0.8B to 9B)",
-            "link": "https://x.com/alibaba_qwen/status/2028460046510965160?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Qwen on X"
         }
     ]
 }
