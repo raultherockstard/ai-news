@@ -1,33 +1,33 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-09T17:43:35.049Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-10T17:42:40.140Z
 window.latestDigest = {
-    date: "Mar 9, 2026",
+    date: "Mar 10, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Oracle and OpenAI abandon Texas AI data center expansion plans, Bloomberg reports",
-        "link": "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06/?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "reuters.com"
+        "text": "Meta hires Moltbook creators to link autonomous AI agents with verifiable connections",
+        "link": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "axios.com"
     },
     {
-        "text": "Grammarly AI “Expert Review” feature cites journalists and professors without their permission",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "text": "OpenAI delays ChatGPT adult mode, citing higher-priority work",
+        "link": "https://www.theguardian.com/technology/2026/mar/09/openai-delays-adult-mode-for-chatgpt-to-focus-on-work-of-higher-priority?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "theguardian.com"
+    },
+    {
+        "text": "Figure’s Helix 02 Demonstrates Whole-Body Living Room Tidying from Pixels",
+        "link": "https://www.figure.ai/news/helix-02-living-room-tidy?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "figure.ai"
+    },
+    {
+        "text": "Anthropic launches Claude Code Review with multi-agent PR checks in research preview",
+        "link": "https://claude.com/blog/code-review?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "claude.com"
+    },
+    {
+        "text": "Anthropic Sues US Department of Defense, Citing First and Fifth Amendment Rights",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/891377/anthropic-dod-lawsuit?utm_source=futuretools.io&amp;utm_medium=newspage",
         "source": "theverge.com"
-    },
-    {
-        "text": "Anthropic Launches Local Scheduled Tasks in Claude Code Desktop",
-        "link": "https://x.com/trq212/status/2030019397335843288?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "Thariq on X"
-    },
-    {
-        "text": "Microsoft to keep offering Anthropic models to customers despite Pentagon blacklist",
-        "link": "https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "cnbc.com"
-    },
-    {
-        "text": "Anthropic partners with Mozilla to improve Firefox security",
-        "link": "https://www.anthropic.com/news/mozilla-firefox-security?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "anthropic.com"
     }
 ],
     categories: {
@@ -46,14 +46,19 @@ window.latestDigest = {
             "text": "Google Search AI Mode rolls out Canvas in U.S., adding writing and coding support",
             "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "blog.google"
-        },
-        {
-            "text": "Google launches Gemini 3.1 Flash-Lite, fastest and most cost-efficient Gemini 3 model yet",
-            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI delays ChatGPT adult mode, citing higher-priority work",
+            "link": "https://www.theguardian.com/technology/2026/mar/09/openai-delays-adult-mode-for-chatgpt-to-focus-on-work-of-higher-priority?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theguardian.com"
+        },
+        {
+            "text": "OpenAI Robotics Lead Caitlin Kalinowski Resigns, Citing Surveillance and Lethal Autonomy Concerns",
+            "link": "https://x.com/kalinowski007/status/2030320074121478618?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "Caitlin Kalinowski on X"
+        },
         {
             "text": "Oracle and OpenAI abandon Texas AI data center expansion plans, Bloomberg reports",
             "link": "https://www.reuters.com/business/oracle-openai-end-plans-expand-texas-data-center-site-bloomberg-news-reports-2026-03-06/?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -118,11 +123,6 @@ window.latestDigest = {
             "text": "OpenAI CEO Altman Defends Classified Pentagon Work to Staff Amid Backlash",
             "link": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "wsj.com"
-        },
-        {
-            "text": "OpenAI releases GPT-5.3 Instant update for smoother, more helpful ChatGPT conversations",
-            "link": "https://openai.com/index/gpt-5-3-instant/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
         }
     ],
     "microsoft": [
@@ -133,6 +133,16 @@ window.latestDigest = {
         }
     ],
     "anthropic": [
+        {
+            "text": "Anthropic launches Claude Code Review with multi-agent PR checks in research preview",
+            "link": "https://claude.com/blog/code-review?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "claude.com"
+        },
+        {
+            "text": "Anthropic Sues US Department of Defense, Citing First and Fifth Amendment Rights",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/891377/anthropic-dod-lawsuit?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
         {
             "text": "Anthropic Launches Local Scheduled Tasks in Claude Code Desktop",
             "link": "https://x.com/trq212/status/2030019397335843288?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -162,19 +172,29 @@ window.latestDigest = {
             "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
             "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theinformation.com"
-        },
-        {
-            "text": "Claude Adds No-Code Tools to Test, Measure, and Refine Agent Skills",
-            "link": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "claude.com"
-        },
-        {
-            "text": "Anthropic Rolls Out Voice Mode in Claude Code to 5% of Users, Expands in Coming Weeks",
-            "link": "https://x.com/trq212/status/2028628570692890800?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Thariq on X"
         }
     ],
     "general": [
+        {
+            "text": "Meta hires Moltbook creators to link autonomous AI agents with verifiable connections",
+            "link": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "axios.com"
+        },
+        {
+            "text": "Figure’s Helix 02 Demonstrates Whole-Body Living Room Tidying from Pixels",
+            "link": "https://www.figure.ai/news/helix-02-living-room-tidy?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "figure.ai"
+        },
+        {
+            "text": "X adds Grok-powered audio option to read long-form articles aloud",
+            "link": "https://www.socialmediatoday.com/news/x-formerly-twitter-adds-ai-powered-audio-reading-long-form-articles/814138/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "socialmediatoday.com"
+        },
+        {
+            "text": "X adds toggle to block xAI’s Grok from editing uploaded media",
+            "link": "https://www.socialmediatoday.com/news/x-formerly-twitter-adds-option-to-restrict-grok-image-variations/814140/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "socialmediatoday.com"
+        },
         {
             "text": "Grammarly AI “Expert Review” feature cites journalists and professors without their permission",
             "link": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -219,26 +239,6 @@ window.latestDigest = {
             "text": "LTX Studio Launches Dubbing and Captions for Enterprise Video Localization",
             "link": "https://x.com/ltxstudio/status/2029231622546182292?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "LTX Studio on X"
-        },
-        {
-            "text": "Alibaba Qwen tech lead Junyang Lin steps down after major AI model launch",
-            "link": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "techcrunch.com"
-        },
-        {
-            "text": "Apple unveils new 14- and 16-inch MacBook Pro with M5 Pro and M5 Max",
-            "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "apple.com"
-        },
-        {
-            "text": "Deveillance Unveils Spectre I Smart Device to Block Unwanted Audio Recordings",
-            "link": "https://x.com/aidaxbaradari/status/2028864606568067491?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Aida Baradari on X"
-        },
-        {
-            "text": "Grok releases Grok 4.20 Beta 2 with improved instruction following and reduced hallucinations",
-            "link": "https://x.com/grok/status/2028714422462448041?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "Grok on X"
         }
     ]
 }
