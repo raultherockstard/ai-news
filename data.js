@@ -1,54 +1,64 @@
 
-// 🧠 AUTOMATICALLY GENERATED ON 2026-03-10T17:42:40.140Z
+// 🧠 AUTOMATICALLY GENERATED ON 2026-03-11T17:45:12.517Z
 window.latestDigest = {
-    date: "Mar 10, 2026",
+    date: "Mar 11, 2026",
     title: "🧠 Today’s AI Stuff",
     summary: [
     {
-        "text": "Meta hires Moltbook creators to link autonomous AI agents with verifiable connections",
-        "link": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "axios.com"
+        "text": "Google Chrome expands Gemini AI features to India, New Zealand, and Canada",
+        "link": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.google"
     },
     {
-        "text": "OpenAI delays ChatGPT adult mode, citing higher-priority work",
-        "link": "https://www.theguardian.com/technology/2026/mar/09/openai-delays-adult-mode-for-chatgpt-to-focus-on-work-of-higher-priority?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theguardian.com"
+        "text": "Andrej Karpathy releases open-source Autoresearch for running hundreds of AI experiments nightly",
+        "link": "https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "venturebeat.com"
     },
     {
-        "text": "Figure’s Helix 02 Demonstrates Whole-Body Living Room Tidying from Pixels",
-        "link": "https://www.figure.ai/news/helix-02-living-room-tidy?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "figure.ai"
+        "text": "Nvidia plans open-source enterprise AI agent platform NemoClaw, Wired reports",
+        "link": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "cnbc.com"
     },
     {
-        "text": "Anthropic launches Claude Code Review with multi-agent PR checks in research preview",
-        "link": "https://claude.com/blog/code-review?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "claude.com"
+        "text": "YouTube expands likeness detection pilot to journalists, officials and political candidates",
+        "link": "https://blog.youtube/news-and-events/expanding-likeness-detection-civic-leaders-journalists/?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.youtube"
     },
     {
-        "text": "Anthropic Sues US Department of Defense, Citing First and Fifth Amendment Rights",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/891377/anthropic-dod-lawsuit?utm_source=futuretools.io&amp;utm_medium=newspage",
-        "source": "theverge.com"
+        "text": "Adobe adds AI Assistant to Photoshop, expands Firefly Image Editor tools",
+        "link": "https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly?utm_source=futuretools.io&amp;utm_medium=newspage",
+        "source": "blog.adobe.com"
     }
 ],
     categories: {
     "google": [
         {
+            "text": "Google Chrome expands Gemini AI features to India, New Zealand, and Canada",
+            "link": "https://blog.google/products-and-platforms/products/chrome/chrome-expands-india-new-zealand-canada/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google adds new Gemini features to Docs, Sheets, Slides and Drive for faster creation",
+            "link": "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
+            "text": "Google launches Gemini Embedding 2, its first natively multimodal embedding model",
+            "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.google"
+        },
+        {
             "text": "Google, Meta, Microsoft and other tech giants sign Trump pledge to curb data center power costs",
             "link": "https://www.theverge.com/news/889578/data-center-power-pledge-white-house-google-meta-microsoft?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "theverge.com"
-        },
-        {
-            "text": "Google NotebookLM adds Cinematic Video Overviews powered by Gemini 3 and Veo 3",
-            "link": "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
-        },
-        {
-            "text": "Google Search AI Mode rolls out Canvas in U.S., adding writing and coding support",
-            "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "blog.google"
         }
     ],
     "openai": [
+        {
+            "text": "OpenAI ChatGPT adds interactive visual explanations for math and science",
+            "link": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "openai.com"
+        },
         {
             "text": "OpenAI delays ChatGPT adult mode, citing higher-priority work",
             "link": "https://www.theguardian.com/technology/2026/mar/09/openai-delays-adult-mode-for-chatgpt-to-focus-on-work-of-higher-priority?utm_source=futuretools.io&amp;utm_medium=newspage",
@@ -88,41 +98,6 @@ window.latestDigest = {
             "text": "Nvidia to Scale Back Investments in OpenAI and Anthropic, CEO Jensen Huang Says",
             "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "techcrunch.com"
-        },
-        {
-            "text": "OpenAI launches Learning Outcomes Measurement Suite to assess AI’s impact on learning",
-            "link": "https://openai.com/index/understanding-ai-and-learning-outcomes/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI preprint extends single-minus amplitudes to gravitons with help from GPT-5.2 Pro",
-            "link": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "openai.com"
-        },
-        {
-            "text": "OpenAI Codex App Launches on Windows With Native Agent Sandbox and PowerShell Support",
-            "link": "https://x.com/OpenAIDevs/status/2029252453246595301?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "OpenAI Developers on X"
-        },
-        {
-            "text": "OpenAI GPT-5.4 to Add Extreme Reasoning Mode and Expand Context to 1M Tokens",
-            "link": "https://www.theinformation.com/newsletters/ai-agenda/openais-next-ai-model-will-extreme-reasoning?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
-        },
-        {
-            "text": "OpenAI's Altman: Company Can't Control Pentagon Use of Its AI Software",
-            "link": "https://www.bloomberg.com/news/articles/2026-03-04/altman-tells-staff-openai-has-no-say-over-pentagon-decisions?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "bloomberg.com"
-        },
-        {
-            "text": "OpenAI Developing Internal Alternative to Microsoft’s GitHub",
-            "link": "https://www.theinformation.com/articles/openai-developing-alternative-microsofts-github?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
-        },
-        {
-            "text": "OpenAI CEO Altman Defends Classified Pentagon Work to Staff Amid Backlash",
-            "link": "https://www.wsj.com/tech/ai/openai-ceo-altman-defends-pentagon-work-to-staff-calls-backlash-really-painful-76d769ec?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "wsj.com"
         }
     ],
     "microsoft": [
@@ -167,18 +142,53 @@ window.latestDigest = {
             "text": "Pentagon Notifies Anthropic It Is a US Supply-Chain Risk",
             "link": "https://www.bloomberg.com/news/articles/2026-03-05/pentagon-says-it-s-told-anthropic-the-firm-is-supply-chain-risk?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bloomberg.com"
-        },
-        {
-            "text": "Anthropic CEO says Trump administration disliked firm over lack of praise amid Pentagon talks",
-            "link": "https://www.theinformation.com/articles/anthropic-ceo-told-employees-openai-pentagon-deal-safety-theater?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "theinformation.com"
         }
     ],
     "general": [
         {
+            "text": "Andrej Karpathy releases open-source Autoresearch for running hundreds of AI experiments nightly",
+            "link": "https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "venturebeat.com"
+        },
+        {
+            "text": "Nvidia plans open-source enterprise AI agent platform NemoClaw, Wired reports",
+            "link": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "cnbc.com"
+        },
+        {
+            "text": "YouTube expands likeness detection pilot to journalists, officials and political candidates",
+            "link": "https://blog.youtube/news-and-events/expanding-likeness-detection-civic-leaders-journalists/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.youtube"
+        },
+        {
+            "text": "Adobe adds AI Assistant to Photoshop, expands Firefly Image Editor tools",
+            "link": "https://blog.adobe.com/en/publish/2026/03/10/image-editing-just-got-smarter-with-ai-photoshop-firefly?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blog.adobe.com"
+        },
+        {
+            "text": "Judge Blocks Perplexity AI Shopping Agents From Buying on Amazon",
+            "link": "https://www.theverge.com/ai-artificial-intelligence/892401/amazon-perplexity-ai-shopping-agent-court-order?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "theverge.com"
+        },
+        {
+            "text": "NVIDIA partners with Thinking Machines Lab on gigawatt-scale Vera Rubin AI systems deployment",
+            "link": "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
+            "text": "NVIDIA Adds ComfyUI App View, RTX Video Super Resolution, and NVFP4 Models for Local AI Video",
+            "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "blogs.nvidia.com"
+        },
+        {
             "text": "Meta hires Moltbook creators to link autonomous AI agents with verifiable connections",
             "link": "https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "axios.com"
+        },
+        {
+            "text": "AMI Labs raises $1.03B to build AI world models",
+            "link": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/?utm_source=futuretools.io&amp;utm_medium=newspage",
+            "source": "techcrunch.com"
         },
         {
             "text": "Figure’s Helix 02 Demonstrates Whole-Body Living Room Tidying from Pixels",
@@ -229,16 +239,6 @@ window.latestDigest = {
             "text": "ICO questions Meta after report says AI smart glasses videos reviewed by Kenya subcontractor",
             "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?utm_source=futuretools.io&amp;utm_medium=newspage",
             "source": "bbc.com"
-        },
-        {
-            "text": "AWS launches OpenClaw on Amazon Lightsail for private autonomous AI agents with Bedrock preconfig﻿ured",
-            "link": "https://aws.amazon.com/blogs/aws/introducing-openclaw-on-amazon-lightsail-to-run-your-autonomous-private-ai-agents/?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "aws.amazon.com"
-        },
-        {
-            "text": "LTX Studio Launches Dubbing and Captions for Enterprise Video Localization",
-            "link": "https://x.com/ltxstudio/status/2029231622546182292?utm_source=futuretools.io&amp;utm_medium=newspage",
-            "source": "LTX Studio on X"
         }
     ]
 }
